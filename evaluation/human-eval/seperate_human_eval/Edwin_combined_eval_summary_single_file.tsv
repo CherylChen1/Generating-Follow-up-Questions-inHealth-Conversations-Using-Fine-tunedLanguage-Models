@@ -1,0 +1,6 @@
+model	valid_relevance_count	invalid_relevance_count	avg_relevance_rank	rel_below_2_5_count	valid_icf_count	invalid_icf_count	avg_icf_rank	icf_below_2_5_count	rel_rank_1	rel_rank_2	rel_rank_3	rel_rank_4	rel_rank_5	icf_rank_1	icf_rank_2	icf_rank_3	icf_rank_4	icf_rank_5	top1_rel_count	top1_icf_count	rel_valid_ratio	icf_valid_ratio	rel_below_2_5_ratio	icf_below_2_5_ratio
+model1	122	17	1.57	101	124	17	1.79	100	86	15	13	3	5	84	16	7	0	17	86	84	87.77%	87.94%	82.79%	80.65%
+model2	125	14	1.52	106	125	14	1.71	100	90	16	13	1	5	91	9	9	2	14	90	91	89.93%	89.93%	84.8%	80.0%
+model3	118	13	1.8	89	118	13	2.06	83	73	16	18	2	9	73	10	12	1	22	73	73	90.08%	90.08%	75.42%	70.34%
+model4	118	11	1.91	83	118	11	2.09	85	67	16	22	5	8	70	15	8	2	23	67	70	91.47%	91.47%	70.34%	72.03%
+model5	122	7	1.68	98	122	7	1.91	92	83	15	12	4	8	86	6	7	1	22	83	86	94.57%	94.57%	80.33%	75.41%

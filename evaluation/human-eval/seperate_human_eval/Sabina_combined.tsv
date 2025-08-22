@@ -1,0 +1,609 @@
+Dialogue(icf category--D445 Hand and arm use) ⚠️Evaluate only the follow-up questions ⚠️Note: Please do not expand hidden patient replies when evaluating the previous model responses.	Validation(Clinical Appropriateness):  ⚠️✅ Mark as valid / ❌ Mark as invalid	Faithfulness(Whether the generated question is factually accurate and consistent with prior dialogue) ⚠️Rank the 5 model outputs from 1 (most faithful) to 5 (least faithful)	Relevance(Whether the generated question logically follows from the dialogue context) ⚠️Rank the 5 model outputs from 1 (most relevant) to 5 (least relevant)	Icf alignment ⚠️Rank the 5 model outputs from 1 (best aligned) to 5 (least aligned)		cross-check	reason
+C: good morning I’ll be your physiotherapist today. How are you?	Valid	1	1	5			
+P: hey nice to meet you I’m H. How are you?	Valid	3	3	5			
+Model1: C: I’m doing well, thank you. To get a better understanding of your needs, could you tell me more about any difficulties you’ve had with moving around or using equipment in your daily life?	Valid	1	1	3			
+Model2: C: I’m doing well, thank you. It’s great to meet you too, H. Let’s start by getting to know a bit about your mobility needs and how you’re feeling today. How would you describe your current level of independence with moving around?	Invalid	5	5	5			
+Model3: C: I’m doing well, thanks for asking. Can you tell me a bit about what brings you here today?	Valid	1	1	5			
+Model4: C: I’m doing well, thanks for asking. Can you tell me a little bit about what brings you here today?	Valid	1	1	5			
+Model5: C: I’m very well H. I see you had a broken wrist and surgery.	Valid	1	1	1			
+P: yes I fall from bike on my hand and then I broke my wrist and I had surgery like a week ago	Valid						
+Model1: C: I see. Have you had any difficulty getting around since the surgery, or using your arm for daily activities?	Valid	1	1	1			
+Model2: C: That’s understandable—falling from a bike can be pretty scary. How have you been feeling since the surgery? Are you able to move your hand and wrist comfortably now?	Invalid	5	5	1			
+Model3: C: sorry to hear that. Can you tell me a little bit about what’s been going on since then? How are your daily activities?	Valid	1	1	5			
+Model4: C: sorry to hear that. How are you feeling now?	Valid	1	1	5			
+Model5: C: yeah I’m sorry to hear that. Would you please tell me what happened?	Valid	3	2	5			
+P: sure I was biking, and it was raining and also pretty dark. Then, when I was trying to turn, I slipped and then fall on my hand.							
+Model1: C: That sounds quite sudden. Have you noticed any difficulty with moving your arm or hand since the surgery?	Valid	1	1	1			
+Model2: C: That sounds like a tough accident. Did you have any other injuries besides the wrist?	Valid	1	1	1			
+Model3: C: okay sounds like a bit of an accident. How are you feeling now, especially with your wrist?	Valid	1	1	1			
+Model4: C: thank you for explaining that. How are you feeling now with the surgery?	Valid	1	1	5			
+Model5: C: OK, how does your wrist feels now after surgery?	Valid	1	1	1			
+P: I do not have any control over my hand. I feel it’s really a stiff and weak. I cannot really move it as much as before and also I cannot hold anything.							
+Model1: C: I see. When you say you can't hold anything, do you find it difficult to perform daily tasks like opening a jar or using utensils?	Valid	1	1	1			
+Model2: C: I see. Have you tried doing any exercises or using any splints or supports to help with the stiffness and weakness?	Valid	1	1	1			
+Model3: C: that must be very frustrating for you. Can you tell me more about what’s difficult with your hand?	Valid	3	1	1			
+Model4: C: How about when you try to do daily activities like washing dishes or opening jars?	Valid	1	1	1			
+Model5: C: I see, what was your surgeon recommend recommendation for recovery after surgery?	Valid	3	2	1	unsure about alignment here		
+P: she was satisfied with the surgery and she suggested me start the rehab around a week or 10 days after that.							
+Model1: C: Okay, and when did you start your rehabilitation?	Valid	1	1	3	unsure about alignment here		
+Model2: C: And how has your hand been since the surgery—any improvements or changes in strength or movement?	Valid	1	1	1			
+Model3: C: how are you feeling about your hand now? Any pain or discomfort?	Valid	3	1	1			
+Model4: C: how long has it been since the surgery?	Valid	1	1	3	unsure about alignment here		
+Model5: C: OK and as you said, you start slightly move it, but you feel pretty stiff and you cannot really hold anything right.	Valid	1	1	1			
+P: yes exactly I cannot even hold a pen.							
+Model1: C: I understand, that must be frustrating. Have you noticed any pain or swelling when trying to move your hand or grip objects?	Valid	1	1	1			
+Model2: C: That must be frustrating. Have you noticed any specific movements that feel easier or more possible with your hand?	Valid	4	2	1			
+Model3: C: So, is there anything or any specific situation that makes it hard for you to do certain tasks with your wrist right now?	Valid	4	2	1			
+Model4: C: How are you doing with daily tasks like cooking or cleaning? Have you had to adjust any of those activities because your wrist is still healing?	Valid	1	1	1			
+Model5: C: and how do you emotionally feel about the situation?	Valid	1	1	5			
+P: I’m trying to be positive but surgery at my age. It’s not something you would like to have, but I I’m concerned about if I can get my my wrist and functionality back.							
+Model1: C: That’s understandable, and it's great that you're staying positive. Have you noticed any specific activities or situations where the limitation feels more challenging for you?	Valid	1	1	1			
+Model2: C: That’s understandable. It sounds like you’re being resilient and trying to stay positive, which is really commendable. Have you noticed any specific activities or tasks that feel most challenging for you now?	Valid	1	1	1			
+Model3: C: that makes sense. Have you talked to anyone about your feelings or is there someone who supports you through this recovery?	Valid	1	1	5			
+Model4: C: it’s understandable that you have these concerns. Would you like to talk about any specific situations where the lack of control or function is affecting your daily life?	Valid	1	1	1			
+Model5: C: I understand it is and this is your dumb hand side, right?	Valid	1	1	1			
+P: exactly, that’s the reason makes me more concerned.							
+Model1: C: I see, and are there any specific activities or tasks you're worried about not being able to do once your wrist is healed?	Valid	1	1	1			
+Model2: C: That must be really frustrating. Have you noticed any specific tasks or activities that feel most difficult for you now?	Valid	1	1	1			
+Model3: C: it’s a bit of an emotional topic for you, isn’t it?	Valid	1					
+Model4: C: okay and what do you think is the most challenging part for you now?	Valid	1					
+Model5: C: I’ll make sure to support you in this journey to be able to get your range of motion and strength back on your wrist	Valid						
+P: thank you it’s it means a lot I need. I need it.							
+Model1: C: I'm glad to hear that, H. Let’s focus on your goals—can you tell me what activities are most important for you to regain control of your hand?	Valid	1	1	1			
+Model2: C: I’m glad to hear that. Let’s focus on what we can do now—how are you feeling about starting some gentle movements or exercises with your wrist?	Valid	1					
+Model3: C: no problem H, I’m here for you.	Valid						
+Model4: C: no problem, let’s start with some simple exercises for your wrist and hand. What do you think?	Valid						
+Model5: C: do you have some people at home who could help you?	Valid		3	3			
+P: yes I live with my family and they are quite helpful and supportive. I’m grateful to having them.							
+Model1: C: That’s wonderful to hear. I’ll be working with you on exercises to improve your range of motion and strength in your wrist. How does it feel when you try to move your fingers or wrist during the day?	Valid		1	1			
+Model2: C: That’s wonderful to hear. Have you noticed any specific activities at home that are particularly challenging for you now?	Valid		1	1			
+Model3: C: I’m glad to hear that. Well, let’s get started with your rehabilitation program.	Valid		1	3	indirect		
+Model4: C: good, that’s a great support system for you. We can also work together to find some exercises and activities that will help your wrist recover.	Valid		1	1			
+Model5: C: your family is a blessing. I’m happy to hear that.	Valid		3	5			
+							
+							
+C: good morning Mr. Z how are you doing?  I'm your physiotherapist today.							
+P: it's in just another day not good.							
+Model1: C: I'm sorry to hear that. Can you tell me more about what’s making it a difficult day for you? Are there specific activities or situations that feel especially challenging?	Valid		1	5			
+Model2: C: I'm sorry to hear that. Can you tell me a bit more about what's been challenging for you lately?	Valid		1	5			
+Model3: C: sorry to hear that. can you tell me a bit about what's been going on?	Valid		1	5			
+Model4: C: sorry to hear that. Can you tell me a bit more about what’s been going on?	Valid		1	5			
+Model5: C: I'm sorry to hear that. Could you please let me know why you're here?	Valid		1	5			
+P: yeah life is so annoying and painful as an old man.							
+Model1: C: I hear you — it's understandable that life can feel challenging as we age. Can you share more about what specifically feels painful or difficult for you when moving around?	Valid		1	5			
+Model2: C: I hear you, Mr. Z. It sounds like things have been really tough lately. Can you tell me more about what’s been causing the pain and frustration?	Valid		1	5			
+Model3: C: I see. What brings you here specifically?	Valid		1	5			
+Model4: C: I see. Can you tell me a bit more about what’s been going on for you? What are some of the challenges you’re facing?	Valid		1	5			
+Model5: C: I'm sorry to hear you think like that. What is what is the problem you're dealing with?	Valid		1	5			
+P: I was doing my groceries and when I was bike when I was walking back home and a young person on this electric bike hit me, and since that day life has become more painful.							
+Model1: C: I'm sorry to hear about the accident. Can you tell me how the injury has affected your ability to move around or perform daily tasks since then?	Valid		1	3			
+Model2: C: I'm really sorry to hear about the accident, Mr. Z. That must have been very frightening and painful. Can you tell me more about how your mobility has changed since then?	Valid		1	5			
+Model3: C: I see. Was it a collision or something else?	Invalid		5	5			
+Model4: C: Oh no, that's terrible! I'm so sorry you had a fall like that. Is your pain mostly in the legs or is it also affecting other parts of your body?	Valid		1	5			
+Model5: C: oh that sounds painful. What happened to you? Where did where did this bike accident happen and where do you feel pain?	Valid		1	5			
+P: yeah it is painful. He hit my elbow with the handlebar off his bike, and since that day, my elbow is really painful. It's a little bit swollen and I cannot move it as much as before.							
+Model1: C: I see. It sounds like your elbow is having trouble moving and you're experiencing some swelling. Have you noticed any difficulty with transferring yourself or using your arm for daily tasks since the injury?	Valid		1	1			
+Model2: C: I see. So the elbow is the main area affected, and you're having trouble moving it as much as before. Have you tried any treatment or rest since the accident?	Valid		1	1			
+Model3: C: I see. So, this accident is causing you some difficulty with your arm? Can you tell me more about how it affects your daily activities?	Valid		1	1			
+Model4: C: I see. So you're experiencing pain in your elbow and difficulty moving it, particularly after the accident?	Valid		1	1			
+Model5: C: yeah it sounds like a hard hit. What kind of limitation do you have in your elbow?	Valid		1	1			
+P: I have pain in my elbow when I am moving it.							
+Model1: C: I see. Does the pain make it difficult for you to perform everyday tasks, like opening a jar or reaching for something on a high shelf?	Valid		1	1			
+Model2: C: And does the pain make it hard for you to do everyday things like opening a door, lifting something, or even just holding a cup?	Valid		1	1			
+Model3: C: and is it hard for you to do some daily activities like opening a jar or carrying things?	Valid		1	1			
+Model4: C: is it a sharp pain or something more dull and achy?	Valid		1	3	indirect		
+Model5: C: I understand. Is it the pain just in your elbow or your shoulder or wrist is also painful?	Valid		1	1			
+P: just elbow. Specially, when I want to extend my elbow to reach out and lift something.							
+Model1: C: I see. Does this pain make it difficult for you to do everyday tasks like opening a door or carrying groceries?	Valid		1	1			
+Model2: C: That sounds really frustrating. Have you noticed any changes in your ability to do daily tasks like opening doors, holding a cup, or even shaking hands?	Valid		1	1			
+Model3: C: okay. What are you trying to achieve with your elbow? For example, do you have difficulty doing activities like opening jars or turning door handles?	Valid		1	1			
+Model4: C: I see. How does this pain affect your daily activities? For instance, do you find it hard to cook meals or dress yourself?	Valid		1	1			
+Model5: C: okay.	Invalid		5	5			
+Note：another mistake here，one response from patient is expected here.							
+Model1: C: I see. Have you noticed any changes in your ability to do daily activities like opening jars, turning doorknobs, or carrying groceries since the injury?	Valid		1	1			
+Model2: C: Have you noticed any numbness or tingling in your hand or fingers since the injury?	Valid		1	1			
+Model3: C: That makes sense. How do you think this injury affects your daily life? For example, are there any activities that have become more difficult for you?	Valid		1	1			
+Model4: That makes sense. What about reaching into high cabinets or stretching your arm out to grab things? Has that become more difficult since the accident?	Valid		1	1			
+Model5: C: I'm wondering to what extend this incident affecting you emotionally?	Valid		1	3	indirect?		
+P: quite a lot I'm an old man and this incident turn my life to a nightmare.							
+Model1: C: I can see how frustrating and upsetting this must be, especially with the pain and difficulty moving your elbow. Have you noticed any changes in your confidence or willingness to do everyday tasks since the accident?	Valid		1	3	confidence more than D445		
+Model2: C: I hear you, and it’s completely understandable to feel frustrated and discouraged after an injury like this. Have you noticed any changes in your mood or energy levels since the accident?	Valid		1	5			
+Model3: C: I can imagine it would be very frustrating for you. Have you been trying to manage your pain in any way, like taking medication or resting more?	Valid		1	5			
+Model4: C: that sounds really tough. Do you feel like this accident has changed your daily routine or made it harder for you to do things?	Valid		1	5			
+Model5: C: I can't imagine how hard it could be. Do you have any person with you who you can talk or support you?	Invalid		3	5			
+P: no I'm leaving alone and my friends all passed away. I have just my cat.							
+Model1: C: I'm so sorry to hear that. It sounds like you're going through a lot, both physically and emotionally. Have you noticed if this pain or the accident has affected your ability to do everyday things like cooking or getting around?	Invalid		5	1			
+Model2: C: I’m so sorry to hear that. It sounds like you’re going through a lot right now—both physically and emotionally. Have you noticed if the pain in your elbow gets worse when you're feeling down or stressed?	Invalid		5	5			
+Model3: C: okay thank you for sharing that with me. We'll work together to find ways to help.	Invalid		5	5			
+Model4: C: I'm so sorry to hear that. It sounds like you're dealing with a lot of pain and loneliness right now.	Valid		1	5			
+Model5: C: do you feel strong emotions, such as depression, anxiety, and so on?	Invalid		5	5			
+P: honestly I have been thinking to see a psychologist like generally, but with this accident and May not able to do my things I feel also dependent and not useful as before. Milo whistling Mauro whistles for you.							
+							
+P: hello Dr I am M how are you?							
+C: hello M. I am K and will be your physiotherapist today.							
+P: nice to meet you k.							
+Model1: C: Thank you, M. I'm looking forward to working with you. To get started, could you tell me a bit about what brings you here today? Are you here for a specific concern or issue related to mobility?	Invalid		5	5			
+Model2: C: Thank you. How are you feeling today?	Invalid		3	5			
+Model3: P: yes I'm a 68 year old female.	Invalid						
+Model4: C: it’s a pleasure to meet you too. Can I have your name and age, please?	Invalid						
+Model5: C: how is the pretty weather going on? I hope you could enjoy it.	Invalid						
+P: yes certainly it’s a really great day and I have been spending time with my family outside.							
+Model1: C: That sounds lovely, M. I’d like to ask you a few questions about your mobility and how it affects your daily activities. Would that be okay with you?	Valid		1	5			
+Model2: C: That sounds lovely. What activities have you been doing with your family?	Valid		1	5			
+Model3: C: that sounds lovely. Now, let's get started with our session today shall we? What brings you here to see me?	Valid		1	5			
+Model4: C: that sounds lovely. What brings you here today?	Valid		1	5			
+Model5: C: how can I help you?	Valid		1	5			
+P: I have wrist problem. I don’t know how to explain it what I can say is I am not confident enough to use my wrist without the wristband and protection, which I am usually wearing them.							
+Model1: C: I see. Can you tell me more about how the wristband and protection help you when you're moving around or doing daily activities?	Valid		1	1			
+Model2: C: I see. It sounds like you feel more secure using your wrist with the band and protection. Can you tell me more about what activities you usually do that require wrist use?	Valid		1	1			
+Model3: user	Invalid						
+Model4: C: that sounds like a challenge. Can you tell me more about your wrist pain? When did it start?	Valid		1	1			
+Model5: C: OK would you please elaborate on not feeling confident?	Valid		1	3			
+P: you know I have been using this wristband as a protection. It’s it feels. I am more stable with it.							
+Model1: C: So you feel more stable and confident when using the wristband? Can you tell me more about what happens when you try to use your wrist without it?	Valid		1	2			
+Model2: C: I see. So when you take off the wristband, do you feel like your wrist is less stable or more vulnerable?	Invalid						
+Model3: C: and how has your wrist problem developed over time? Have there been any changes in the severity or symptoms?	Valid		1	5			
+Model4: C: so are there specific situations or activities where you feel more anxious about using your wrist without the band?	Valid		1	2			
+Model5: C: understand it do you wear it often or every day?	Valid		1	4			
+P: yes I kinda. I I take it off when I am going to sleep and the rest of the time it is usually.							
+Model1: C: So you feel more stable and confident when wearing the wristband, but you’re concerned about relying on it? Would you say this affects your ability to perform daily tasks or move around independently?	Valid		1	2			
+Model2: C: So you take it off at night and wear it during the day? And when you do, you feel more stable?	Valid		1	2			
+Model3: C: okay, and how would you say your wrist feels on a scale of 1 to 10?	Valid		1	5			
+Model4: C: And when you try to use your wrist without it, do you feel any pain or discomfort?	Valid		1	5			
+Model5: C: in another word, you feel weak and unstable wrist, right that’s the reason you wear this band all the time.	Valid		1	5			
+P: yes I think so.							
+Model1: C: Can you tell me more about how this affects your daily activities, like when you're trying to do things around the house or use tools?	Valid		1	1			
+Model2: C: How has this instability affected your daily activities? Are there specific tasks you find difficult or uncomfortable without the wristband?	Valid		1	1			
+Model3: C: are there any specific situations or activities that make it difficult for you to move without the wristband? For example, reaching overhead or carrying groceries.	Valid		1	1			
+Model4: C: so let’s think about how we could help you with that. What kind of activities are hard for your wrist now?	Valid		1	1			
+Model5: C: and to what extend this this relying on wristband makes you feel emotional emotionally or generally	Invalid						
+P: I’m not happy about it. You know it seems I’m like I’m in need and this is something which I don’t like. I like to feel capable, but I don’t feel like to be disbanded.							
+Model1: C: That sounds frustrating. Can you tell me more about how this affects your daily activities or confidence in doing things on your own?	Valid		1	1			
+Model2: C: I hear you, M. It sounds like not being able to use your wrist without support is making you feel less capable and maybe even a bit frustrated or vulnerable. Have you noticed if this feeling of needing the wristband affects how you do other things—like lifting objects, opening doors, or even just holding a cup?	Valid		1	1			
+Model3: C: I understand that you feel a bit disempowered by this situation. Can we explore what it would be like for you to not need the wristband all the time?	Valid		1	4			
+Model4: C: that makes sense. It can be frustrating not being able to do things without needing extra support.	Valid		1	5			
+Model5: C: do you leave at home alone or with someone?	Valid		1	5			
+P: my wife has been passed away and I’m leaving alone.							
+Model1: C: I’m so sorry for your loss. It sounds like you're managing well on your own, but the reliance on the wristband is affecting how you feel about your independence. Can you share more about how this impacts your daily activities or interactions with others?	Valid		1	3			
+Model2: C: I’m so sorry for your loss. It sounds like you’re managing well on your own, but it must be challenging without your wife’s support. How has the wrist issue affected your daily life or routines?	Valid		1	2			
+Model3: C: and you have to deal with this on your own, which is a bit more challenging for the day.	Valid		3	5			
+Model4: C: how does it feel to be alone and having this issue with your wrist?	Valid		1	5			
+Model5: C: do you have any feeling or fear of this situation getting worse and affecting you more?	Valid		1	5			
+P: definitely you know I’m getting older and older and if I lose my group strength or my wrist, it is really scary.	Valid		1	5			
+							
+C: hey Mrs. Jale how are you doing today?							
+P: doing fine, Dr it has been a while. How have you been?							
+Model1: C: Thank you for asking, Mrs. Jale—I’m doing well too. I wanted to check in about your mobility since we last spoke. Have you had any difficulty transferring yourself from a seated to a standing position lately?	Valid		1	5			
+Model2: C: I’ve been well, thank you. I’m glad to see you again. How have things been at home since your last visit?	Valid		1	3			
+Model3: C: I've been well, thank you for asking. Before we get started today, can you tell me a bit about what brings you in?	Valid		1	5			
+Model4: C: I’ve been good, thanks for asking. So what brings you in today?	Valid		1	5			
+Model5: C: I've been good thank you how is your rehab process going?	Valid		1	5			
+P: pretty well. Yeah, surgery went well, and I had an intense rehab process, which was hard but generally, I'm so happy about it.							
+Model1: C: That's wonderful to hear, Mrs. Jale. I'm glad you're feeling positive about your recovery. Could you tell me a bit more about how you're managing with transfers and moving around at home? Are there any specific challenges or situations that feel particularly difficult for you?	Valid		1	3			
+Model2: C: That’s wonderful to hear. I’m glad you’re feeling positive about your recovery. Can you tell me a bit more about how your daily activities are going now?	Valid		1	1			
+Model3: C: that's wonderful to hear! So, let me ask you this. How have you been managing with your daily activities since the surgery? For example, getting dressed or using the bathroom?	Valid		1	1			
+Model4: C: That's great to hear. What have you found most challenging during your recovery so far?	Valid		1	1			
+Model5: C: so glad to hear that. Is there any specific issue you want to talk about today?	Valid		1	5			
+P: yeah I'm capable of doing most of my movement and grab things but when I'm trying to twist my wrist, it's painful.							
+Model1: C: I see. Could you describe the pain a bit more—where exactly do you feel it, and does it happen with specific movements or activities?	Valid		1	2			
+Model2: C: I see. Can you describe the pain a bit more—where exactly do you feel it, and does it get worse with certain movements?	Valid		1	2			
+Model3: C: okay, that's helpful to know. Can you tell me more about what happens when you try to twist your wrist? For example, is it a sharp pain or something else?	Valid		1	5			
+Model4: C: okay. Can you tell me more about what happens when you twist your wrist? For instance, do you feel any numbness or tingling?	Valid		1	5			
+Model5: C: OK just for my understanding you get all the range of motion in your wrist back and you can grab push and pull with your wrist but when you are twisting your wrist, it's become painful.	Valid		1	2			
+P: yes exactly but not much of a pain.							
+Model1: C: I see. Have you noticed if this pain happens with specific activities, like turning a doorknob or using your phone?	Valid		1	1			
+Model2: C: I see. Have you noticed any specific activities that make the pain worse—like turning a doorknob, opening jars, or maybe using your phone?	Valid		1	1			
+Model3: C: that's helpful. Can you describe what happens when you try to twist your wrist? Is there any particular activity or movement that triggers the pain?	Valid		1	1			
+Model4: C: that makes sense. Is there a particular activity or situation where this pain is more noticeable?	Valid		1	2			
+Model5: C: OK in which range you start to feel pain.	Valid		1	5			
+P: it's like not much for instant, for example when I am trying to use key and open my door when I am twisting my wrist with a little bit of resistant and pressure then I start to feel a little bit.							
+Model1: C: I see. So the pain is more noticeable when you're applying resistance or pressure during twisting movements, like turning a key. Does this affect your ability to perform daily tasks or does it cause concern about further injury?	Valid		1	2			
+Model2: C: Got it. So the pain comes when you’re applying some resistance or pressure while twisting your wrist, like turning a key? Does it feel more like a sharp pain or a dull ache?	Valid		1	2			
+Model3: C: got it thank you for explaining. Is there anything else that might be helpful in terms of managing this pain or any specific situations where the discomfort is more pronounced?	Valid		1	5			
+Model4: C: I see, so it's more like a discomfort rather than pain. Can you think of any specific tasks or activities that trigger this feeling in your wrist?	Valid		1	2			
+Model5: C: OK that's that's good to know and also I'm wondering how do you feel emotionally generally about the whole process of your	Invalid						
+P: so good and happy my wrist feels even better than before surgery and I can do my basic things again.							
+Model1: C: That’s wonderful to hear—your emotional well-being is clearly positive, which is great for recovery. Do you feel any concerns or worries about your wrist function in daily activities despite the improvement?	Invalid						
+Model2: C: That’s wonderful to hear—your happiness and progress are really encouraging. Do you ever feel frustrated or concerned when the pain comes up, even if it's just a little?	Valid		1	5			
+Model3: C: that's wonderful to hear. It sounds like you're making a lot of progress.	Valid		1	5			
+Model4: C: that's great to hear. So, it sounds like your wrist is healing well and you're feeling more confident with daily activities.	Valid		1	4			
+Model5: C: nice to hear that how does your family think about this?	Valid		1	5			
+P: they are also really happy you know the other day my grandchild was with me and we could really play and I have no problem. It makes them happy and also I'm happy.							
+							
+C: hi Mrs. T how are you doing today?							
+P: I’m doing great. How are you doing Dr? Hope you are enjoying spring weather.							
+Model1: C: Thank you, Mrs. T—I’m doing well too! I appreciate you saying that. I wanted to ask you a bit more about how you're managing with your daily activities. Have you noticed any particular challenges when getting up from a chair or moving around in your home?	Valid		1	4			
+Model2: C: I’m doing well, thank you. It’s a beautiful day outside—perfect for movement! How have you been feeling with your mobility lately?	Valid		1	4			
+Model3: C: Yes, it’s lovely. It was nice to see you again last week at the hospital.	Valid		1	5			
+Model4: C: That’s lovely! It is a beautiful day outside. Do you have any plans for the weekend?	Invalid						
+Model5: C: yes I do. How is your garden doing? I believe everything is blooming nowadays.	Valid		1	5			
+P: yes it is so pretty these days and I’m so happy to be able to work in the garden again							
+Model1: C: That’s wonderful to hear. Can you tell me a bit more about how you manage to move around in the garden, especially when you need to reach higher areas or carry tools?	Valid		1	1			
+Model2: C: That’s wonderful to hear. I’m glad you’re enjoying the garden again. Do you find it easier now to move around in the garden compared to before?	Valid		1	3			
+Model3: C: that sounds wonderful. Have you had any issues with your mobility lately? For example, when transferring from the bed or chair?	Valid		1	5			
+Model4: C: that sounds wonderful. Before we get started, could I have your name and age please?	Invalid		1				
+Model5: C: so glad to hear that. How does your rehab going?	Valid		1	5			
+P: going really great I am able to work in my garden, grabbing things and use the tools for gardening.							
+Model1: C: That sounds wonderful! Can you tell me more about how you manage to move around in the garden—do you use any equipment or do you find certain areas more challenging than others?	Valid		1	3			
+Model2: C: That’s wonderful to hear! I’m so glad you’re able to enjoy your garden again. Do you find that your arms feel stronger now when you're working with the tools?	Valid		1	3			
+Model3: C: excellent progress. Can you tell me a bit more about how transferring from your bed to the chair is for you?	Valid		1	5			
+Model4: C: sounds like a big step forward for you. What do you think is the biggest challenge right now?	Valid		1	4			
+Model5: C: I’m so glad to hear that. Do you have any discomfort while you are using your hand grip or so?	Valid		1	1			
+P: no not really I am able to work and take care of my garden.							
+Model1: C: That’s wonderful to hear. Do you feel confident using the tools for extended periods, or do you ever need to rest your hands during gardening tasks?	Valid		1	2			
+Model2: C: That’s wonderful to hear. How about reaching for items that are higher up in the garden—like plants on a shelf or tools on a high hook? Do you find that challenging?	Valid		1	1			
+Model3: C: that’s wonderful. How do you feel about needing to use the equipment for moving around, like a walker or cane?	Valid		1	5			
+Model4: C: great! Do you feel like there are any specific tasks or situations that make it more challenging for you? For instance, is it harder when you’re in a certain position or trying to reach something far away?	Valid		1	1			
+Model5: C: how is your endurance and strength doing?	Valid		1	4			
+P: both are way better and I see a massive improvement over this rehab period.							
+Model1: C: That’s wonderful to hear. Do you feel confident enough to handle more complex tasks in the garden, or is there anything specific that still feels challenging for you?	Valid		1	2			
+Model2: C: That’s fantastic to hear! Have you noticed any specific activities that are easier now compared to when you first started rehab?	Valid		1	2			
+Model3: C: that’s fantastic! Do you find yourself needing to rest more often now, or are your activities becoming a lot more manageable for you?	Valid		1	2			
+Model4: C: that’s great to hear. Do you have any difficulties with carrying or lifting heavy objects?	Valid		1	1			
+Model5: C: what about other kind activities?	Valid		1	3			
+P: also doing good I am capable of most of my things without any problem in my day-to-day life							
+Model1: C: That’s wonderful to hear. Do you feel confident and safe when moving around in your garden or outside, especially with the tools and equipment you use?	Valid		1	5			
+Model2: C: That’s wonderful to hear. Have you noticed any situations where you feel like you might need more support or assistance?	Valid		1	3			
+Model3: C: and how is your mental state? Are you feeling any anxiety or stress about the progress?	Valid		1	5			
+Model4: C: that’s great to hear. How are your transfers, getting in and out of bed or chair?	Valid		1	5			
+Model5: C: that’s really nice.	Valid		1	5			
+(Note: another mistake made here, a response from patient is expected, I assume two models got confused so they gave nothing.)							
+Model1: C: That’s really nice. Do you feel any challenges or limitations when moving around your home or yard, even with the improvements you’ve made?	Valid		1	5			
+Model2: C: Do you ever feel any fatigue or difficulty with tasks that require repetitive arm movements, like raking or planting?	Valid		1	1			
+Model3:							
+Model4:							
+Model5: C: I believe you’re happy about the outcome of your rehab.	Valid		1	5			
+P: yes I am. I am really happy about it. I feel alive again and also it’s a spring. I am much spending my time on my garden.							
+Model1: C: That sounds wonderful. Do you feel any challenges or limitations that might affect how much time you can spend in the garden?	Valid		1	3			
+Model2: C: That’s wonderful to hear. It sounds like the garden has become a meaningful part of your recovery and daily life. Have you noticed any activities in the garden that still feel more challenging than others?	Valid		1	3			
+Model3: C: that’s great.	Valid		1	5			
+Model4: C: sounds like you have a great life.	Valid		3	5			
+Model5: C: how does Mr. T feels.	Invalid						
+P: he’s as supportive as usual, and he helps me a lot and also he is happy too because our children are also visiting us and we are really happy and excited.							
+Dialogue(icf category--D465 Moving around using equipment) ⚠️Evaluate only the follow-up questions ⚠️Note: Please do not expand hidden patient replies when evaluating the previous model responses.	Validation(Clinical Appropriateness):  ⚠️✅ Mark as valid / ❌ Mark as invalid	Faithfulness(Whether the generated question is factually accurate and consistent with prior dialogue) ⚠️Rank the 5 model outputs from 1 (most faithful) to 5 (least faithful)	Relevance(Whether the generated question logically follows from the dialogue context) ⚠️Rank the 5 model outputs from 1 (most relevant) to 5 (least relevant)	Icf alignment ⚠️Rank the 5 model outputs from 1 (best aligned) to 5 (least aligned)		cross-check	reason
+C: Good morning Joshua, how are you today?							
+P: Good morning, I’m doing well, thanks.							
+Model1: C: That’s great to hear. I’d like to ask you a few questions about how you move around and use your hands. Can you tell me if there are any times when it's difficult for you to transfer from one place to another, like moving from a chair to the bed?	Valid		1	2	not appropriateto o into this level of detail in this phase of the conversation		
+Model2: C: Great to hear. Can you tell me a bit about how you're getting around these days?	Valid		1	3			
+Model3: C: That's great to hear. Can you tell me a bit about what brings you in today?	Valid		1	5			
+Model4: C: That’s great to hear. Before we get started, could I have your name and age please?	Valid		4	5			
+Model5: C: If I’m not mistaken you just got back from a ski trip, right?	Valid		1	5			
+P: That’s correct, I just got back last Tuesday.							
+Model1: C: I see—did the ski trip involve any activities that required transferring from one surface to another, like moving between the chairlift and the slopes?	Valid		5	3			
+Model2: C: That sounds like a great adventure! How did you manage getting around while you were on the trip?	Valid		5	4			
+Model3: C: That sounds like a lot of fun. How was the weather during your trip? Were there any particularly challenging conditions?	Valid		2	5			
+Model4: C: How was the trip? Did you have a good time?	Valid		1	5			
+Model5: C: Did you have a good time?	Valid		1	5			
+P: It was fantastic!							
+Model1: C: That’s great to hear! I was wondering — when you were on the slopes, did you have any difficulty moving around or using equipment like ski poles or a snowboard?	Valid		1	1			
+Model2: C: That’s wonderful to hear. Did you find that the trip helped with your mobility or energy levels at all?	Valid		1	5			
+Model3: C: How did you find the slopes themselves?	Valid		1	5			
+Model4: C: What kind of activities did you enjoy most during your trip?	Valid		1	5			
+Model5: C: That’s great to hear. Your children also enjoyed the trip?	Valid		1	5			
+P: Yes, they had a wonderful time too							
+Model1: C: I'm glad to hear that. Now, I wanted to ask you about your mobility during the trip—did you find it easy to move around on the slopes or did you use any equipment to help with moving?	Valid		1	1			
+Model2: C: That’s great to hear. Your children also enjoyed the trip?	Invalid						
+Model3:							
+Model4: P: Yes, they had a lot of fun with me and my new skiing gear.	Invalid						
+Model5: C: You didn’t have any issues whilst skiing?	Valid		1	3			
+P: No none at all, it was great being back on the Alps.							
+Model1: C: I'm glad to hear that. Have you noticed any changes in your mobility or balance since returning from the trip?	Valid			3			
+Model2: C: That’s wonderful to hear. How did you manage your mobility on the slopes—did you use any equipment or have assistance?	Valid		1	1			
+Model3: C: How did you find the snow conditions?	Valid		5	3			
+Model4: C: What a lovely place! Have you been able to keep up with your daily activities since getting back?	Valid		1	3			
+Model5: C: No pain either?	Valid		1	5			
+P: Nope none at all.							
+Model1: C: That’s wonderful to hear. Did you need any assistance getting around the slopes or moving between locations while you were there?	Valid		3	1			
+Model2: C: That’s wonderful to hear. How did you manage the physical demands of skiing—like getting up after a fall or moving around on the slopes?	Valid		1	3			
+Model3: C: That’s excellent news for you. How have things been since coming back from your trip?	Valid		1	5			
+Model4: C: So, you’re feeling pretty good right now?	Valid		1	5			
+Model5: C: Sounds like you handled everything with ease. Did you feel confident on the steeper runs?	Valid		1	5			
+P: Absolutely I never hesitated, even on the black-diamond slopes.							
+Model1: C: That’s impressive. Did you feel any fatigue or difficulty during the more challenging runs?	Valid		1	5			
+Model2: C: That’s impressive. Did you notice any difference in how your legs or joints felt after the trip compared to before?	Valid		1	5			
+Model3: C: That’s wonderful to hear. How about when you were getting ready for your trip, did you have any trouble with equipment or gear?	Valid		1	5			
+Model4: C: That’s impressive! Now, are there any challenges you face when trying to move around—like getting in and out of your car or walking longer distances?	Valid		3	5			
+Model5: C: That’s excellent. Looking back to when you felt hopeless about your recovery, how would you describe how you feel now?	Valid		3	3			
+P: In hindsight those worries were unnecessary. I think I might have been catastrophizing. Now, my confidence is at an all-time high.							
+Model1: C: That’s a powerful realization, Joshua. It sounds like your confidence and sense of capability have grown significantly. How do you feel when planning or preparing for future activities or trips?	Valid		2	3			
+Model2: C: That’s powerful to hear. It sounds like your confidence has grown a lot since you first started this journey. Have you noticed any specific moments or activities that helped shift your mindset?	Valid		3	3			
+Model3: C: That’s wonderful to hear. It sounds like you’ve made significant progress and are feeling more capable again.	Valid		1	1			
+Model4: C: That’s fantastic to hear. Have there been any specific moments or experiences that made a big difference in your recovery process?	Valid		2	1			
+Model5: C: I’m happy for you. Shall we begin our session and build on that confidence?	Valid		1	2			
+P: Let’s get started!							
+							
+C: Good day Anna, how are you managing today?							
+P: So bad. I don't wanna talk about it. Horrible morning and even worse afternoon.	Invalid						
+Model1: C: I'm sorry to hear that, Anna. It sounds like you're going through a tough time. Can you share a little more about what made the day so difficult?							
+Model2: C: I’m sorry to hear that, Anna. It sounds like you’re feeling really down today. Would you mind sharing a little more about what’s been going on?							
+Model3: C: I'm sorry to hear that. Can you tell me more about what's been going on? Is it something specific or a general feeling of being down?							
+Model4: C: That sounds really tough. Can you tell me more about what’s been going on?							
+Model5: C: That sounds concerning. What happened?							
+P: Something is broken in my wheelchair. And I need it! It needs to be fixed! Like now.	Valid						
+Model1: C: I understand how frustrating that must be. Can you tell me more about what’s wrong with your wheelchair and how it's affecting your ability to move around?	Valid		1	1			
+Model2: C: I understand how frustrating that must be. Can you tell me more about what’s happening with the wheelchair—specifically, which part is broken or not working properly?	Valid		1	5			
+Model3: C: Can you tell me more about what's not working with your wheelchair? Is there a specific problem or area that's causing the issue?	Valid		1	5			
+Model4: C: I'm sorry to hear that. Can you tell me a bit more about what’s not working with your wheelchair?	Valid		1	5			
+Model5: C: Did you call the people that can fix it? What exactly is broken?	Valid		1	5			
+P: Yes, they are on their way. My brakes are broken. I am constantly moving and like that I can't chill or even get out of my wheelchair because it is not stable at all.							
+Model1: C: I see, that must be really frustrating and unsafe. Have you had any difficulty transferring to a surface or moving around while the brakes are broken?	Valid		1	1			
+Model2: C: I understand how frustrating and unsafe that must feel. Are you able to move around at all, or is the wheelchair completely unstable?	Valid		1	1			
+Model3: C: That must be really frustrating. Have you noticed any other issues with your wheelchair besides the brakes?	Valid		1	1			
+Model4: C: That sounds very frustrating. Have you ever had problems with the brakes before?	Valid		1	1			
+Model5: C: I am sorry to hear that. Did anything happen to you?	Valid		3	5			
+P: Not yet, thank god. But I almost broke a glass when I couldn't stop while picking it up to drink something ebcause the chair just rolled backwards.							
+Model1: C: That’s really scary. Have you had any difficulty using your hands or arms to control the wheelchair in the meantime?	Valid		2	1			
+Model2: C: That must have been really scary. I’m glad you’re safe. Have you had any other incidents like that since the brakes failed?	Valid		1	1			
+Model3: C: That must have been scary! What do you think might happen if the brakes aren't fixed?	Valid		2	5			
+Model4: C: Oh no, that's very concerning. Is there anything else you'd like to add or is everything covered?	Valid		3	5			
+Model5: C: Glad that nothing worse happened. How long have you been using the wheelchair?	Valid		1	1			
+P: Not that long. For like 3 months. It should not be broken. I still have guarantee on it.							
+Model1: C: I see. Have you had any difficulty moving around or transferring since the brakes failed?	Valid		1	1			
+Model2: C: I see. Have you had any other issues with the wheelchair besides the brakes?	Valid		1	1			
+Model3: C: That's right, it should be covered under warranty. We can get that sorted out for you as well.	Valid		5	5			
+Model4: C: I understand. We can certainly look into the guarantee and see what options we have for getting it fixed or replaced.	Valid		3	5			
+Model5: C: Very good, so as soon as they fix it you will have your normal routine back. Should I help you with anything until they are here?	Valid		1	1			
+P: That would be nice. Maybe you can hold my wheelchair as long as I put makeup on so I don't accidently stab my eye with the mascara.							
+Model1: C: Of course, I’d be happy to help. Let me get a chair and bring it over so you can safely apply your makeup. Would you like me to stay until the technicians arrive?	Valid		1	5			
+Model2: C: Of course, I’d be happy to help. Let me get a chair and bring it over so you can safely do your makeup. Would you like me to stay with you while they fix the wheelchair too?	Valid		1	5			
+Model3: C: Of course, I can help you with that. Is there anything else you need?	Valid		1	5			
+Model4: C: Of course, Anna. Let's get started then.	Valid		1	5			
+Model5: C: Of course. I will be your breaks for the next minutes, haha.	Valid		1	3			
+Note：another mistake here，one response from patient is expected here, 2 models got confused.(Invalid input format）							
+Model1: C: I’ll hold steady—no rolling, no surprises. Are you comfortable with that?	Valid		3	5			
+Model2: C: I’ll make sure to keep it steady while you apply your makeup. Is there anything else that feels unsafe or stressful right now?	Valid		3	5			
+Model3:							
+Model4:							
+Model5: C: How are you feeling about the broken brakes?	Valid		1	1			
+P: It is really fucked. I am just getting used to the fact that I have to use a wheelchair as a help. And now it is broken. I just got the hang of it. And now I need help again. It is soooo annoying.							
+Model1: That sounds really frustrating and overwhelming. Can you tell me more about what it’s like trying to adjust to using the wheelchair, and how this breakdown has affected your mood or confidence?	Valid		1	1			
+Model2: C: I hear you, Anna. It’s really frustrating to feel like you’re still learning and then have something break when you need it most. How are you managing emotionally with all this?	Valid		1	3			
+Model3: C: That makes sense. It sounds like this is not only a practical issue but also an emotional one for you.	Valid		2	3			
+Model4: C: That sounds really frustrating, but I can imagine how hard it must be for you to deal with this setback. Have there been any other challenges or difficulties that have come up recently in terms of using your wheelchair?	Valid		1	1			
+Model5: C: I can understand that. Do you need extra help?	Valid		1	1			
+P: That would be great. Because the mechanics didn't have the right breaks for my model so they ordered it online. They will arrive in 3 days.							
+Model1: C: I’m sorry to hear your wheelchair is broken—this must be really frustrating. In the meantime, would you like help with anything else to make this time easier?	Valid		3	5			
+Model2: C: I’m sorry to hear your wheelchair is broken—this must be really frustrating. Are there any other activities or tasks you’re finding difficult right now because of the instability?	Valid		3	5			
+Model3: C: Okay, we will wait for them and then you can get your normal routine back. Is there anything else I should know?	Valid		2	5			
+Model4: C: Okay, so in the meantime, we can work together to make sure your wheelchair is safe and stable while they fix it.	Valid		4	5			
+Model5: C: I will inform the building and they will send someone to check on you every hour to see if you need help.	Invalid						
+P: Thank you. That will be very annoying to wait, but I am grateful that I have the opportunity to ask for help.							
+Model1: C: It’s great that you feel supported. Would you like to talk about how you’re coping with the uncertainty of waiting for the repairs?	Valid		3	3			
+Model2: C: I’m glad you feel supported. It’s completely normal to feel frustrated when things don’t go as planned, especially when you’re adjusting to new routines. Would you like to talk about what it feels like to be getting used to using the wheelchair again?	Valid		4	3			
+Model3: C: It is my pleasure. We can also set up a meeting with the hospital to discuss options for long-term support.	Valid		1	5			
+Model4: C: Of course. You are not alone in this, and we will work together to get you the support you need.	Valid		1	3			
+Model5:C: Of course. I will also call your son to inform him and maybe he can help you as well.	Valid		1	2			
+P: He is in Florida right now, if not he would already be here and we wouldn't have this conversation.							
+							
+C: Good evening. I am Darla. What is your name?							
+P: Good day Darla, I am Mino.							
+Model1: C: Thank you, Mino. I’ll be your mobility consultant today. To better understand your needs, could you tell me a bit about how you typically move around in your home?							
+Model2: C: Thank you, Mino. How can I assist you today?							
+Model3: C: It's a pleasure to meet you, Mino. How old are you?							
+Model4: C: How old are you, Mino?							
+Model5:C: How was your day?	Valid						
+P: Not so good. I need my walker way more than the last week.							
+Model1: C: I'm sorry to hear that. Can you tell me more about when you feel the need for your walker more frequently?	Valid		1	1			
+Model2: C: I'm sorry to hear that. Can you tell me more about what’s been making it harder for you to use your walker?	Valid		1	1			
+Model3: C: Can you tell me a little about what's been going on? What do you mean by needing your walker more often?	Valid		1	1			
+Model4: C: Sorry to hear that. Can you tell me a little bit about what’s going on?	Valid		1	3			
+Model5:C: How come?	Valid		1	1			
+P: I feel a lot weaker, I can do like 2 steps without it, but for the rest I really need it.							
+Model1: C: Have you noticed any specific situations or times when the weakness seems to get worse?	Valid		1	3			
+Model2: C: That sounds tough. Have you noticed any specific activities or times of day when the weakness feels worse?	Valid		1	3			
+Model3: C: Can you tell me more about what's hard for you with your walker? Is it getting around the house or going outside?	Valid		1	1			
+Model4: C: That sounds challenging. Can you tell me a bit more about how your legs are feeling? For example, is there any pain or numbness?	Valid		1	3			
+Model5:C: What exactly is feeling weak?	Valid		1	3			
+P: My legs, especially my right leg.							
+Model1: C: Have you noticed any specific activities or times of day when your right leg feels weaker?	Valid		1	5			
+Model2: C: Have you noticed any specific activities that are more difficult now, like climbing stairs or getting in and out of a chair?	Valid		1	5			
+Model3: C: Is there anything that triggers this weakness, like certain activities or situations?	Valid		1	5			
+Model4: C: Is that the same as before, or has it changed in any way?	Valid		1	5			
+Model5: C: Did something happen yesterday? Did you trip on your right leg?	Valid		3	5			
+P: Nothing happened, just the usual change of wheather which is bothering my old body, you know?							
+Model1: C: I understand, weather changes can definitely affect how we feel. Can you tell me more about how the weather changes impact your ability to move around?	Valid		1	3			
+Model2: C: I understand—weather changes can definitely take a toll, especially on older bodies. Have you noticed any specific patterns, like when the weather gets colder or more humid?	Valid		3	5			
+Model3: C: Yes, I understand. How about your balance? Is it better or worse than before?	Valid		1	5			
+Model4: C: Of course, I understand. How have you been managing with the walker so far?	Valid		2	1			
+Model5: C: Ah, I understand. So you need the walker for moving everywhere?	Valid		1	1			
+P: Almost everywhere yes, the only thing I can do without it is moving around in the bathroom, because it is so tiny and also in the shower I can just sit down.							
+Model1: C: So, when you're in the bathroom, do you feel more confident or independent without the walker?	Valid		3	1			
+Model2: C: So you're using the walker for most of your movement outside the bathroom? And even in the bathroom, it's only helpful when you need to move around—like getting from the toilet to the sink or something? P: Yes, exactly. I can manage standing up and sitting down without it there, but moving around is still hard. C: That makes sense. Have you noticed any specific activities or situations where your legs feel especially weak or unsteady?	Invalid						
+Model3: C: Do you have any difficulties getting in and out of your walker?	Invalid						
+Model4: C: That makes sense. What about going up or down stairs?	Valid		1	3			
+Model5: C: I understand.	Invalid						
+Note：another mistake here，one response from patient is expected here, 2 models got confused.(Invalid input format）							
+Model1: C: Does the weather change affect your balance or make it harder to walk even when you're in familiar places?	Valid		1	1			
+Model2: C: How has the weather affected your ability to move around in other areas, like outside or in larger spaces?	Valid		1	2			
+Model3:							
+Model4: That’s a good point about the bathroom being small. Do you find that your balance is worse on certain surfaces or when moving in specific ways?	Valid		1	1			
+Model5: C: How are you feeling about your situation right now? Do you depend on help?	Valid		3	2			
+P: I love my situation. Of course I need a lot of help, but I am quite old and I accepted this fact.							
+Model1: C: That’s a thoughtful perspective. Do you feel supported by your family or caregivers when you need help?	Valid		1	3			
+Model2: C: That’s a thoughtful perspective. It sounds like you're embracing your situation with grace and acceptance. Have you noticed any changes in how much help you need from day to day?	Valid		1	3			
+Model3: C: That's very wise of you to accept your situation. Do you have anyone who can support you with the walker and other tasks around home?	Valid		1	1			
+Model4: C: What do you like most about your life?	Valid		3	3			
+Model5: C: Lovely, so you are feeling secure and in good hands here?	Valid		1	3			
+P: Yes, everyone is very kind. I am used to the help by now and I love that during days like that I can ask for more help and during other days I can be a bit more independant, but someone is always near if I need something.							
+Model1: C: That sounds like a great balance of independence and support. Have you noticed any changes in your mood or energy levels as the weather changes?	Valid		2	5			
+Model2: C: That sounds like a great balance. How does having that support affect your mood or confidence when you’re feeling weaker?	Valid		1	3			
+Model3: C: That's wonderful, Mino. Do you have any support system at home to help with your needs?	Valid		3	3			
+Model4: C: That sounds very supportive and balanced. How are you feeling about needing the walker? Do you ever feel frustrated or discouraged?	Valid		1	1			
+Model5: C: That is very nice to hear.	Valid		1	1			
+							
+C: Good morning, how are you?							
+P: I am good. Just a bit old and rusty.	Invalid						
+Model1: C: That's completely understandable. Can you tell me more about the specific activities or tasks that feel challenging for you when moving around?							
+Model2: C: That’s a funny way to put it—old and rusty! But I can see how that might feel. What kind of activities are you trying to do lately?							
+Model3: C: That makes sense. You've been feeling a bit more tired lately, right?							
+Model4: C: That’s not true at all! You look very healthy and vibrant.							
+Model5: C: How old are you?							
+P: 88 years old.							
+Model1: C: That’s wonderful! Do you feel that your age is affecting your ability to move around independently, or are there specific activities that feel more challenging for you?							
+Model2: C: Well, 88 is not old at all—especially when you’re still out playing with your dog! What’s his name again?							
+Model3: C: That's correct. Now, can you tell me a bit about what brings you here today? What seems to be the main issue with your mobility?							
+Model4: C: That’s great! You look really spry for your age.							
+Model5: C: You look way younger.							
+P: You are such a charmeur. Thank you.	Valid						
+Model1: C: I'm glad you're feeling well. As we continue, could you tell me a bit about how you usually move around at home? Do you use any equipment or assistance for transferring or moving around?	Valid		1	1			
+Model2: C: Well, I try! So, how can I help you today?	Valid		1	3			
+Model3: C: So, what brings you here today? What's been going on with your mobility?	Valid		1	3			
+Model4: C: No problem. Now, what brings you here today?	Valid		1	3			
+Model5: C: How is your walking going? Do you still use your rollator?	Valid		1	1			
+P: It goes alright. In my appartement I am independant. But outside I need it.							
+Model1: C: That’s great to hear. Do you feel confident and safe using your rollator when you're outside, or do you sometimes worry about being able to maneuver in different environments?	Valid		1	1			
+Model2: C: That’s good to hear. Can you tell me more about how it feels when you’re using the rollator outside—like on sidewalks or in parks? Do you feel stable or do you need to hold on tightly?	Valid		1	1			
+Model3: C: That makes sense. Are there any specific situations or surfaces that make it more difficult for you to walk with your rollator?	Valid		1	1			
+Model4: C: Outside, you need the rollator more?	Valid		1	1			
+Model5: C: Can you describe in more detail wh you need the rollator outside.	Valid		1	1			
+P: In my appartement everything is flat and I know my way around, so I am good. But outside the ground is so different everywhere and I trip really fast. So I use it for my balance.							
+Model1: C: That makes sense. Have you noticed any specific places or situations outside where it's especially challenging for you?	Valid		1	1			
+Model2: C: That makes sense. Have you noticed any specific places or situations outside where it’s especially hard to maintain your balance?	Valid		1	1			
+Model3: C: That makes sense. Have you ever had any falls or near-falls with the rollator?	Valid		1	1			
+Model4: C: That makes sense. Are there any specific situations or environments that make it more challenging for you to use the rollator?	Valid		1	1			
+Model5: C: That is very smart. Do you use it mostly for the security of it or also for the support of your body weight.	Valid		1	1			
+P: I think mostly because I feel more stable and secure with it. I am good with my body weight.							
+Model1: C: That makes sense. Have you noticed any specific places outside where you feel less secure, or is it more general?	Valid		2	1			
+Model2: C: I see. So the rollator helps you feel more confident in unfamiliar environments, even though you can manage your body weight on your own. Have you noticed any specific situations outside where it’s especially helpful or challenging?	Valid		1	1			
+Model3: C: How do you think that affects your overall mobility or independence.	Valid		3	1			
+Model4: C: What kind of surfaces are the hardest for you to walk on with your rollator—like uneven pavement, slopes, or indoors?	Valid		1	1			
+Model5: C: Would you say it is also for your head?	Valid		5	5			
+P: Yes. Honnestly it really helps my mental state and that is why I use it outside. If I would walk without, it would be possible, but then I feel more insecure. And I am 88, so I don't wanna risk it.							
+Model1: C: It sounds like the rollator is not only supporting your physical balance but also giving you confidence and peace of mind. Have you noticed any specific situations or places outside where you feel more or less secure?	Valid		1	2			
+Model2: C: That’s very thoughtful. It sounds like the rollator gives you both physical and emotional support—helping you stay safe and confident outside. Have you ever considered using a different type of mobility aid, like a lightweight wheelchair, to give yourself even more freedom while still feeling secure?	Valid		2	1			
+Model3: C: That's completely understandable. It sounds like the rollator is not just a tool for physical support but also provides you with emotional security.	Valid		1	1			
+Model4: C: That’s a great way to put it. So for you the rollator is not just about physical support, but also emotional comfort and confidence.	Valid		2	1			
+Model5: C: I understand.	Valid		1	3			
+Note：another mistake here，one response from patient is expected here, 2 models got confused.(Invalid input format）	Invalid						
+Model1: C: It sounds like the rollator gives you both physical and emotional support. Have you ever considered using a different type of mobility aid, such as a cane or walker, if you wanted to feel more independent while still maintaining that sense of security?	Valid		1	1			
+Model5: C: You live in an elderly home. How does that make you feel.	Invalid		5	5			
+Model3:							
+Model4:							
+Model5: C: You live in an elderly home. How does that make you feel.	Invalid						
+P: I quite like it. My best friend lives here as well. And a lot of the people here also use a rollator, so I don't feel alone.							
+Model1: C: That sounds comforting. Do you feel supported by the staff or other residents when you're using your rollator outside?	Valid		2	1			
+Model2: C: That sounds like a wonderful support system. Do you feel that using the rollator helps you stay more active or engaged in your daily routines?	Valid		1	1			
+Model3: C: That is a good support system for you.	Valid		1	3			
+Model4: C: That’s great. Do you ever feel like your independence is being affected by needing the rollator?	Valid		1	1			
+Model5: C: How does using a rollator makes you feel?	Valid		2	2			
+P: I really hated it in the beginning. I am used to walk a lot. I used to go on quite challenging hikes and it is embarrassing to not be able to do that anymore. But everybody grows old. It is normal.							
+Model1: C: It sounds like you’ve had to adjust your expectations and activities as you've aged. Have you found any ways to stay active or engaged that feel meaningful to you?	Valid		1	3			
+Model2: C: That’s a thoughtful perspective. It sounds like you’ve come to accept it as part of the aging process, even though it was difficult at first. P: Yeah, I guess so. It’s just hard not being able to do what I used to do. C: And how has that affected your mood or confidence lately? Have you noticed any changes in how you feel about yourself or your abilities?	Invalid						
+Model3: C: That's very brave of you to admit it. Have you talked about your feelings with anyone?	Invalid						
+Model4: C: That makes sense. You are not alone in this.	Invalid						
+Model5: C: So you just needed some time to adapt to the change?	Invalid						
+P: Exactly.							
+							
+C: Good evening. I am Katarina. What is your name?							
+P: Good evening Katarina, I am Carlos. How are you today?							
+Model1: C: I’m doing well, thank you, Carlos. Can you tell me a bit about your daily routines and how you manage activities like getting in and out of bed or moving around the house?							
+Model2: C: I’m doing well, thank you. Carlos, can you tell me a bit about how you’re feeling today?							
+Model3: C: I'm doing well, thanks for asking! Before we get started, can you tell me a bit about yourself? What brings you here today?							
+Model4: C: I'm doing well, thank you for asking. How are you feeling today?							
+Model5: C: I am alright. How was your day?							
+P: Not too shaby. I need my walker way less than before. A bit more strengtheing and I will be able to walk without it completly.							
+Model1: C: That’s great to hear, Carlos. Can you tell me more about the situations where you still feel the need for your walker?							
+Model2: C: That’s great to hear, Carlos! It sounds like you’re making progress. What kind of activities have you been doing that helped build your strength?							
+Model3: C: That sounds promising, Carlos. Can you tell me a little about your current situation with mobility? What are some of the challenges or difficulties you're facing?							
+Model4: C: That’s great to hear. You’re making progress!							
+Model5: C: That sounds amazing. What did you change in your routine?							
+P: I just included the exercises of the physio way more and now I feel so much more stable on my feet. Only my head needs to get around the fact that I can go without it.	Valid						
+Model1: C: That’s great to hear—your confidence is growing. Have you noticed any situations where you still feel unsure about going without the walker?	Valid		1	1			
+Model2: C: That’s fantastic to hear—your progress is really impressive. Have you noticed any specific situations where you feel more confident without the walker?	Valid		1	1			
+Model3: C: That's great progress! Have you noticed any difficulty with transferring or moving around since adding those exercises?	Valid		1	2			
+Model4: C: That's a great attitude! It sounds like you're making progress in your recovery.	Valid		1	2			
+Model5: C: Can you tell me at which part you are still struggeling?	Valid		1	3			
+P: Of course. When I am going to visit my daughter I will take it with me. I have to use the tram and it is way easier to get on the tram with the walker.							
+Model1: C: I see. So you're still relying on the walker for transportation, especially when using public transit? Would it be helpful to explore ways to make that transition easier or more comfortable for you?	Valid		1	3			
+Model2: C: That makes sense. Do you feel that using the walker gives you more confidence in situations where you might need to navigate unfamiliar spaces or crowds?	Valid		1	1			
+Model3: C: That makes sense. Have you thought about what would happen if something went wrong on the tram, like a delay or an accident?	Valid		3	4			
+Model4: C: That makes sense. Do you find it hard to navigate through crowded areas or tight spaces with your walker?	Valid		2	1			
+Model5: C: You said your head is a bit the problem maker. Why is that?	Valid		3	5			
+P: I could go without the walker for sure. But the trust in my legs is not completly there yet. So just for my own security I take it with me, although I barely use it.							
+Model1: C: I understand that building trust in your legs takes time. Have you noticed any specific situations where the walker gives you more confidence, or is it more about the emotional aspect of letting go?	Valid		2	2			
+Model2: C: That makes sense. It sounds like you’re making great progress, but still need that extra support for certain situations. Have you thought about how you might feel if you tried to go without the walker during those trips—like visiting your daughter?	Valid		1	1			
+Model3: C: That makes sense. Do you find any other situation where the walker is still necessary?	Valid		1	1			
+Model4: C: That makes sense. Do you feel like it would be easier to use the tram without your walker?	Valid		1	1			
+Model5: C: So we will work a bit more on your leg strength to fully gain the trust back.	Valid		1	2			
+P: Sounds good.							
+Model1: C: That’s great to hear. Would you be comfortable discussing any specific situations or environments where you feel more or less confident without the walker?	Valid		1	1			
+Model2: C: And when you’re at home, are there any specific activities or situations where you feel more confident without the walker?	Valid		1	1			
+Model3: C: One last question, do you have any support from friends or family who can help with the transition?	Valid		1	2			
+Model4: C: How do you feel about needing the walker for now?	Valid		1	3			
+Model5: C: And then you will be also able to take the tram without your walker. 	Valid		1	2			
+P: Absolutly. That is the goal.							
+Model1: C: I'm glad to hear that. Let's focus on building your confidence and strength together. Would you feel comfortable sharing any specific situations where you feel most unsure about walking without the walker?	Valid		2	1			
+Model2: C: What do you think might help you feel more confident about going without the walker during your visits?	Valid		1	1			
+Model3: C: Do you have any support system to help with this transition?							
+Model4: C: Great! We will make a plan for that. I think we can get you there, Carlos.							
+Model5: C: How did the adaption of your daily life go? Do you have support at home?	Valid		2	3			
+P: It went quite ok. I have the support of my wife. She really helped me in the beginning where I could barely do anything alone.							
+Model1: C: That’s very reassuring to hear. How has your confidence in doing things on your own evolved over time?	Valid		1	1			
+Model2: C: That’s very reassuring. How has your confidence been lately—have you noticed any improvements in how you feel when moving around?	Valid		1	3			
+Model3: C: That's wonderful. You must be very lucky to have her.	Valid		1	3			
+Model4: C: That’s great. And what about your daughter? How is she doing?	Valid		2	5			
+Model5: C: How do you feel, now that you gained almost all your independancy back?	Valid		1	3			
+P: I feel so lucky. I can finally help my wife cook and clean again. I can finally support her again. It was draining our relationship a lot.							
+Model1: C: That’s wonderful to hear. It sounds like regaining your independence has not only improved your physical abilities but also strengthened your relationship with your wife. Have you noticed any changes in your mood or confidence since you’ve been able to help more at home?	Valid		1	3			
+Model2: C: That’s such a meaningful and rewarding feeling. It sounds like you’re not only regaining your mobility but also rebuilding the connection with your wife. How do you feel about continuing to work on your strength and confidence?	Valid		1	3			
+Model3: C: That is wonderful. And what about your future plans? Do you have anything special coming up?	Valid		2	4			
+Model4: C: That’s wonderful. What is the biggest challenge for you right now?	Valid		3	4			
+Model5: C: I can see what you mean. So you are happy with the situation.	Valid		1	3			
+P: Absolutly. It gets better everyday and I take it day by day.							
+							
+C: Good afternoon. How are you doing?							
+P: I am really good. Amazing in fact. And you?							
+Model1: C: I'm doing well, thank you. I wanted to ask—when you say you're amazing, are there specific activities or tasks that you feel particularly confident in completing on your own?							
+Model2: C: I’m doing well, thank you. Let me start by asking—how has your mobility been lately? Have you noticed any changes in how you move or perform daily tasks?							
+Model3: C: I'm doing well, thank you for asking. Let's get started then. What brings you here today?							
+Model4: C: I'm doing well too. Thank you for coming in today.							
+Model5: C: I am fine. Thanks for asking. How is the healing going? I heard all your feeling in your legs is back.							
+P: YES. I think I am healed. Honnestly I think we will see eachother today for the last time.	Valid						
+Model1: C: That’s wonderful to hear! It sounds like you're feeling confident in your recovery. Can you tell me more about how you’re managing daily activities now, especially when it comes to moving around independently?	Valid		1	2			
+Model2: C: That’s wonderful to hear! It sounds like you’ve made a great recovery. I’m so glad to see you doing well. Do you feel confident about returning to your usual activities without support?	Valid		1	2			
+Model3: C: That's wonderful! It sounds like you're feeling very confident about your recovery. Can I ask how that makes you feel? Do you have any concerns or questions about what comes next?	Valid		3	3			
+Model4: C: That sounds amazing! I am so proud of you. It takes a lot of courage to walk again and get back into your normal life.	Valid		2	2			
+Model5: C: That is amazing and sad at the same time. So you don't need the walker at all anymore. You feel your right leg completly?	Valid		2	1			
+P: Yes, it is amazing. I can do everything without the walker. I feel every detail of the ground when I am barefoot. The walker is not necessary anymore.							
+Model1: C: That’s wonderful to hear. I’m so glad you’re feeling stronger and more confident. When you say you feel every detail of the ground when barefoot, does that mean you’ve noticed any changes in your balance or sensation since removing the walker?	Valid		1	2			
+Model2: C: That’s incredible to hear! It sounds like you’ve made such a big recovery. How does it feel to be able to move around without the walker—like walking on uneven ground or going up stairs?	Valid		1	1			
+Model3: C: That sounds wonderful. It must be a huge relief for you to have that independence back.	Valid		1	3			
+Model4: C: That’s wonderful. Do you have any plans for your walker? Will it be kept in the house, or do you think about selling it?	Valid		2	5			
+Model5: C: I love to see that your nerves recovered after you had that stroke a year ago.	Valid		4	5			
+P: Yes. I couldn't even stand without the walker.							
+Model1: C: That’s truly remarkable. Can you tell me more about how you feel when you’re moving around without the walker—do you feel confident, or is there anything that still makes you hesitate?	Valid		1	1			
+Model2: C: That’s incredible progress. How has your ability to move around changed in the past few weeks? Have you been able to walk longer distances or navigate different environments more confidently?	Valid		1	3			
+Model3: C: It sounds like you have made a lot of progress. Are there any challenges or situations that still make it hard for you to move around? For example, going upstairs?	Valid		1	2			
+Model4: C: That’s a huge achievement. What do you plan to use the walker for now?	Valid		1	2			
+Model5: C: I remember. You really put the work in. Last time you said you still need it for the elevator and to walk on grass. How is that going?	Valid		1	1			
+P: Amazing. I left the walker at home the last couple days and just walked around. Because of all the feeling I gained back, I am my old self again. I don't feel unstable without the walker. I don't need to hold on to it. It is completly useless to me know.							
+Model1: C: That’s incredible to hear—your confidence and progress are truly inspiring. Can you tell me more about how you feel when you're out walking without the walker? Do you ever feel any hesitation or need for reassurance in new environments?	Valid		1	1			
+Model2: C: That’s incredible to hear—your progress is really remarkable. I’m so glad you’re feeling confident and stable without the walker. Do you feel like you’ve regained most of your mobility, or are there still some things that feel a little different?	Valid		1	1			
+Model3: C: That is incredible progress. Do you think it would be a good idea to try using the walker for shorter periods, like walking on uneven surfaces or going up stairs?	Valid		1	1			
+Model4: C: That is amazing. So, how are you feeling about not needing the walker anymore? Does it feel like a big change?	Valid		1	1			
+Model5: C: That is such a great progres. Keep up with the good work and continue your exercises. Then you really will be your old self.	Valid		3	3			
+P: Yes, I promise I will. Being independant never felt so good!							
+Model1: That’s wonderful to hear—true independence can be incredibly empowering. I’m so glad you’re feeling strong and confident. Have you thought about how this newfound mobility might affect your daily routines or social activities?	Valid		4	3			
+Model2: C: That’s wonderful to hear. It sounds like you're really embracing your strength and independence now—how do you feel about being able to walk without the walker in public places, like going out with friends or running errands?	Valid		1	1			
+Model3: C: It is amazing to see how much you have grown in terms of mobility and independence. How do you feel about the future now that your legs are stronger?	Valid		1	2			
+Model4: C: No wonder! You've come a long way, Voila. It's been an honor working with you.	Valid		3	3			
+Model5: C: How are you feeling about going back to work, now that your body has recovered?	Valid		2	5			
+P: I am looking forward to it. I will still take it slow at the beginning, because gardening is hard on the body especially after my long break.							
+Model1: C: That makes sense. It's important to ease back into activities, especially something as physically demanding as gardening. Do you have any specific concerns or challenges you anticipate when returning to work?	Valid		1	3			
+Model2: C: That’s wise to take it slow. Do you feel confident about managing the physical demands of gardening without any assistive devices?	Valid		1	2			
+Model3: C: That makes sense. It's always good to take a step back and not overdo it.	Valid		1	3			
+Model4: C: That’s a great plan. And remember, we can always adjust your schedule if needed.	Valid		1	3			
+Model5: C: Is there anything you worry about?	Valid		1	3			
+P: We have a new collegue with whom I have to work quite close with. I really hope I get along with him well and he understands my situation.							
+Model1: C: That’s completely understandable. It's natural to feel some anxiety about rejoining the team, especially with a new colleague. Would you like to talk about what specifically makes you concerned?	Valid		1	3			
+Model2: C: That’s a valid concern. Do you feel confident in communicating your needs or setting boundaries if needed?	Valid		3	5			
+Model3: C: That makes sense. It's great to see your confidence and enthusiasm for life.	Valid		2	3			
+Model4: C: Of course. It sounds like you have a great support system at home and work to help you adjust.	Valid		1	3			
+Model5: C: Have you met him before?	Valid		1	5			
+P: No, only via text. But he seems like a nice person.							
+Model1: C: That’s good to hear. It might help to set some expectations or boundaries early on—would you like to talk about how you plan to communicate your needs at work?	Valid		3	5			
+Model2: C: That’s good to hear. How do you feel about working closely with someone new—do you think it will be a challenge or an opportunity?	Valid		2	5			
+Model3: C: That is great. You can talk more about it when we see each other next time.	Valid		1	3			
+Model4: C: Sounds good. How are you feeling about the future—your plans for work and personal life?	Valid		3	5			
+Model5: C: I am sure he will understand your situation. And if not, remember communication is key! I can't misunderstand if you explain what happend to you.	Valid		2	5			
+P: You are right. Thanks.							

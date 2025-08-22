@@ -1,0 +1,6 @@
+icf_category,nr_conversations,total_turns,avg_turns_per_conversation,avg_turn_length,avg_words_per_dialogue
+D420,398,7062,17.74,22.87,405.89
+D445,410,6930,16.9,25.78,435.8
+D465,422,7187,17.03,24.59,418.74
+D470,416,7008,16.85,25.3,426.13
+OVERALL,1646,28187,17.12,24.63,421.75

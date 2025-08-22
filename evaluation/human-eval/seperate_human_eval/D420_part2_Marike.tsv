@@ -1,0 +1,211 @@
+Dialogue(icf category--D420 Transferring oneself) ⚠️Evaluate only the follow-up questions ⚠️Note: Please do not expand hidden patient replies when evaluating the previous model responses.	Validation(Clinical Appropriateness):  ⚠️✅ Mark as valid / ❌ Mark as invalid	Faithfulness(Whether the generated question is factually accurate and consistent with prior dialogue) ⚠️Rank the 5 model outputs from 1 (most faithful) to 5 (least faithful)	Relevance(Whether the generated question logically follows from the dialogue context) ⚠️Rank the 5 model outputs from 1 (most relevant) to 5 (least relevant)	Icf alignment ⚠️Rank the 5 model outputs from 1 (best aligned) to 5 (least aligned)	Cross-check	Reason
+						
+C: Hi, how are we doing today?						it's important to mention the questions to the client themselves, with the preposition 'you' in front. Also we should clarify our role from the beggining.
+P: Not so well.	Valid					
+Model1: C: I'm sorry to hear that. Can you tell me a bit more about what's been making you feel this way? Are there specific activities or situations that are particularly challenging for you?	Valid		1	1		
+Model2: C: I'm sorry to hear that. Can you tell me a bit more about what's been going on?	Valid		1	3		
+Model3: C: I'm sorry to hear that. Can you tell me a bit more about what's been going on?	Valid		1	3		
+Model4: C: I'm sorry to hear that. Can you tell me a bit more about what's been going on?	Valid		1	3		
+Model5: C: Would you tell me more about it?	Valid		1	3		
+P: I feel weak. I couldn't get out of my bed this morning. I had to wait for my partner to help me.	Valid			1		
+Model1: C: I see. Have you noticed any specific areas of weakness, like in your arms or legs, that make it harder for you to get up?	Valid		1	1		
+Model2: C: That sounds really challenging. Have you noticed any specific areas of your body feeling weaker, like your legs or arms?	Valid		1	2		
+Model3: C: That must have been really frustrating for you. Can you tell me more about the difficulty with getting out of bed?	Valid		1	1		
+Model4: C: That sounds really tough. Is there anything specific that made it harder for you to move around today—like a particular task or surface?	Valid		3	3		
+Model5: C: I'm sorry about that. Could you get up with help?	Valid		1	2		
+P: Yes, but I don't like it. I don't want to rely on others. I need to be able to go at least where I want to go.	Valid					emotion about functioninng
+Model1: C: It sounds like you're feeling frustrated about not being able to move independently. Can you tell me more about the situations where you feel this way?	Valid		1	1		
+Model2: C: That sounds frustrating. Have you noticed any specific areas where your strength or mobility feels limited?	Valid		2	2		
+Model3: C: That makes sense. Are there any specific situations or environments that make it more difficult for you to get out of bed?	Valid		3	1		
+Model4: C: That makes sense. Are you finding it harder to get around the house or do things for yourself?	Valid		3	3		
+Model5: C: I do feel for you. I'm sure it'll get better. Do you need any assistance when you walk?	Valid		3	3		
+P: I have a wheelchair. I was able to walk at home a bit with the help of my son, but recently I feel a lot weaker and I need my wheelchair for basically everything. But it is not convenient at home at all. For getting in and out of the wheelchair I depend on my son 100%.	Valid					
+Model1: C: I understand how frustrating that must be. How does it feel when you're at home and you need to get in or out of your wheelchair?	Valid		1	1		
+Model2: C: That sounds really challenging. How does it feel to be dependent on your son for getting in and out of the wheelchair?	Valid		1	1		
+Model3: C: That sounds challenging. Are there any specific situations or tasks that make it harder for you?	Valid		2	2		
+Model4: C: That sounds really challenging. What about turning or navigating tight spaces in your wheelchair? Has that become more difficult for you lately?	Valid		3	3		
+Model5: C: I see that. Are you able to do anything with the wheelchair by yourself?	Valid		2	3		it might be taken wrong, as an assumption that the client can not manage his wheelchair
+P: I can't. I feel like my legs and arms are too weak to get me up. Especially if where I sit or lie is low, I don't have strength to stand up on my own.	Valid					
+Model1: C: That sounds really challenging. Do you feel anxious or frustrated when you're unable to get in and out of your wheelchair on your own?	Valid		2	2		
+Model2: C: That sounds really challenging. Have you thought about using a transfer board or any kind of assistive device to help with getting in and out of the wheelchair?	Valid		1	1		
+Model3: C: That's a challenge. Do you have any equipment or tools that might help with transfers?	Valid		1	1		
+Model4: C: That must be very frustrating. Do you find that your ability to move around with the wheelchair has improved in any way? For example, are there specific tasks or activities where you feel more confident now?	Valid		3	3		we should say what is our base for asking this question (e.g.  a client's saying in previous sessions)
+Model5: C: I see. So we will need to work on your strength, so you will be less dependant on your son.	Valid		3	3		better avoid to express about dependency or indipendency
+P: That sounds like a good plan. I am sick of feeling so weak.	Valid					
+Model1: C: I hear you, and it's great that you're motivated to make changes. Have you thought about what kind of support or resources might help you feel more independent in the meantime?	Valid		1	1		
+Model2: C: I hear you, and it’s great that you’re motivated to work on your strength. Have you noticed any specific activities or movements that feel more manageable than others?	Valid		1	2		
+Model3: C: We'll work together to get you stronger and more independent.	Valid		2	2		
+Model4: C: It is a good plan. How do you feel about needing to use more assistance or relying on your son for help?	Valid		4	3		
+Model5: C: That's good to know. You mentioned you live with your partner, has she been helpful?	Valid		3	4		
+P: I can't live without her now. Thank god he's still strong, but he has bad eyesight. We are supporting each other.	Valid					
+Model1: C: I appreciate you sharing that. How does it feel to rely on your partner for support, especially with his eyesight being an issue?	Valid		1	3		
+Model2: C: That’s really important to have that support. How do you feel about relying on your partner for help with getting in and out of the wheelchair?	Valid		1	1		
+Model3: C: That's a great support system. I'll make sure we work with both of you.	Valid		2	3		
+Model4: C: It sounds like a very supportive relationship.	Valid		3	4		
+Model5: C: How are you coping with your current situation?	Valid		4	4		
+P: I wish I can grow stronger, a few months ago, I was still able to get up, although struggled a bit. Now I'm sad that I need help for that.	Valid					
+						
+C: Good morning, I am Annabelle and I will take care of you this morning. What is your name?						We should clarify our role
+P: Good morning, my name is Heinz.						
+Model1: C: Good morning, Heinz. I'm Annabelle, and I'll be helping you today with your mobility assessment. Could you tell me a bit about how you usually get around at home?						this question is too early in the conversation and before we ask the patient about their concerns
+Model2: C: Nice to meet you, Heinz. How are you feeling today?						
+Model3: C: Nice to meet you, Heinz. How old are you?						
+Model4: C: Nice to meet you, Heinz. How old are you?						
+Model5: C: Nice to meet you Heinz. How are you doing today?						
+P: I am not doing so good. I am scared of going outside of my bed, because my legs feel so weak.	Valid					
+Model1: C: I'm sorry to hear that, Heinz. It sounds like your legs feel very weak, which makes it hard for you to move around. Can you tell me more about when you feel this weakness — is it constant, or does it get worse at certain times of day?	Valid		2	2		
+Model2: C: I’m sorry to hear that, Heinz. It sounds like you're feeling quite limited in your movement right now. Can you tell me more about how your legs feel—do they feel heavy, or is it more like a loss of strength?	Valid		2	3		
+Model3: user	Invalid					
+Model4: C: I see. That sounds really tough, Heinz. Can you tell me more about what’s been going on? What have you noticed that makes it hard for you to get out of bed?	Valid		2	1		
+Model5: C: I am sorry to hear that. Do you feel comfortable to leave your bed with a bit of help?	Valid		2	1		
+P: Yes, with a bit of help it is alright. But I really wanna build up my abilities to leave my bed on my own.	Valid					
+Model1: C: That’s a great goal, Heinz. Can you tell me more about what makes it difficult for you to leave your bed on your own?	Valid		1	1		
+Model2: C: That’s a great goal, Heinz. Can you tell me how often you try to get out of bed on your own, and what happens when you attempt it?	Valid		1	1		
+Model3: C: That's a great goal! Can you tell me more about what makes it hard for you to get out of bed? Is there anything in particular that triggers the fear or weakness?	Valid		1	1		
+Model4: C: That sounds like a great goal for you. Can you tell me more about what happens when you try to get out of bed?	Valid		2	1		
+Model5: C: Understandable. For this morning I will help you and then we will build up your strength together.	Valid		3	3		
+P: Sounds great. Thank you.	Valid					
+Model1: C: I'm glad to hear that. Would you feel comfortable sharing a bit more about what makes you want to build up your abilities to leave your bed on your own?	Valid		3	3		
+Model2: C: Before we start, can you tell me a bit about what makes it difficult for you to get out of bed on your own?	Valid		2	2		it should be better to add 'beside the leg's weakness' to saw the client we really listened them
+Model3: C: You're welcome! Before we begin, can you tell me a bit more about how your legs feel? Do they ache or have any numbness?	Valid		2	3		
+Model4: C: Now, let’s get started with some exercises to help you feel stronger.	Valid		1	3		
+Model5: C: With which part of getting out of bed do you have the most problems?	Valid		1	1		
+P: Honnestly with putting myself in a seated position.						
+Model1: C: I see. Do you feel any pain or discomfort when trying to sit up, or is it more about the strength and coordination?	Valid		1	1		
+Model2: C: I see. Do you feel any pain or discomfort when trying to sit up, or is it more about the effort it takes?	Valid		1	1		
+Model3: C: Do you have any difficulty transferring from your bed to a chair or wheelchair?	Valid		3	2		
+Model4: C: Okay, I see. Can you explain more about that? Like what specifically makes it hard for you?	Valid		1	3		
+Model5: C: Why do you think that is the hardest?	Valid		5	4		
+P: I don't trust my abdominal strength, that is why I have the feeling that I will fall over as soon as I am seated.	Valid					
+Model1: C: I see. Have you noticed any specific situations or times when this fear feels stronger?	Valid		3	3		
+Model2: C: I see. Have you noticed if there’s a specific movement or part of the process that feels more unstable for you?	Valid		2	2		
+Model3: C: That makes sense. Have you ever had any falls or injuries related to transferring yourself from bed?	Valid		2	2		
+Model4: C: That makes sense. Have you ever had a situation where your legs felt very weak and you were worried about falling?	Valid		4	3		
+Model5: C: And do you feel like you will fall over to the front, back or to one side?	Valid		1	1		
+P: To the front most parts and a bit to the side.	Valid					
+Model1: C: I see. Have you noticed if this feeling of instability changes depending on the time of day or if it's consistent?	Valid		2	2		
+Model2: C: I see. Have you noticed if there’s anything that helps you feel more stable when trying to sit up—like using a pillow or leaning against something?	Valid		1	1		
+Model3: C: Do you think that using a supportive device like a walker or cane would make it easier for you?	Invalid		5	3		
+Model4: C: How do you feel about being in a seated position for any length of time?	Valid		3	3		
+Model5: C: Do you have the same feeling when you are standing or is it just like that when you are seated?	Valid		1	1		
+P: While standing it is even worse because my legs feel so weak.	Valid					
+Model1: C: I see. It sounds like both your core stability and leg strength are contributing to this fear. Have you noticed if there’s anything specific that makes the feeling better or worse when you’re trying to stand or sit?	Valid		1	1		
+Model2: C: That’s important to know. Have you noticed if there are any specific times or situations when this feeling is more intense—like after resting, right after waking up, or during the day?	Valid		2	2		
+Model3: C: That sounds very challenging. Do you feel anxious about not being able to move around on your own?	Valid		3	3		the client did not say about not being able to move,so we should not make this assumption
+Model4: C: How often do you try to get out of bed?	Valid		5	4		
+Model5: C: Are you dependant an your significant other for help?	Valid		4	4		
+P: Yes, so much. And it is so frustrating. I was never a weak person and now I even need help to get out of bed.	Valid					
+Model1: C: It sounds like this is a big change for you, and I can see how frustrating it must be. Have you noticed any specific situations or times when the fear of falling feels more intense?	Valid		1	2		
+Model2: C: I hear you, Heinz. It must be really frustrating to feel like you’ve lost some of your independence. Have you noticed any specific situations or times when this fear feels stronger?	Valid		1	2		client did not express their views on indipendancy
+Model3: C: That must be very difficult for you. Do you have any support from friends or family members who can help with your mobility?	Valid		2	3		
+Model4: C: That must be really tough for you.	Valid		4	5		
+Model5: C: How are you coping with this frustration?	Valid		3	5		
+P: Honnestly I cry a lot and need a lot of affection and good words from my partner. Without her I could not do it. She is an angle.	Valid					
+Model1: C: It sounds like your partner plays a very important role in your recovery. Have you considered involving her more directly in your rehabilitation process, or would that be difficult?	Valid		1	2		
+Model2: C: Thank you for sharing that with me, Heinz. It sounds like your partner is incredibly supportive and important to you. Have you ever thought about how this situation might be affecting your confidence or self-esteem?	Valid		1	3		
+Model3: C: That sounds really tough. Do you have any support system or people who can help with your daily activities?	Valid		3	3		it should be good to clarify if the patient got any support beside their partner , because otherwise it might seems like we minimaze the partner's support
+Model4: C: That is very touching. Do you think your partner could be with us today to help out?	Valid		3	3		better to ask if the client woulb be ok with this.
+Model5: C: It is good to hear that you have so much support. And I am sure we will get you stronger in the coming weaks so you have it easier leaving your bed.	Valid		2	1		
+P: That would be amazing.						
+						
+C: Good evening sir. How was your day?						
+P: Hello. My day was quite nice except for one thing.						
+Model1: C: I'm glad to hear your day was mostly pleasant. Could you tell me more about the one thing that didn't go as well?						
+Model2: C: Oh, I'm sorry to hear that. Could you tell me more about what was bothering you?						
+Model3: C: What's that?						the question too direct too early in the conversation 
+Model4: C: What was that?						the question too direct too early in the conversation 
+Model5: C: Can I ask you what went wrong?						
+P: Of course, maybe you can also help me. I don't like to admit it, but getting from standing on to sitting on the toilet is so painful and almost impossible to do on my own. I don't know how to place my arms so I don't put pressure on my abdominal part where it hurts when I use the muscles.	Valid					
+Model1: C: I see. It sounds like transferring from standing to sitting on the toilet is particularly challenging for you. Have you ever used any type of support, such as a raised toilet seat or grab bars, to make this transfer easier?	Valid		1	1		
+Model2: C: I’m so sorry to hear that’s been such a struggle. It sounds like you’re working really hard to manage this on your own. Have you tried using any kind of support—like a raised toilet seat or a transfer bench?	Valid		1	1		
+Model3: C: I understand that can be a real challenge. Can you tell me more about how you're managing with transfers right now? For example, do you use any assistive devices or have someone help you?	Valid		3	2		
+Model4: C: That sounds very challenging. Let me make sure I understand correctly—when you try to get off the toilet, it's not just getting up from a seated position that’s difficult for you? 	Valid		5	4		
+Model5: C: Thank you for sharing your difficulty with that process. We can do it now together and I can show you what the best position is to not tense up your abdominal muscles and then you can try it on your own under my supervision. How does that sound?	Valid		1	1		
+P: Sounds great. Thank you so much.	Valid					
+Model1: C: Before we begin, could you tell me if this difficulty with transferring from standing to sitting happens in other situations, like when you get up from a chair or into a car?	Valid		1	1		
+Model2: C: I'm glad to hear that. Before we start, could you tell me if this difficulty has affected how often you're able to go to the bathroom or if it’s something that comes up more frequently during certain times of day?	Valid		1	1		
+Model3: C: No problem at all, sir. Let's get started then.	Valid		3	3		
+Model4: C: No problem at all. Let's get started then.	Valid		3	3		
+Model5: C: Now you are standing. How would you proceed further to sit down on the toilet?	Valid		2	2		
+P: I try to slowly lean forward with the help of my rollator and get into kinda a squatting position and then I would feel a bit of pain and with that I am not comfortable so I ask the nurse to help me sit down.	Valid					
+Model1: C: I see. It sounds like you're already using your rollator effectively to support your weight and reduce strain. Have you ever tried sitting down without the nurse’s help, even if it takes a bit longer or feels uncomfortable at first?	Valid		1	1		
+Model2: C: I see. So you’re using your rollator to help you lean forward and get into a squat position, but it still feels uncomfortable and painful. Have you noticed if there’s a particular part of the movement that causes more discomfort—like when you're leaning forward, or when you're lowering yourself down?	Valid		1	1		
+Model3: C: That sounds really challenging for you. Can we explore some strategies to make this process more manageable? For example, would using a raised toilet seat or other assistive devices be something that could help?	Valid		1	1		
+Model4: C: Can you tell me more about how it feels in your abdomen when you do that? Do you feel any specific sensations or discomfort?	Valid		2	2		
+Model5: C: I see your problem. Do you not trust the steadiness of your rollator or is the pain that strong that you get scared?	Valid		3	2		
+P: Maybe pain is the wrong word. It is more a new uncomfortable feeling and yes the rollator has wheels so I don't trust that he holds my weight while sitting down.	Valid					
+Model1: C: I understand now. It sounds like you're concerned about stability as you transition from standing to sitting. Would you feel more secure if we used the rollator for support while you practice this movement, or would you prefer to try it without the rollator first?	Valid		1	1		
+Model2: C: I understand. It sounds like you're concerned about stability and the sensation in your abdomen when transitioning. Have you tried using the rollator for support while sitting down, or do you usually rely on someone else to assist?	Valid		1	1		
+Model3: C: I understand. Have you considered any other ways to make it easier for yourself, like using a grab bar or adjusting the height of your toilet seat?	Valid		2	2		
+Model4: C: That makes sense. So the rollator is not as reliable for you in this situation, and that’s why you feel like you need someone else to help.	Valid		3	3		
+Model5: C: Okay, I see. I will show you how much you can trust the rollator, because trust me, the brakes are amazing and then you don't need the help of the nurse anymore and you are only dependant on the rollator.	Invalid		5	4		we do the assumption that the client only use the help of a nurse for stability reason, without asking any further about this.
+P: That would be so great, because then I don't need to wait so long to go to the toilet.	Valid					
+Model1: C: That sounds like a big relief for you. Let me demonstrate how to safely use the rollator during transfers so you can feel more confident and independent. Would that be okay with you?	Valid		1	1		
+Model2: C: Exactly, and we can work on making that transition smoother and more comfortable for you. Would you be willing to try a few practice steps now with me? I’ll guide you through it slowly so you feel supported every step of the way.	Valid		1	1		
+Model3: C: Exactly, and we can work on this together. I will be with you all the time.	Valid		2	2		supporting a client to do a specific movement is not our main task. If we claim that, it might be taken as a promise, so we will disapoint the client if we can not keep up with it.
+Model4: C: Yes, exactly. Now let me try to explain this process again with a bit more detail and then we can practice it together.	Valid		2	2		we should be clear that the client can practice this with doctors or nurses and not with us in every session.
+Model5: C: Do you have any help at home?	Valid		4	4		
+P: No, I live still alone because my wife just passed away and before I could move in an appartement where there is help, I had to go to the hospital.	Valid					
+Model1: C: I’m so sorry for your loss. It sounds like you're doing a lot on your own, and it must be challenging. Would you feel more comfortable if we practice this transfer at home, or would you prefer to start in a safer environment here?	Valid		1	1		at first we should clarify if the client wants to continue the seessions with us when he get out of the hospital.
+Model2: C: I’m so sorry for your loss. That must have been very difficult. It’s understandable that you’re feeling this way, especially with the added challenge of mobility. Do you feel safe using the rollator at home by yourself?	Valid		2	2		the client did not express a way he is feeling
+Model3: C: I'm so sorry for your loss. It's understandable that you need to be independent as well, but we can work together on a plan to make it easier for you.	Valid		2	3		the client did not express his views on indipendency
+Model4: C: I am so sorry for your loss. It sounds like a very difficult time for you.	Valid		4	5		
+Model5: C: Oh no, I am so sorry to hear that. But that means as soon as your out of the hospital you will have help? Or you will still live alone for a bit?	Valid		4	4		
+P: Still alone for a bit. But maybe my son will have the time to help me out.						
+Model1: C: I understand. It sounds like you're managing as best as you can while waiting for support. Would it be helpful to practice transferring with the rollator in a safe environment here, so you feel more confident when you return home?	Valid		1	1		
+Model2: C: I understand. It sounds like you’re managing as best as you can, but it’s clear this situation is challenging for you. Would you feel more comfortable if we practiced using the rollator in a way that gives you greater confidence during transfers?	Valid		1	1		
+Model3: C: Alright, we'll work on your rollator and how to use it so that you can get around the house safely. We will also see if there are any other things in your home that could be made more accessible for you.	Valid		2	2		
+Model4: C: That's great to hear. Well, I want you to know that we can work together and find the right solution for your needs.	Valid		4	4		
+Model5: C: Please let me know until our next meeting how your situation at home will look like so I can prepare your abilities.	Valid		4	5		it's not our main task as psychologists to preper a person's mottor abilities. we could suggest them an occupational therapist in the hospital
+P: Yes of course, thank you so much for considering that.						
+						
+C: Good afternoon. How are you doing today?						
+P: I am very good. Thanks for asking. How are you?						
+Model1: C: I'm doing well, thank you. I wanted to ask you a bit more about your daily activities. Can you tell me if there are any specific situations or times of day when moving around feels particularly challenging for you?						better to dont mention a subject or a problem, before the client mention it themshelves
+Model2: C: I’m doing well, thank you. Let’s talk about your mobility today. Can you tell me a bit about how you move around at home?						it's better to ask the clients if they agree to talk about this topic
+Model3: C: I'm doing well, thank you. To start off, could you tell me a bit about your main reason for coming in today? What's been on your mind lately?						
+Model4: C: I’m doing well, thanks to my family and friends who keep me busy with their company.						
+Model5: C: I am also good. How is your daily live going? Do you have any problems?						
+P: Very good to be honnest. I am able to do everything I want to.	Valid					
+Model1: C: That sounds wonderful. Can you share a bit about how you manage tasks that might require lifting or reaching, such as getting in and out of a chair or opening containers?	Valid		2	5		lifting and reaching is another ICF category
+Model2: C: That’s wonderful to hear. Could you tell me a bit more about what you’re able to do on a typical day?	Valid		2	3		
+Model3: C: That's great! What kind of activities do you enjoy the most?	Valid		4	3		
+Model4: C: C: That’s great to hear! What kind of activities do you enjoy doing on a daily basis?	Valid		4	3		
+Model5: C: That sounds amazing. So you don't feel put back by anything?	Valid		2	4		
+P: Not at all. My body feels great and ready to conquer anything.						
+Model1: C: That’s wonderful to hear. I’m glad you feel so empowered. Do you find it easy to move around in your home or community without needing assistance?	Valid		1	2		
+Model2: C: That’s fantastic to hear. Do you ever feel like there’s anything you’d still like to improve or try?	Valid		1	3		
+Model3: C: Great, that's wonderful. What kind of activities do you like to do in your spare time?	Valid		3	4		
+Model4: C: Well, that's wonderful. What do you enjoy doing most in your free time?	Valid		3	4		
+Model5: C: You told me last time that you still have some problems getting out of your wheelchair. Is that still true?	Valid		2	1		
+P: I am very happy to tell you that this is not a problem anymore. Everything is alright.						
+Model1: C: That's fantastic to hear! I'm glad you're feeling so empowered. Do you feel confident using your wheelchair in different environments, like outdoors or public spaces?	Valid		1	1		
+Model2: C: That’s wonderful to hear! I’m glad you’re feeling so strong and confident. Do you ever feel like your arms or hands are tired after doing daily tasks?	Valid		1	3		
+Model3: C: That's wonderful! Do you think it would help if we could figure out ways to make your daily activities even easier and more efficient?	Valid		3	4		
+Model4: C: Great! What about your arms? Do you still have trouble with anything, like reaching or lifting?	Valid		3	4		
+Model5: C: I am very glad to hear that. So you don't have problems anymore with extending your hip?	Valid		3	3		
+P: Nope, all the pain is gone.						
+Model1: C: That’s wonderful to hear. Do you feel confident and independent when moving around in your environment?	Valid		1	1		
+Model2: C: That’s fantastic to hear! I’m so glad you’re feeling better. Do you feel confident moving around on your own without any assistance?	Valid		1	2		
+Model3: C: That sounds incredible! You must feel like a new person.	Valid		3	5		
+Model4: C: That's wonderful to hear. Can you tell me a bit more about your experience with getting out of the wheelchair? Was it easier than before?	Valid		3	2		
+Model5: C: And you did not get any different medication?	Valid		3	5		
+P: No, everything worked out on his own. I think the Physiotherapy really helped my hip problem and now the problem is gone.	Valid					
+Model1: That’s wonderful to hear! It sounds like the physiotherapy made a really positive difference. Have you noticed any changes in your ability to move around or perform other activities since your hip pain resolved?	Valid		1	1		
+Model2: C: That’s wonderful to hear. It sounds like your physiotherapy made a big difference. Have you noticed any changes in how you move or feel throughout the day?	Valid		1	2		
+Model3: C: That's wonderful. So you are confident about getting out of your wheelchair now?	Valid		2	2		
+Model4: C: That’s great to hear! So you feel like your mobility has improved significantly since we last spoke?	Valid		3	3		
+Model5: C: Amazing! I wanted to ask you about your situation at home and if that improved since you are able to do everything on your own.	Valid		4	3		
+P: Thanks for asking. Actually it is quite nice to not depend on my husband anymore and to finally be able to go everywhere in the house on my own.	Valid					
+Model1: C: That sounds really empowering. Do you feel more confident or independent now in your daily activities?	Valid		1	2		
+Model2: C: That’s wonderful to hear. It sounds like you’re feeling more independent and confident at home now. Have you noticed any changes in how you move or feel throughout the day?	Valid		1	2		
+Model3: C: That sounds wonderful. Do you think your new independence has made any changes in how you feel about yourself or your abilities?	Valid		2	2		
+Model4: C: That’s wonderful! What about going out? Do you have any problems with that?	Valid		3	5		
+Model5: C: That sounds nice. Anything that is bothering you.	Valid		5	5		
+P: I feel a bit overlooked now that I am healthy, my grandchildren don't visit me that much anymore. Which I understand, they all have their own life, but I miss them.	Valid					
+Model1: C: I can understand how that might feel. It’s natural to miss the connection with your grandchildren. Have you considered any ways to stay in touch or involve them more in your daily life?	Valid		2	4		better to avoid the use of 'i understand'.
+Model2: C: That sounds like a lot to carry—being healthy but feeling a bit overlooked. It must be hard not seeing your grandchildren as often as you'd like. Have you thought about ways to stay connected with them, even if it's not in person?	Valid		2	5		
+Model3: C: It's understandable. Do you have any plans or ideas to spend more time with your grandchildren?	Valid		2	5		
+Model4: C: That must be hard for you. Do they know how much it means to have them visit?	Valid		4	5		
+Model5: C: I understand. But now you can play with your grandkids and not miss out on any activity.	Invalid		5	5		it's better not to say what a client can do now and what they could not do before.
+P: Thank you for the reminder. That is true and it is great.						

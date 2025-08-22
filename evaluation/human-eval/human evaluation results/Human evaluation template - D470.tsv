@@ -1,0 +1,568 @@
+Dialogue(icf category--D470  Using transportation) ⚠️Evaluate only the follow-up questions ⚠️Note: Please do not expand hidden patient replies when evaluating the previous model responses.	Validation(Clinical Appropriateness):  ⚠️✅ Mark as valid / ❌ Mark as invalid	Faithfulness(Whether the generated question is factually accurate and consistent with prior dialogue) ⚠️Rank the 5 model outputs from 1 (most faithful) to 5 (least faithful)	Relevance(Whether the generated question logically follows from the dialogue context) ⚠️Rank the 5 model outputs from 1 (most relevant) to 5 (least relevant)	Icf alignment ⚠️Rank the 5 model outputs from 1 (best aligned) to 5 (least aligned)	
+P: Honestly, I feel a bit frustrated. I used to be able to move around easily, but now I worry about getting too tired or losing my balance.					
+C: Hey, It’s been a while. How have you been feeling lately?					
+P: I’ve been feeling well, thanks! I actually just got back from a short trip.	Valid				
+Model1: C: That’s great to hear! Did you have any difficulty with transferring or moving around during your trip, especially when using transportation or equipment?	Valid				
+Model2: C: That’s great to hear! Where did you go on your trip?					
+Model3: C: That sounds like fun. What did you do on your trip?	Invalid				
+Model4: C: That sounds like fun. What did you do on the trip?	Invalid				
+Model5: C: That sounds great! Where did you go?	Invalid				
+P: My wife and I went to Groningen.	Valid				
+Model1: C: Did you have any difficulty moving around or using transportation while you were there?	Valid		1	1	
+Model2: C: That’s wonderful—Groningen is such a lovely city. Did you manage to move around independently during your trip?	Valid		1	1	
+Model3: C: That's lovely! Have you been traveling with her for a while now?	Valid		2	5	
+Model4: C: That’s lovely. How was the trip overall?	Valid		1	5	
+Model5: C: Nice! How was the trip?	Valid		1	5	
+P: It was really fun. It’s been a long time since I last traveled, so it felt great to get away for a bit.					
+Model1: C: That’s wonderful to hear. I’m glad you were able to enjoy your trip. Have you noticed any changes in your mobility or energy levels since returning?	Valid		5	5	
+Model2: C: That’s wonderful to hear. Did you have any challenges with mobility during the trip, or did everything go smoothly?	Valid		1	1	
+Model3: C: That makes sense. You must have enjoyed exploring the city and its surroundings.	Valid		1	5	
+Model4: C: Sounds wonderful. What did you do there?	Valid		1	5	
+Model5: C: That’s wonderful! Did you drive there yourselves?	Valid		3	1	
+P: No, we took the train.					
+Model1: C: Great, so you were able to travel by train. Did you have any difficulty getting on or off the train, or moving around while you were there?	Valid		1	1	
+Model2: C: Did you have any difficulty getting around while you were there, like moving between places or using public transportation?	Valid		1	1	
+Model3: C: Great choice! How was your experience with the train? Was it easy to get around and find what you needed?	Valid		1	3	
+Model4: C: How was your experience on the train?	Valid		1	5	
+Model5: C: What is the most difficult part for you?	Invalid				
+P: The unstability. I can't walk properly so I am scared of walking in a moving bus when they start to early.					
+Model1: C: I see—so the fear of instability in a moving bus is particularly challenging for you. Have you ever used any mobility aids or equipment during your travels, like a cane or walker, to help with balance?	Valid		1	1	
+Model2: C: I see. So when the bus starts moving, you feel unstable and worried about walking? Have you noticed if this happens more in certain types of buses or on specific routes?	Valid		1	1	
+Model3: C: That makes sense. So, do you usually plan your trips around avoiding the busiest times or routes?	Valid		3	5	
+Model4: C: We have a lot of trouble with the stairs at home, but we manage somehow.	Invalid				
+Model5: C: Anything else that is bothering you?	Valid		1	5	
+P: Yes, I am way too unstable to go up and down the stairs on the bus. If I would do it, I would also be way too slow. I am just bothering all the passengers.					
+Model1: C: I understand that this can be frustrating. Have you considered using a mobility aid, like a cane or walker, to help with balance and stability on the bus?	Valid		1	3	
+Model2: C: That sounds frustrating. Have you considered using a mobility aid, like a cane or a walker, while on the bus to help with stability?	Valid		1	3	
+Model3: C: That makes sense. Have you tried using any mobility aids like a cane or walker while traveling?	Valid		1	1	
+Model4: C: How do you think this is affecting your daily life? For instance, are there any activities or tasks that have become more difficult for you?	Valid		1	5	
+Model5: C: I am sure they would understand. Why do you feel unstable?	Valid		1	1	
+P: I am just so weak on my legs. It feels like they can't support my body at all.					
+Model1: C: That sounds really challenging. Have you noticed any specific situations or times when your legs feel more unstable?	Valid		1	3	
+Model2: C: That sounds really challenging. Have you noticed if there are specific times during the day when your legs feel weaker—like after sitting for a while or in the morning?	Valid		1	5	
+Model3: C: That must be really frustrating for you. Have there been any changes in your daily life that have made this more difficult?	Valid		1	5	
+Model4: C: That sounds really tough. Have you noticed any difference in your balance or walking ability over the past few weeks?	Valid		1	5	
+Model5: C: I see.	Invalid				
+Note：Mistake，one response from patient is expected here, 1 model gave nothing i model didn't give "C" tag.(Invalid input format）					
+Model1: C: Have you noticed any specific situations or times when your instability feels worse?	Invalid				
+Model2: C: How does that weakness affect your ability to walk around in general—like moving from one place to another or standing for long periods?	Valid		1	5	
+Model3:					
+Model4: Okay, let me just make sure I understand what's going on here. You're saying that when you try to walk in a moving bus or navigate stairs on public transportation, your legs don’t feel stable enough for you.					
+Model5: C:How do you go from one place to another then?	Valid		1	1	
+P: Gladly my wife can drive me everywhere?					
+Model1: C: That must be helpful. Have you considered using a mobility aid, like a walker or a cane, to help with stability when you need to move around?	Valid		1	1	
+Model2: C: That’s helpful. Have you considered using a mobility aid, like a cane or walker, to help with stability when you’re out and about?	Valid		1	1	
+Model3: C: That's wonderful. And what about when you need to get somewhere quickly or on your own?	Valid		1	1	
+Model4: C: What about when you need to go out on your own?	Valid		1	1	
+Model5: C: Are you two normally using the car that often?	Valid		5	5	
+P: Not at all, the gas prices are horrible at the moment. We have a bit of money problems, so it is really bothering me.					
+Model1: C: I understand that can be challenging. Have you considered any alternative ways to get around that might be more cost-effective or easier for you?	Valid		2	5	
+Model2: C: I understand that can be a challenge. Have you considered using public transportation more often, or maybe getting assistance with a mobility aid to help you travel independently?	Valid		1	1	
+Model3: C: I understand. Do you think it would be more manageable if we could find some other way to get around for a bit?	Valid		1	5	
+Model4: C: That makes sense. Have you tried any other mobility solutions, like a walker or cane?	Valid		1	1	
+Model5: C: I understand. What are you worrying the most about?	Invalid				
+P: That it will never get better with my weakness because I am so old and then we will struggel a lot with our money.					
+Model1: C: That sounds really concerning. Have you spoken with a healthcare professional about your concerns regarding your weakness and its impact on your daily life?	Valid		3	3	
+Model2: C: That sounds really heavy to carry, and I can see how it would be concerning. Have you thought about any ways to manage the cost of transportation or maybe reduce your travel needs temporarily?	Valid		3	3	
+Model3: C: It sounds like it’s a big source of stress for you. Do you have any support from family or friends?	Valid		5	5	
+Model4: C: That sounds like a big concern for you. Have you talked to your wife about it?	Valid		5	5	
+Model5: C: We will work on your muscle strength and then this problem will not bother you anymore.	Invalid				
+					
+C: Good morning, how are you feeling today?					
+P: Like everyday, kinda alright.					
+Model1: C: I'm glad to hear you're feeling okay. Can you tell me a bit more about how your ability to move around has been lately? Are there any specific situations or places where you feel it's harder for you to get around?	Valid		1	1	
+Model2: C: Thank you for saying that. How has your day been going so far?	Valid		5	5	
+Model3: C: That's good to hear. Have you been doing any activities that make your arm feel better?	Invalid				
+Model4: C: Alright is a good place to be. Can you tell me more about what’s been going on for you lately?	Valid		5	5	
+Model5: C: Why not totally alright?	Valid		5	5	
+P: Because a friend of mine died and I want to go to the funeral, but nobody can drive me and I can't go by train.					
+Model1: C: I’m sorry to hear about your friend. Can you tell me more about how the transportation issue is affecting your ability to attend the funeral?	Valid		1	1	
+Model2: C: I’m so sorry to hear about your friend’s passing. That must be really difficult. Have you thought about how you might get there—like, do you have anyone who could help you with transportation?	Valid		1	1	
+Model3: C: I see. That sounds really tough, especially with the funeral plans and transportation concerns.	Valid		1	3	
+Model4: C: That sounds really hard. How are you feeling about not being able to attend?	Valid		1	5	
+Model5: C: I am so sorry to hear that. Why can't you use the train?	Valid		1	1	
+P: Because the gap is too big for me.					
+Model1: C: I see. Can you describe what it’s like trying to get on and off the train?	Valid		1	1	
+Model2: C: I see. Can you explain a bit more about what makes the gap difficult for you? Is it related to your mobility or something else?	Valid		1	1	
+Model3: C: What do you mean by that? Is it hard for you to get on and off the train, or is there something else?	Valid		1	1	
+Model4: C: What do you mean by that?	Valid		2	3	
+Model5: C: You can ask for mobility support and then the staff will provide a ramp for you.	Valid		1	1	
+P: I am also not able to do it on my own.					
+Model1: C: I understand. Can you tell me more about the specific challenges you face when trying to navigate the train station or get on and off the train?	Valid		1	1	
+Model2: C: I see. Are there any other ways you might be able to get around, like using a wheelchair or a scooter? Have you considered trying one for this specific outing?	Valid		1	5	
+Model3: C: What do you mean by that?	Valid		1	5	
+Model4: C: How are you feeling about having to rely on others for transportation?	Valid		1	5	
+Model5: C: What is the biggest problem for you when you use the train?	Valid		1	1	
+P: I am dependind on someone to bring my walker with me, because I am so unstable everywhere. The gap is too big for me and my walker and I can't carry it up the stairs.					
+Model1: C: I understand that this is very challenging. Would you feel more comfortable if we explored options for transportation that could accommodate your walker and provide the support you need?	Valid		1	1	
+Model2: C: I see. So you’re worried about getting your walker on and off the train, navigating the gap, and then carrying it up stairs? Have you ever used any kind of assistance or equipment to help with that before?	Valid		1	4	
+Model3: C: That makes sense. Are there any other things that worry you about using the train?	Invalid				
+Model4: C: That makes sense. Have you tried using any other mobility aids or devices that might be easier for navigating stairs?	Valid		1	3	
+Model5: C: So you need your walker for everything and the train is too much of a hustle?	Valid		1	1	
+P: Yes, exactly.					
+Model1: C: I understand that the train can be very challenging for you. Would it help if we explored options for transportation that could better accommodate your walker and mobility needs?	Valid		1	1	
+Model2: C: I see. Have you thought about using a taxi or ride-sharing service that can accommodate mobility equipment? Some companies offer vehicles with ramps or lifts for wheelchairs and walkers.	Valid		1	1	
+Model3: C: I see. And how do you usually manage to get around in these situations?	Valid		1	3	
+Model4: C: How often do you use the train—like, how many times a week or month?	Valid		1	5	
+Model5: C: If you would be in the train, would you be able to move around freely?	Valid		1	5	
+P: If you mean by freely with my walker, then yes. But at the moment it is vacation time and way too many people are in the train for me to walk with my walker.					
+Model1: C: I understand that the crowds make it overwhelming for you. Would you feel more comfortable if we explored alternative transportation options, like a wheelchair-accessible bus or shuttle service?	Valid		1	1	
+Model2: C: I see. So during busy times, using the train with your walker is really challenging. Have you considered other transportation options that might be more accessible for you during this time?	Valid		1	1	
+Model3: C: I see. What is it that makes you feel so anxious about going to the funeral?	Invalid				
+Model4: C: How do you feel about the train being too crowded and not having enough space for your walker?	Valid		3	5	
+Model5: C: I see your point.	Valid		1	5	
+Note：Mistake，one response from patient is expected here, 2 models gave nothing. (Invalid input format）					
+Model1: C: Would you feel more comfortable if we explored alternative transportation options, like a wheelchair-accessible bus or shuttle service during your trip?	Valid		1	1	
+Model2: C: Have you considered using a wheelchair for the trip? It might make navigating the train and stairs easier, especially with the gap issue.	Valid		1	1	
+Model3:					
+Model4:					
+Model5: C: Is it hard for you to depend on other people?	Valid		1	5	
+P: I despise it. Especially in the public, I depend on people I don't know. I just have to trust random people. They could rob me.					
+Model1: C: That sounds really frustrating and unsafe. Have you considered using a private transportation service or arranging for someone you know to accompany you?	Valid		1	2	
+Model2: C: That sounds really frustrating and even a bit scary. Have you thought about ways to feel more secure when relying on others for help, like using a specific person or having some kind of identification that shows your needs?	Valid		3	5	
+Model3: C: That must be really frustrating for you.	Valid		1	5	
+Model4: C: That must be really stressful for you. Do you have any support at all—like family or friends who can help?	Valid		1	5	
+Model5: C: I think most people are kind and willing to help. Robbing is an extreme example.	Valid		1	5	
+P: That is true. But still a possibility.					
+Model1: C: I understand that it can be stressful. Have you considered using a mobility aid with a transport function or arranging for a ride with someone you trust?	Valid		1	1	
+Model2: C: I hear you, and it’s completely reasonable to feel that way. Have you ever thought about using a transportation service or a ride-share option that might offer more privacy or control?	Valid		1	1	
+Model3: C: What about your friend? Does he have a car or is it okay for you to take his car?	Valid		1	1	
+Model4: C: Okay. So we need to find a solution that allows you to go to the funeral but also maintain your independence.	Invalid				
+Model5: C: Do you have people around you that take care of you?	Invalid				
+P: Not really, because my wife recently passed away, so I am really on my mind.					
+Model1: C: I’m really sorry for your loss. It sounds like you’re feeling very isolated right now. Have you considered reaching out to any community or support groups that might offer assistance with transportation or daily mobility?	Valid		1	5	
+Model2: C: I’m so sorry for your loss. That must be really difficult. Are there any family members or friends who could offer some support during this time?	Valid		1	5	
+Model3: C: I am here for you.	Invalid				
+Model4: C: That sounds like a huge loss.	Valid		1	5	
+Model5: C: I am so sorry. I will ask around the hospital, to make sure you have somebody around who looks after you.	Valid		3	5	
+P: Thanks.					
+					
+C: It has been a bit of time since I have seen you. How are you doing?					
+P: Not too bad, I would say.					
+Model1: C: That’s good to hear. I noticed you mentioned some difficulty with transferring earlier—can you tell me more about how that affects your daily activities, like getting in and out of the bath or onto the couch?	Valid		1	5	
+Model2: C: That’s good to hear. Have you noticed any changes in your ability to move around or do daily tasks since our last visit?	Valid		1	5	
+Model3: C: That's great to hear! What have you been up to lately?	Valid		5	5	
+Model4: C: That sounds good. What brings you in today?	Valid		5	5	
+Model5: C: You are smiling and looking so relaxed. Did you go on vacation?	Valid		3	5	
+P: Oh yes, I did. It was amazing.					
+Model1: C: That sounds wonderful! Did your mobility or use of equipment play a role in making the trip enjoyable?	Valid		1	1	
+Model2: C: That’s wonderful to hear! Where did you go, and what did you do?	Valid		3	5	
+Model3: C: That sounds wonderful. Where did you go?	Valid		3	5	
+Model4: C: Where did you go?	Valid		3	5	
+Model5: C: Did you go by train?	Valid		1	1	
+P: No actually it was a short trip to Mallorca by plane.					
+Model1: C: That sounds wonderful! Did you have any difficulty moving around or using transportation during your trip?	Valid		1	1	
+Model2: C: That sounds wonderful! Did you have any difficulty getting around during your trip?	Valid		1	1	
+Model3: C: That's great! What did you do there?	Valid		3	3	
+Model4: C: How was the flight? Was it comfortable for you?	Valid		3	3	
+Model5: C: And you had no problems with using the plane?	Valid		3	3	
+P: Some, but nothing my family and I couldn't figure out together.					
+Model1: C: I'm glad you were able to manage together. Have you noticed any specific challenges when using transportation since your return?	Valid		1	1	
+Model2: C: That’s reassuring. Did you have any difficulty getting around once you arrived—like navigating the airport or moving through your hotel?	Valid		1	1	
+Model3: C: That's wonderful. It sounds like you had a great time and were able to manage the transportation aspect of your trip.	Valid		1	1	
+Model4: C: Great! That sounds like a really fun trip.	Valid		3	5	
+Model5: C: What kind of difficulties did you deal with?	Valid		3	3	
+P: Going on and off the plane was fine. My wife hold my arm and gave me stability and my children carried my luggage.					
+Model1: C: Did you feel confident and safe during the trip, or were there any moments when you felt anxious about moving around?	Valid		1	1	
+Model2: C: That sounds like a great support system. Did you have any trouble moving around once you got to your accommodation?	Valid		1	1	
+Model3: C: That sounds like a successful trip.	Valid		3	5	
+Model4: C: That's a great support system. And what about getting around once you got there?	Valid		1	1	
+Model5: C: That sounds good.	Valid		3	5	
+P: But the sitting down in this tiny space and sitting for 3 hours straight was quite difficult.					
+Model1: C: How did you manage to stay comfortable during the flight?	Valid		2	3	
+Model2: C: I see. Did you find it hard to get comfortable or did you feel any pain while sitting?	Valid		1	3	
+Model3: C: I see. Did you have any trouble with getting comfortable?	Valid		1	3	
+Model4: C: Yes, that would be challenging. Were there any particular areas on the plane where you felt more comfortable or less?	Invalid				
+Model5: C: And why is that?	Valid		3	5	
+P: Because of the nerve impingement, my legs constantly fall asleep when I don't change my sitting position every 15min. And in the plane I didn't have the luxus to move around a lot.					
+Model1: C: I see. So the lack of movement during the flight made it harder for you to manage the numbness in your legs? Have you noticed this happening often when sitting for long periods, like during travel or at work?	Valid		3	5	
+Model2: C: I see. That must have been uncomfortable. Have you noticed any changes in your ability to sit for long periods since returning from your trip?	Valid		2	4	
+Model3: C: That makes sense. Have you had any issues with your mobility outside of the plane?	Valid		1	1	
+Model4: C: That makes sense. Did you find it challenging to move around on the plane once you were seated?	Invalid				
+Model5: C: I see. So what did you do to improve your numbness in the legs?	Valid		2	5	
+P: I powered through and accepted my faith.					
+Model1: C: That must have been challenging. Did you try any specific strategies or adjustments to help with the numbness during the flight?	Valid		2	5	
+Model2: C: That’s a strong way to cope. Did you try any physical strategies, like shifting your weight or moving around during the flight?	Valid		2	5	
+Model3: C: That sounds like a very positive attitude.	Valid		1	5	
+Model4: C: That sounds very spiritual. Did you have any problems with moving around on the plane or getting off?	Invalid				
+Model5: C: Is it annoying for you that you still have these problems now?	Valid		1	5	
+P: A bit, but I am so glad that I could go on vacation, that this part is way too little to make me upset.					
+Model1: C: That sounds like a positive attitude. Do you feel that your ability to travel and enjoy time with family is affected by these symptoms in other situations?	Valid		2	3	
+Model2: C: That’s a great perspective. It sounds like you’re finding ways to stay positive despite the challenges. Have you noticed any changes in your ability to sit comfortably for longer periods since coming back from your trip?	Valid		2	5	
+Model3: C: It sounds like you're managing well despite the challenges.	Valid		1	5	
+Model4: C: That's a very positive attitude. Do you feel like the trip changed anything for you or made any new realizations about your mobility?	Valid		1	2	
+Model5: C: That is very good. So you have energy to continue your treatment?	Invalid				
+P: Oh yes, I am so motivated, I will be without numbness in no time.					
+Model1: C: That’s great to hear. I’m glad you feel motivated and supported. Have you noticed any specific activities or strategies that help you manage the numbness better?	Valid		1	5	
+Model2: C: That’s wonderful to hear. I’m glad you were able to enjoy your trip and feel motivated moving forward. Have you noticed any specific strategies or activities that have helped you manage the numbness during daily tasks?	Valid		1	5	
+Model3: C: Great! Well, we can talk more about your treatment plan next time. For now, have a great trip and come back healthy!	Valid		1	5	
+Model4: C: Great! Now I want to ask you a question. Have you noticed any changes in your ability to move around or transfer yourself recently, especially with the use of equipment like walkers?	Valid		1	3	
+Model5: C: Sounds amazing. And then the next vacation can come.	Invalid				
+P. Already booked. With the help of my family I can conquer everything!					
+					
+C: Long time no see. How is it going?					
+P: True, I haven't seen you in a month. I am doing great. How about you?					
+Model1: C: That's wonderful to hear! I'm glad you're feeling well. Just to follow up, have you noticed any changes in your ability to move around independently, or are there specific situations where you feel less confident in moving around using equipment?	Valid		1	3	
+Model2: C: I’m doing well, thank you. I wanted to check in and see how you’re managing with your mobility since our last visit. Have things been going smoothly?	Valid		1	3	
+Model3: C: I'm doing well, thanks for asking. It's good to catch up with you.	Valid		1	5	
+Model4: C: I'm good. It's been a busy week, but everything is under control.	Valid		1	5	
+Model5: C: Also good. What have you been up to?	Valid		1	5	
+P: I did some trips with my husbands with the train. Celebrating that I am almost at my old self again.					
+Model1: C: That sounds wonderful! When using the train, do you feel confident navigating the station and boarding the train on your own?	Valid		1	1	
+Model2: C: That sounds wonderful! It’s great to hear you’re feeling more like yourself. Did the train trips require any specific kind of movement or use of equipment?	Valid		1	3	
+Model3: C: Sounds like a wonderful time! You're making progress. How was it getting around the train?	Valid		1	1	
+Model4: C: That sounds wonderful! You must be feeling really accomplished.	Valid		1	5	
+Model5: C: Sounds amazing! Where did you go?	Valid		1	5	
+P: Through France from the border of Germany until the border of spain.					
+Model1: C: That’s a wonderful journey! Did you use any mobility aids or transportation assistance during your travels?	Valid		1	5	
+Model2: C: That’s incredible! Traveling across France sounds like a major accomplishment. Did you use any mobility equipment during your trip?	Valid		1	3	
+Model3: C: That sounds incredible! How was the train ride?	Valid		1	5	
+Model4: C: Wow, that’s a long way! How was the train ride?	Valid		1	5	
+Model5: C: Lovely.	Valid		3	5	
+Note：Mistake，one response from patient is expected here, 1 model gave nothing. (Invalid input format）					
+Model1: C: That sounds like a wonderful journey. Did you use any mobility equipment during your travels, or did you rely on public transportation?	Valid		2	2	
+Model2: C: That’s incredible! How did you manage the trips—did you use any mobility equipment, or was it just your own strength?	Valid		1	3	
+Model3:					
+Model4: So, it sounds like you've been traveling quite a bit recently. How is your mobility with the train? Was there anything that stood out to you in terms of getting on and off?	Valid		1	1	
+Model5: C: How did the train rides go?	Valid		1	3	
+P: Actually really well. I can do almost everything on my own now.					
+Model1: C: That’s fantastic to hear! Did you need any assistance while traveling, or were you able to manage everything independently?	Valid		1	1	
+Model2: C: That’s fantastic to hear! Did you feel any challenges during the trip, like when boarding or navigating stations?	Valid		1	1	
+Model3: C: That's great! What kind of activities were you able to enjoy during your travels?	Valid		1	5	
+Model4: C: That’s wonderful to hear! Did you have a chance to use your walker while traveling?	Valid		1	5	
+Model5: C: Except for?	Valid		1	3	
+P: Except for going off to the train. There I still need to hold on to my husband and he carries the luggage for me.					
+Model1: C: I see. So when you get to the train station, you need assistance getting on the train and managing your luggage. Does that happen every time you take the train, or are there times when it’s easier?	Valid		1	1	
+Model2: C: That’s great to hear that you’re able to manage most things independently. Do you feel confident enough to try going to the train station on your own, or would you prefer some support?	Valid		1	1	
+Model3: C: I see. So, it's more about getting on the train than anything else?	Valid		1	1	
+Model4: C: That’s a bit of an issue. Did you have to rely on your husband for anything else during the trip?	Valid		1	1	
+Model5: C: Why is that?	Valid		2	3	
+P: Going down the stairs and then over the big gap is way more intimidating than going over it and then up the steps. I can't rationally explain it, but there I feel less secure and rather hold on to my love than fall.					
+Model1: C: That makes sense — it sounds like the transition over the gap feels less predictable or stable, even if it’s physically similar. Have you noticed any specific triggers or situations that make this feeling worse?	Valid		1	1	
+Model2: C: That makes sense. It sounds like the transition from the stairs to the platform is particularly challenging for you. Have you noticed if there are specific parts of that process where you feel less stable or more anxious?	Valid		1	1	
+Model3: C: That makes sense. Have you considered using a mobility aid, like a cane or walker, to help with balance and stability when moving around?	Valid		1	5	
+Model4: C: That makes sense. Have you tried using a mobility device like a walker or cane for that part of the journey?	Valid		1	5	
+Model5: C: That makes a lot of sense actually.	Valid		1	5	
+Note：Mistake，one response from patient is expected here. (Invalid input format）					
+Model1: C: I see. So when boarding the train, the transition from the platform to the train involves steps and a gap that feels more challenging for you?	Valid		1	1	
+Model2: C: I understand completely. It’s interesting how the sequence of steps can affect your confidence—sometimes it’s not about the physical challenge, but how it feels emotionally or psychologically. Have you noticed if there are other places or situations where you feel similarly unsure?	Valid		2	3	
+Model3: C: How are you feeling about needing your husband's help with the train?	Valid		1	5	
+Model4: C: It sounds like you still have some challenges with transferring yourself, even if it's not as severe as before. Can you tell me more about what those specific difficulties are for you?	Valid		1	1	
+Model5: C: How is your new independancy affecting your life?	Valid		1	3	
+P: So amazingly. I feel like myself again. I don't need my hsuband for everything and I can finally visit my daughter on my own. I just ask people to lift my luggage of the train for me and give me a hand.					
+Model1: C: That’s wonderful to hear. It sounds like you’re regaining a sense of autonomy and confidence. Do you feel any anxiety or hesitation when asking for help, even though you know it's necessary?	Valid		1	3	
+Model2: C: That’s incredible to hear—sounds like you’re regaining so much confidence and independence. Have you noticed any challenges or moments where you still feel uncertain, even with these small supports?	Valid		1	1	
+Model3: C: That sounds wonderful. What about when you're in a situation where you need to use the train but it's not available or there are no staff members around?	Valid		1	1	
+Model4: C: That sounds wonderful! What are your plans for the future?					
+Model5: C: That sounds like a great solution. How is your relationship affected by that?	Valid		1	5	
+P: Positively. It feels like we never fight at the moment and we are much more in harmony.					
+Model1: C: That’s wonderful to hear. Do you feel any pressure or guilt about not needing your husband for everything?	Valid		1	5	
+Model2: C: That’s wonderful to hear. It sounds like you’ve found a balance that supports both your independence and your relationship. Have you noticed any moments where you still feel unsure or need extra support, even with these adjustments?	Valid		1	3	
+Model3: C: That's wonderful! How do you feel about the future?	Valid		1	5	
+Model4: C: That’s wonderful. Do you ever feel overwhelmed or stressed when trying to be independent?	Valid		1	5	
+Model5: C: Love to hear that.	Valid		3	5	
+					
+C: Good morning Carla, how are you?					
+P: Best day ever. I am so good. How are you?					
+Model1: C: Thank you, Carla! I’m doing well too. I wanted to ask you a bit more about your mobility today—have you had any difficulty transferring yourself from one place to another, like from the bed to the chair?	Valid		1	5	
+Model2: C: I'm doing well, thank you. Let's talk about your mobility today—how have things been going with getting around?	Valid		1	3	
+Model3: C: I'm doing well, thank you for asking! You seem very cheerful today. What have been your main concerns or challenges lately?	Valid		1	5	
+Model4: C: I’m doing well, thank you. Now tell me a bit about yourself—your age and occupation.	Valid		1	5	
+Model5: C: I am also doing good. What is going on that you are so great?					
+P: Yesterday I used the bus and then afterwards the train completely on my own and nothing bad happened.					
+Model1: C: That’s wonderful to hear! Can you tell me more about how you managed getting on and off the bus and train — did you need any assistance or support from others?	Valid		1	1	
+Model2: C: That’s fantastic to hear! How did it feel being on the bus and train—did you have any trouble with getting on or off, or navigating the space?	Valid		1	1	
+Model3: C: That sounds really positive! Can you tell me more about how it was using the bus and then the train?	Valid		1	1	
+Model4: C: That’s amazing! How was your trip?	Valid		2	5	
+Model5: C: That sounds amazing. Where did you go?	Valid		2	5	
+P: To a movie theater.	Valid				
+Model1: C: That’s great to hear! Did you have any difficulty getting on or off the bus or train, or was it all very smooth for you?	Valid		2	2	
+Model2: C: That’s fantastic! How did you feel during the trip—did you have any difficulty getting on or off the bus or train?	Valid		1	1	
+Model3: C: Did you have any challenges getting on or off the bus?	Valid		1	1	
+Model4: C: Great! Did you have any trouble getting on or off the bus and train?	Valid		1	1	
+Model5: C: The feeling of being weak and unstable going on the bus is not there anymore?	Valid		5	3	
+P: I mean I am still a bit more worried of falling than I was before, but it is no comparison to the last weeks. I felt wuite strong and comfortable on the bus, the train I felt even better, because it does not have so many turns as the bus does.	Valid				
+Model1: C: It sounds like you're gaining confidence with each trip. Have you noticed any specific situations or environments where you still feel more cautious or uncertain?	Valid		1	1	
+Model2: C: That’s really encouraging to hear. So, the train felt more stable for you because of fewer turns—did that help you feel more confident in your balance?	Valid		1	2	
+Model3: C: That makes sense. And how did you feel when getting on and off the train? Did it take longer for you to get up from your seat or was there anything else that made you worry a bit more?	Valid		2	1	
+Model4: C: That’s great to hear! So, the feeling of being weak is more manageable now. How did you feel about getting on and off the bus? Were there any particular challenges?	Valid		1	1	
+Model5: C: I get what you mean. How did you deal with your luggage?	Valid		4	3	
+P: I had only a little bagpack with me and that was completly fine. Next time I will use a carry one just for practice. Then I know for sure if I am caoable of dealing with it on my own.	Valid				
+Model1: C: That sounds like a great plan for practice. Have you considered how you might feel when carrying the bagpack, and if there are any specific steps or strategies that make you feel more confident?	Valid		2	1	
+Model2: C: That’s a great plan—practicing with a carry-on will help build confidence. Have you noticed any specific moments during the trip where you felt unsure or had to adjust your movement?	Valid		2	1	
+Model3: C: That is a good plan. It sounds like you are becoming more confident with your mobility.	Valid		3	3	
+Model4: C: That’s a great plan. What about the steps from the train platform to your apartment?	Valid		2	1	
+Model5: C: That sounds like a great idea. I wish more of my patients would be so motivated.	Valid		5	5	
+P: And now I won't be your patient that much longer.	Valid				
+Model1: C: I’ll miss having you as a patient, but I’m so proud of your progress. Are there any other places or situations you’d like to try navigating on your own soon?	Valid		1	1	
+Model2: C: That’s wonderful to hear, Carla. I’m really proud of you for taking such positive steps toward independence. Are there any other activities or places you’d like to try on your own now that you feel more confident?	Valid		1	1	
+Model3: C: Well, we can always use your help for some other tasks. How are you feeling about getting back to work?	Valid		3	3	
+Model4: C: Oh, we are going to miss you.	Valid		5	5	
+Model5: C: Which is sad for me, but great for you.	Valid		5	5	
+P: Exactly.	Valid				
+Model1: C: I’m really glad to hear that you’re feeling more confident and independent. Is there anything else you’d like to work on before you finish your sessions?	Valid		1	2	
+Model2: C: I’m really proud of you, Carla. It’s amazing how far you’ve come. Are there any other places or situations you’d like to try navigating on your own next?	Valid		1	1	
+Model3: C: Do you have any plans to go somewhere on your own soon?	Valid		2	2	
+Model4: C: So, what's the main reason you're here today?	Invalid		5	5	
+Model5: C: How did your family react to your news?	Valid		3	5	
+P: They love it. As long as I am happy, they are also happy.	Valid				
+Model1: C: That’s wonderful to hear. It sounds like your family is very supportive of your independence and progress. Do you feel confident that this level of confidence will continue as you move forward?	Valid		1	2	
+Model2: C: That’s wonderful to hear. It sounds like your family is really supportive of your independence and progress. Have you thought about how you’ll continue managing transportation on your own in the future?	Valid		1	1	
+Model3: C: That is wonderful.	Valid		3	5	
+Model4: C: That is wonderful. What about your future plans?	Valid		3	4	
+Model5: C: Are you excited to go back to work?	Valid		5	4	
+P: Yes, I missed having something to do and talking with my favorite colleges.	Valid				
+Model1: C: That’s wonderful to hear. Do you feel confident about returning to work, or would you like to prepare in any specific way?	Valid		1	2	
+Model2: C: That’s wonderful to hear. I’m so glad you’re feeling more confident and excited about your return to work. Do you feel like you have the support you need to manage your commute and tasks at work?	Valid		1	1	
+Model3: C: Sounds wonderful. What do you think is the most important thing that has changed for you since your accident?	Valid		2	4	
+Model4: C: What do you think will be the biggest challenge for you when returning to work?	Valid		1	4	
+Model5: C: Are you worried about something?	Valid		2	4	
+P: The only thing is that I am afraid to go to quick into my old habits and my body is not ready for that yet.	Valid				
+Model1: C: That makes sense. It’s important to take things at your own pace. Would you feel more comfortable if we set some small goals for the next few weeks to ease back into your routine?	Valid		1	2	
+Model2: C: That’s a thoughtful concern. How do you plan to ease back into your old routines?	Valid		1	2	
+Model3: C: That makes sense. We will take it slow, okay?	Valid		4	5	
+Model4: C: That makes sense. Let’s talk more about your plans for the future and how we can support you in achieving them.	Valid		2	3	
+Model5: C: Just listen to your body and it will be fine.	Invalid		5	5	
+P: Yes, I will really give my body more attention. Thank you!					
+					
+C: Hello, I’m Emma, your physiotherapist, what’s your name?					
+P: I’m Liam.					
+Model1: C: Great to meet you, Liam. Can you tell me a bit about why you're here today? Are you looking for help with moving around or doing certain tasks?					
+Model2: C: Nice to meet you, Liam. How are you feeling today?					
+Model3: C: Great to meet you, Liam. How old are you?					
+Model4: C: Nice to meet you, Liam. How old are you?					
+Model5: C: Nice to meet you, Liam. How has your day been?					
+P: It could be better.					
+Model1: C: I'm sorry to hear that. Can you tell me more about what's been making it difficult for you today?					
+Model2: C: I'm sorry to hear that. Is there anything specific that’s been making it a harder day?					
+Model3: C: Can you tell me a little bit about what’s been on your mind lately?					
+Model4: C: Can you tell me a bit more about that? What’s been on your mind?					
+Model5: C: Why is that? What brings you in today?					
+P: I have trouble using transportation.	Valid				
+Model1: C: Can you tell me more about the specific challenges you face when using transportation? Do you find it difficult to get on or off the vehicle, or is it more about navigating around the bus stop or street?	Valid		3	1	
+Model2: C: Can you tell me more about what’s difficult when you use transportation? Is it getting in or out of the vehicle, driving, or something else?	Valid		3	1	
+Model3: C: Can you tell me more about that? What kind of transportation do you usually use?	Valid		1	2	
+Model4: C: Can you tell me more about that? What kind of transportation do you use, and what makes it challenging for you?	Valid		1	2	
+Model5: C: I am sorry to hear that. Could you please elaborate.	Valid		2	4	
+P: I have knee pain that has been so severe, I can only travel door-to-door via taxi.	Valid				
+Model1: C: I see. Have you noticed any specific situations or times of day when the knee pain worsens, making it harder to use transportation?	Valid		1	1	
+Model2: C: I see. How long have you been experiencing this knee pain?	Valid		2	3	
+Model3: C: That must be very frustrating. Can you tell me more about your experiences with taxis? For instance, have there been any particular challenges or situations that make it difficult for you?	Invalid		5	5	
+Model4: C: That sounds really challenging. Do you feel like the pain is limiting your daily activities?	Valid		3	3	
+Model5: C: That sounds worrisome. Could you tell me a bit more about your pain? Where is it and what exacerbates it.	Valid		2	4	
+P: So, it’s my left knee, and every time I put weight on it, there is a severe stabbing pain. It feels as if its deep inside the knee.	Valid				
+Model1: C: I see. That must be very challenging for you. Have you noticed any specific situations or times of day when the pain seems to get worse?	Valid		1	2	
+Model2: C: I see. Have you noticed any limitations in your ability to walk or move around at home, even with the taxi?	Invalid				even with the taxi is not a valid extension
+Model3: C: That sounds really uncomfortable. Have you tried any treatments for this pain yet?	Valid		3	4	
+Model4: C: That’s very uncomfortable. Have you noticed any changes in your pain level or intensity recently?	Valid		2	4	
+Model5: C: What would you rate that pain on a scale from 0-10, 10 being the worst pain imaginable.	Valid		2	4	
+P: It’s around an 8.	Valid				
+Model1: C: That’s quite painful. Have you noticed any specific activities or times of day when the pain seems to get worse?	Valid		1	2	
+Model2: C: That’s quite intense. Have you noticed any specific activities or times of day when the pain is worse?	Valid		1	2	
+Model3: C: Have you had any recent changes in your living situation or activities that might be contributing to this pain?	Valid		2	3	
+Model4: C: That’s quite severe. Have you been experiencing this pain for a while now, or has it recently started to become more frequent and intense?	Valid		2	4	
+Model5: C: I can imagine you’re feeling quite frustrated by this pain and the inability to travel independently.	Valid		3	2	
+P: Yeah it really is, I just want to know what’s wrong with my leg and how I can fix it. I would do anything for that to happen.	Valid				
+Model1: C: I appreciate your determination, Liam. Let’s start by understanding more about how this pain affects your daily life — for example, are there specific times of day when the pain is worse, or does it interfere with any activities beyond just using transportation?	Valid		1	1	
+Model2: C: That’s understandable, Liam. It sounds like you’re really hoping for clarity and a way forward. Have you noticed any specific activities or times of day when the pain seems to get worse?	Valid		1	2	
+Model3: C: That’s understandable. Can you tell me a bit more about your daily life and activities? What do you enjoy doing when you’re not feeling too bad?	Valid		3	3	
+Model4: C: That makes sense. Have you noticed any changes in your daily activities or routines because of this pain?	Valid		2	3	
+Model5: C: I completely understand. We’ll get to the bottom of your knee pain.	Valid		3	5	
+P: You’re a life saver					
+					
+C: Good afternoon Mrs. Adams, my name is Greg.					
+P: Oh please, call me Marguerite.					
+Model1: C: Of course, Marguerite. I'm glad you could meet with me today. I understand you're concerned about your ability to move around safely at home. Could you tell me more about how you typically get from one place to another in your home?					
+Model2: C: Of course, Marguerite. How are you today?					
+Model3: C: Of course, Marguerite. How are you feeling today?					
+Model4: C: Of course! How are you today, Marguerite?					
+Model5: C: Marguerite, got it. Before we get started, I notice that your GP isn’t registered in our , do you happen to know his name?					
+P: Yes of course, its Dr. Jacobs					
+Model1: C: Thank you, Dr. Jacobs. I’ll make sure to note that down. Now, Marguerite, I’d like to ask you a few questions about your mobility and daily activities. Could you tell me if you’ve had any difficulty transferring yourself from a seated position to standing, such as when getting up from a chair or bed?					
+Model2: C: Thank you, Dr. Jacobs is a pleasure to work with. Now, I understand you’ve been experiencing some difficulty with mobility lately—can you tell me more about what’s been happening?					
+Model3: C: And how did you find out about us? Was it through a referral or just online?					
+Model4: C: Dr. Jacobs, thank you for referring us.					
+Model5: C: Alright, perfect, I added it to your file. What brings you in today?					
+P: Unfortunately, ever since October, I haven’t been able to travel to the city like I used to.	Valid				
+Model1: C: I see. Can you tell me more about what makes traveling to the city difficult for you? Are there specific steps or parts of the journey that feel challenging?	Valid		1	1	
+Model2: C: I see. Can you tell me more about what makes traveling to the city difficult for you?	Valid		1	1	
+Model3: C: That must be really frustrating for you. Can you tell me more about what’s been making it difficult to get around?	Valid		2	1	
+Model4: C: I see. Is it a specific issue you're having with traveling, or more general mobility concerns?	Valid		1	2	
+Model5: C: Before October, how did you travel into the city?	Valid		4	3	
+P: I would take the tram close to my house.	Valid				
+Model1: C: And once you got to the tram stop, how did you manage getting onto the tram? Did you need any assistance or have any difficulty with that part of the journey?	Valid		2	2	
+Model2: C: And then how did you get from the tram to your destination? Did you walk, or use a mobility aid?	Valid		2	2	
+Model3: C: And then you'd walk the rest of the way, right?	Invalid				
+Model4: C: And once you were off the tram, how would you get to your destination?	Valid		2	3	
+Model5: C: What makes it that you can no longer do that?	Valid		1	3	
+P: I can, but no longer alone. I am dependent on my partner. He has to help me board and find a seat.	Valid				
+Model1: C: I see. Have you noticed any changes in your ability to move around or use your hands since October?	Valid		3	3	
+Model2: C: I see. So you’re still able to take the tram, but you need assistance with boarding and finding a seat? Have you noticed any changes in your ability to move around independently, like walking or standing for longer periods?	Valid		1	1	
+Model3: C: That must be really frustrating for you. Have you tried using a mobility aid like a cane or walker to make it easier?	Valid		3	3	
+Model4: C: That’s a big change. Do you feel like it affects your independence or freedom to go out and do things on your own?	Valid		3	4	
+Model5: C: I see, what part of the journey do you struggle with most?	Valid		4	4	
+P: Climbing the three steps onto the tram is painful, and I’m unsteady once I’m inside.	Valid				
+Model1: C: How has this dependency on your partner affected your confidence or independence in other areas of daily life?	Valid		3	3	
+Model2: C: How often do you need assistance with those steps—every time you take the tram, or just on certain days?	Valid		1	1	
+Model3: C: That sounds challenging. Are there any times of day or specific situations that make it easier for you?	Valid		1	1	
+Model4: C: That makes sense. What about transferring to the train station—do you find that a challenge?	Valid		2	1	
+Model5: C: That sounds frustrating. How does relying on someone else every day make you feel?	Valid		3	3	
+P: It makes me feel a bit guilty but at the same time a little embarrassed.	Valid				
+Model1: C: I appreciate you sharing that. Do you feel comfortable asking for help when you need it, or does the embarrassment make it harder for you to go out?	Valid		1	2	
+Model2: C: That must be really difficult. Have you thought about any ways to make the trip easier or more independent, even if it’s just a small step?	Valid		1	1	
+Model3: C: Can you tell me more about how that guilt and embarrassment affect your daily life?	Valid		3	3	
+Model4: C: Do you find that it affects your mood or daily activities in other ways?	Valid		3	3	
+Model5: C: I can understand that but do note that it is nothing to be embarrassed about. Tell me, are you at all afraid you are going to fall?	Valid		3	3	
+P: Very. A friend of mine recently fell and broke her hip. At the moment she can’t do anything at all anymore. God forbid that happens to me.	Valid				
+Model1: C: That’s a valid concern, and it’s understandable given what you’ve heard about your friend. Have you talked to your partner about how you both feel about this situation?	Valid		1	2	
+Model2: C: That’s a valid concern, and it’s completely natural to feel that way. Have you thought about any ways to make the tram journey safer or more manageable for you?	Valid		1	1	
+Model3: C: That must be really worrying for you. Do you have anyone to help with groceries or other errands?	Valid		5	5	
+Model4: C: That’s understandable, but we can work on solutions for your safety. Before we get to that though, do you have any other concerns about traveling?	Valid		1	2	
+Model5: C: Thank you for sharing	Valid		5	5	
+					
+C: Hi, I’m Jenna, your physiotherapist, what’s your name?					
+P: I’m Alex.					
+Model1: C: Hi, Alex. I'm Jenna, your physiotherapist. Can you tell me a bit about why you're here today and what you'd like to achieve with your mobility?					
+Model2: C: Nice to meet you, Alex. How are you feeling today?					
+Model3: C: Nice to meet you, Alex. Can you tell me a little bit about what brings you here today?					
+Model4: C: Nice to meet you, Alex. How old are you?					
+Model5: C: Nice to meet you, Alex. How has your day been so far?					
+P: It’s been alright.					
+Model1: C: I'm glad to hear that. Can you tell me a bit about how you usually get around during the day?					
+Model2: C: Thank you for coming in today, Alex. Can you tell me a bit about why you’re here?					
+Model3: C: That’s great to hear. Can you tell me a bit about what brings you here today?					
+Model4: C: Anything exciting happening today?					
+Model5: C: What brings you in today?					
+P: I’ve been having trouble catching the city bus to work.	Valid				
+Model1: C: Can you tell me more about the specific challenges you face when trying to catch the bus?	Valid		1	1	
+Model2: C: I see. Can you tell me a bit more about what’s difficult when you try to catch the bus?	Valid		1	1	
+Model3: C: Can you tell me more about that? What specifically is challenging for you?	Valid		1	2	
+Model4: C: That sounds challenging. Can you tell me more about what’s happening with the bus?	Valid		3	3	
+Model5: C: Why is that?	Valid		3	3	
+P: The route the bus takes is extremely bumpy and every bump, or even a sudden stop, sends a jolting pain through my lower back.	Valid				
+Model1: C: Have you noticed if this pain is related to any specific movements or positions when you're on the bus?	Valid		1	1	
+Model2: C: That sounds really uncomfortable. Have you tried using a different route or time of day to catch the bus?	Valid		3	2	
+Model3: C: That sounds uncomfortable. Have you tried to adjust your position on the bus or use any support?	Valid		1	2	
+Model4: C: That sounds really uncomfortable. Have you tried using a different route or time of day to avoid the worst parts?	Valid		3	2	
+Model5: C: Is it focal or does the pain also radiate to any other locations in the body?	Valid		1	3	
+P: Its purely in the lower back	Valid				
+Model1: C: Have you noticed if the pain is worse at certain times of day or after specific activities?	Valid		1	2	
+Model2: C: How long have you been experiencing this pain when riding the bus?	Valid		1	1	
+Model3: C: How long have you been experiencing this pain and discomfort?	Valid		1	3	
+Model4: C: How long have you been experiencing this?	Valid		1	3	
+Model5: C: Could you rate this pain from 0, no pain at all, to 10, the worst pain ever?	Valid		1	3	
+P: I would give it a 4 or a 5. The pain is manageable with pain killers, and albeit its annoying, halfway I have to transfer buses, which gives my back a break.	Valid				
+Model1: C: I see. So you’re able to manage the pain with medication, and transferring buses helps give your back a break. Do you feel safe getting on and off the bus, or do you ever worry about losing balance or falling?	Valid		3	1	
+Model2: C: That makes sense. So, when you’re on the bus, the bumps and sudden stops are what trigger the pain? Have you noticed if certain types of buses or routes are worse than others?	Valid		2	1	
+Model3: C: Thank you for sharing that with me, Alex. Can I ask how this has been affecting your daily life and overall mood?	Valid		3	4	
+Model4: C: Have you noticed any changes in your ability to transfer—like getting on and off the bus, or navigating stairs?	Valid		3	1	
+Model5: C: What kind of painkillers do you take and do you take them every morning in anticipation of the bumpy bus ride?	Valid		2	2	
+P: I take 2 paracetamols every morning before I go to work.	Valid				
+Model1: C: Have you noticed if the pain changes in intensity or feels different at any point during your bus ride?	Valid		1	1	
+Model2: C: Have you noticed any specific times of day when the pain is more or less bothersome?	Valid		2	2	
+Model3: C: Do you find that helps with the pain at all when on public transport?	Valid		2	1	
+Model4: C: That’s helpful to know. Have you tried using a mobility aid, like a cane or walker on the bus?	Valid		3	2	
+Model5: C: Do you ever feel frustrated or discouraged traveling to work.	Valid		3	2	
+P: Honestly yes but I need the money so I never take any days off.	Valid				
+Model1: C: It sounds like you’re managing your pain effectively, but the frustration of daily travel must be challenging. Have you considered any alternative transportation options that might be smoother or more comfortable for your back?	Valid		1	1	
+Model2: C: That’s really understandable, and I appreciate your dedication to work. Have you considered any alternative transportation options that might be easier on your back?	Valid		2	1	
+Model3: C: That makes sense, but have you considered any other transportation options like a taxi or rideshare services?	Valid		3	2	
+Model4: C: What are your plans for the future? Do you think this situation will change, or is it something that will be a long-term challenge?	Valid		5	3	
+Model5: C: Has your back pain affected your confidence in getting around independently?	Valid		1	3	
+P: No, I wouldn’t say so. I get to where I need to be but and I’m confident in my ability to do so. The journey is simply a nuisance and frustrating.	Valid				
+Model1: C: Thank you for sharing that, Alex. It sounds like your main concern is the discomfort and frustration during the bus ride rather than a loss of independence. Have you considered alternative transportation options, such as a smoother route or using a different mode of transport, like a taxi or rideshare, to reduce the impact on your back?	Valid		1	1	
+Model2: C: That’s good to hear you feel confident in your ability to get around. Have you considered alternative transportation options that might be smoother or less jarring for your back?	Valid		1	1	
+Model3: C: What do you think would make it easier for you to travel?	Valid		1	1	
+Model4: C: Do you have any support system for dealing with the stress of these daily challenges?	Valid		1	1	
+Model5: C: I know what you mean. I’ll take a look at your back and afterwards we’ll come up with a treatment plan to solve this issue.	Invalid		3	3	invalid because of 'solve'
+P: Alright.					
+					
+C: Hello Jane, it’s good to see you again, how are you today?					
+P: Hi, I’m doing alright, thanks.	Valid				
+Model1: C: That’s great to hear. I noticed you mentioned some difficulty moving around recently—could you tell me more about when and where this happens?	Valid		1	2	
+Model2: C: Great to hear. I noticed you’ve been using a cane more recently—how has that been working for you?	Valid		2	2	
+Model3: C: That’s great to hear. Can you tell me a bit about what brings you here today?	Valid		1	4	
+Model4: C: Great! We talked a bit last time about your mobility issues and the difficulty you had using your walker. I want to explore this further today.	Valid		1	2	
+Model5: C: How has your week been since our last session?	Valid		2	4	
+P: It’s been busy but I’ve been managing.	Valid				
+Model1: C: Can you tell me more about how you manage your transfers at home, especially when getting in and out of the shower or bed?	Valid		3	4	
+Model2: C: That’s good to hear. Have you noticed any changes in your ability to move around or use equipment like a cane or walker?	Valid		3	4	
+Model3: C: That’s great to hear. Let me just check in on how you’re feeling about your mobility overall. Have there been any changes or challenges that came up for you recently?	Valid		1	2	
+Model4: C: That’s good. Now, let me ask you a bit more about how you’re feeling in terms of mobility and transfers—how have those been for you lately?	Valid		1	1	
+Model5: C: Have you been facing any troubles taking the bus to work?	Valid		4	3	
+P: A bit, but I can tell that things are going in the positive direction.	Valid				
+Model1: C: That’s encouraging to hear. Can you tell me more about what specifically is making it a bit challenging when you take the bus?	Valid		1	1	
+Model2: C: That’s good to hear. Can you tell me more about what’s been challenging when taking the bus?	Valid		2	1	
+Model3: C: That’s great to hear! Can you tell me a bit more about what’s been challenging for you with the bus?	Valid		2	1	
+Model4: C: That’s good to hear. Can you tell me more about what's been challenging for you with transfers?	Valid		3	1	
+Model5: C: What troubles did you run into?	Valid		3	4	
+P: The mornings are always busy. Usually I stand for the first 10 minutes on the bus, but after the train station stop, I can sit for the remaining 15. Monday that wasn’t the case.	Valid				
+Model1: C: Can you tell me more about what happened on Monday? Did anything feel different or challenging compared to other days?	Valid		2	2	
+Model2: C: I see. Were you able to find a seat at all that day?	Valid		3	2	
+Model3: C: Can you tell me more about what happened on Monday morning? What made it different from other days?	Valid		2	2	
+Model4: C: Can you tell me a little more about what happened on Monday?	Valid		3	2	
+Model5: C: How did your body respond to that?	Valid		3	3	
+P: Surprisingly I managed until the end of the ride however I felt It a lot in my body.	Valid				
+Model1: C: Did the discomfort affect your mood or ability to focus on anything else during the ride?	Valid		2	1	
+Model2: C: Did you notice any specific areas of discomfort or fatigue after the bus ride?	Valid		1	1	
+Model3: C: That sounds challenging. Have you noticed any particular times or situations when it's harder for you to get on and off the bus?	Valid		4	3	
+Model4: C: Can you tell me more about what happened? Was it pain or fatigue?	Valid		2	3	
+Model5: C: Where in your body did you feel it?	Valid		2	3	
+P: My legs and lower back were sore for about 3-4 days.	Valid				
+Model1: C: Have you noticed any patterns in how the soreness affects your ability to do other activities during the week?	Valid		1	2	
+Model2: C: That’s a lot to manage. Have you noticed any specific movements or postures on the bus that might be contributing to that discomfort?	Valid		1	1	
+Model3: C: That must have been uncomfortable. Did you try to do anything about it?	Valid		3	4	
+Model4: C: And what about your arms? Did they feel like a challenge during the bus ride or when you were getting off?	Valid		5	2	
+Model5: C: How do you feel about this experience.	Valid		5	5	
+P: The soreness was irritating but I was happy to see that I am capable of enduring the entire ride. I just wish I didn’t get so sore afterwards.	Valid				
+Model1: C: It sounds like you’re making progress in your ability to handle the bus ride, which is great to hear. Have you thought about ways you might be able to reduce the soreness after the trip?	Valid		1	1	
+Model2: C: That’s a good insight—being able to complete the ride is definitely a positive step. Have you noticed any specific movements or positions on the bus that made the soreness worse?	Valid		3	1	
+Model3: C: That’s great to hear! It sounds like you’re making some progress in terms of managing your mobility challenges.	Valid		2	3	
+Model4: C: That’s a great attitude to have! Have you noticed any changes in your daily routine or activities since this issue started?	Valid		3	3	
+Model5: C: I’m glad you see this as a positive experience. I believe with some muscular endurance training we can smoothen your bus journeys within no time.	Valid		3	3	
+P: That sounds amazing!					
+					
+C: Good morning Joshua, how are you doing today?					this is a weak conversation, not  useful in mij opinion
+P: Hi Michael, I’m doing good, how about yourself?					
+Model1: C: I’m doing well, thank you. Let’s talk about your mobility today. Have you had any difficulty transferring yourself from one place to another, like moving from a chair to the bed or into a wheelchair?					
+Model2: C: I’m doing well, thank you. Let’s talk about your mobility today. How have you been managing with your walking stick?					
+Model3: C: I'm doing well, thank you for asking! So Joshua, what brings you here today?					
+Model4: C: I’m doing well too. It’s a lovely day outside, isn’t it?					
+Model5: C: I am also good, thanks for asking! Did you have a good holiday?					
+P: Yeah it was great! The family and I flew to Malta and took a ferry to one of the nearby islands.					
+Model1: C: That sounds like a wonderful trip! When you were on the ferry, did you have any difficulty moving around or using the equipment on board?					
+Model2: C: That sounds amazing! How did you manage getting around during your trip—did you use any mobility equipment?					
+Model3: C: That sounds wonderful! What was it like traveling on the ferry?					
+Model4: C: That sounds amazing! What was it like on the ferry?					
+Model5: C: That sounds wonderful. Did you have much trouble with the plane or ferry?					
+P: It all went swimmingly!					
+Model1: C: Great to hear! When you were on the ferry, did you feel confident moving around or did you need any assistance with balance or coordination?					
+Model2: C: That’s great to hear! How did you manage getting on and off the plane and ferry—did you use any mobility equipment?					
+Model3: C: Great! I'm glad to hear that. Now, let's talk about your mobility a bit more. Have you noticed any difficulties transferring yourself from one surface to another lately?					
+Model4: C: Great! How was your time on the island—did you enjoy it?					
+Model5: C: How did your new ACL hold up during the trip.					
+P: Works like a charm, had no pain whatsoever.					
+Model1: C: That’s great to hear! When you were on the ferry, did you need assistance getting in or out of your seat or moving around?					
+Model2: C: That’s fantastic to hear! How did you manage getting on and off the plane or ferry—did you use any assistance?					
+Model3: C: Great to hear that! What about moving around once you got there? Were there any challenges with walking on uneven surfaces or stairs?					
+Model4: C: Great to hear! What about with walking and standing on the island? Was it any more challenging than usual?					
+Model5: C: That’s great to hear! You didn’t get any swelling in the leg when you were in the plane?					
+P: A little bit but no more than any other person. I was by the emergency doors so I had the leg room to stretch and move around a bit.	Valid				
+Model1: C: That makes sense. Did you feel any difficulty moving around on the ferry or in your accommodation while you were there?	Valid		1	2	
+Model2: C: That’s helpful to know. Did you feel any difficulty moving around on the ferry or in your hotel room?	Valid		2	2	
+Model3: C: That’s helpful to know. How did you feel about flying with the new ACL?	Valid		2	2	
+Model4: C: That’s smart of you. Did you have any trouble with walking or standing on the ferry?	Valid		1	1	
+Model5: C: Some extra leg room is always nice. Sounds like you had a very nice trip.	Valid		4	5	
+P: It was great					
+Model1: C: I'm glad to hear that. Since you had the opportunity to move around quite a bit on the ferry, did you feel any limitations in moving your leg or arm while navigating the space?					
+Model2: C: I'm glad to hear that. Now, how did you manage getting around on the ferry—did you use any mobility equipment or assistance?					
+Model3: C: How did you feel about the ferry ride?					
+Model4: C: I’m glad to hear that. You looked very happy on the photos you sent me.					
+Model5: C: I can imagine this trip boosted your spirits.					
+P: 100 percent. I was having some serious doubts, I didn’t believe that the ligament would survive the trip. I was close to canceling. I guess I’m much more capable than I thought.					
+Model1: C: That’s a powerful realization, Joshua. It sounds like the trip not only tested your mobility but also reinforced your confidence. Have you noticed any changes in how you approach future activities or travel plans since returning?					
+Model2: C: That’s amazing to hear—your confidence must have grown a lot through this experience. How did it feel when you realized the ACL was holding up?					
+Model3: C: That’s a great realization, and it sounds like the trip really helped you regain confidence in your abilities.					
+Model4: C: That’s great to hear. It sounds like you were really enjoying yourself and exploring new things.					
+Model5: C: That you are. Shall we get started with our session? There’re still a few extra degrees of flexion we can get out of that knee.					
+P: Let’s do it!					

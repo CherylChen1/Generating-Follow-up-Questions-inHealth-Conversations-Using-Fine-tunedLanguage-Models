@@ -1,0 +1,3652 @@
+[
+  {
+    "dialogue_id": 1,
+    "turn_index": 2,
+    "followup_question": "C: I’m sorry to hear that, can you explain why that is the case?"
+  },
+  {
+    "dialogue_id": 1,
+    "turn_index": 3,
+    "followup_question": "C: How annoying. You said “recently”, can you tell me how many days you have been struggling with this issue."
+  },
+  {
+    "dialogue_id": 1,
+    "turn_index": 4,
+    "followup_question": "C: OK. I’ll try my best to help you. So, can you elaborate a little further by telling me what exactly is limiting your ability to transfer from wheelchair to bed."
+  },
+  {
+    "dialogue_id": 1,
+    "turn_index": 5,
+    "followup_question": "C: The lack of strength, does that have to do with your legs?"
+  },
+  {
+    "dialogue_id": 1,
+    "turn_index": 6,
+    "followup_question": "C: Has it become impossible to transfer or do you eventually get there?"
+  },
+  {
+    "dialogue_id": 1,
+    "turn_index": 7,
+    "followup_question": "C: Where in the process of transferring does it go wrong? Are you able to stand up from your chair?"
+  },
+  {
+    "dialogue_id": 1,
+    "turn_index": 8,
+    "followup_question": "C: That sounds very frustrating, has that taken a large toll on you?"
+  },
+  {
+    "dialogue_id": 1,
+    "turn_index": 9,
+    "followup_question": "C: I understand. Do you have any other feelings regarding your current condition?"
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 2,
+    "followup_question": "C: Since this is the first time we meet, is it okay if I ask a few personal questions?"
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 3,
+    "followup_question": "C: OK. So, how old are and could you describe your living environment."
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 4,
+    "followup_question": "C: What did you do for work?"
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 5,
+    "followup_question": "C: Alright, so can you now tell me why you are here today?"
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 6,
+    "followup_question": "C: I’m sorry to hear that. Currently, how are you managing to get out of bed?"
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 7,
+    "followup_question": "C: What part of getting out of bed do you need help with?"
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 8,
+    "followup_question": "C: And so, your husband helps by pulling you up?"
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 9,
+    "followup_question": "C: Does your husband help you a lot or do you only need a little assistance."
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 10,
+    "followup_question": "C: Has this been difficult for you and your husband?"
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 11,
+    "followup_question": "C: Does your husband have issues with his back?"
+  },
+  {
+    "dialogue_id": 2,
+    "turn_index": 12,
+    "followup_question": "C: I understand, we’re going to do our best to keep you and your husband healthy."
+  },
+  {
+    "dialogue_id": 3,
+    "turn_index": 2,
+    "followup_question": "C: Nice to meet you too. How old are you Elisabeth?"
+  },
+  {
+    "dialogue_id": 3,
+    "turn_index": 3,
+    "followup_question": "C: Alright Susanne, what can I help you with?"
+  },
+  {
+    "dialogue_id": 3,
+    "turn_index": 4,
+    "followup_question": "C: That’s unfortunate. So, it’s difficult but not impossible?"
+  },
+  {
+    "dialogue_id": 3,
+    "turn_index": 5,
+    "followup_question": "C: If I were to ask you to repeatedly stand up and sit back down, how many times do you reckon you could do it?"
+  },
+  {
+    "dialogue_id": 3,
+    "turn_index": 6,
+    "followup_question": "C: And each and everyone one of those feels physically demanding?"
+  },
+  {
+    "dialogue_id": 3,
+    "turn_index": 7,
+    "followup_question": "C: Purely from out your muscles or do you also get out of breath?"
+  },
+  {
+    "dialogue_id": 3,
+    "turn_index": 8,
+    "followup_question": "C: How do you feel about your situation?"
+  },
+  {
+    "dialogue_id": 3,
+    "turn_index": 9,
+    "followup_question": "C: Do you feel like your age?"
+  },
+  {
+    "dialogue_id": 3,
+    "turn_index": 10,
+    "followup_question": "C: I feel for you. We’re going to work on your ability to transfer and that should leave you feeling more capable."
+  },
+  {
+    "dialogue_id": 4,
+    "turn_index": 2,
+    "followup_question": "C: That’s great to hear! Last few sessions we worked on floor transfers in case you fall onto the floor. Have you practiced those at home?"
+  },
+  {
+    "dialogue_id": 4,
+    "turn_index": 3,
+    "followup_question": "C: That’s fine, it’s something new so we will continue to work on that today."
+  },
+  {
+    "dialogue_id": 4,
+    "turn_index": 4,
+    "followup_question": "C: Alright so let’s start off with the difficulties you mentioned having."
+  },
+  {
+    "dialogue_id": 4,
+    "turn_index": 5,
+    "followup_question": "C: I see, do you have the idea that your strength is insufficient?"
+  },
+  {
+    "dialogue_id": 4,
+    "turn_index": 6,
+    "followup_question": "C: OK. In a second, we will get to the movements but first I would like to ask some additional questions."
+  },
+  {
+    "dialogue_id": 4,
+    "turn_index": 7,
+    "followup_question": "C: Its now been quite a while since you have had your spinal injury, how has it been adapting to your new way of living."
+  },
+  {
+    "dialogue_id": 4,
+    "turn_index": 8,
+    "followup_question": "C: That’s wonderful to hear! Let’s keep up the good work and get to practicing those transfers."
+  },
+  {
+    "dialogue_id": 5,
+    "turn_index": 2,
+    "followup_question": "C: I’m also doing good. So, I see based on your referral that you had a small stroke a few months ago is that correct?"
+  },
+  {
+    "dialogue_id": 5,
+    "turn_index": 3,
+    "followup_question": "C: OK. I see the reason the doctor referred you was in order to improve your physical condition. We will focus on strength and cardiovascular endurance training. But first, in the file I see you had some issues transferring, is that still the case?"
+  },
+  {
+    "dialogue_id": 5,
+    "turn_index": 4,
+    "followup_question": "C: You don’t find yourself in any situations where you feel unsure of your ability to transfer?"
+  },
+  {
+    "dialogue_id": 5,
+    "turn_index": 5,
+    "followup_question": "C: You no longer require any assistance?"
+  },
+  {
+    "dialogue_id": 5,
+    "turn_index": 6,
+    "followup_question": "C: Perfect, the transfers itself, are they physically demanding or would you have to do them several times back to back in order to experience any exertion"
+  },
+  {
+    "dialogue_id": 5,
+    "turn_index": 7,
+    "followup_question": "C: That’s great to hear. Is it okay if I ask you some additional questions before we start our training session?"
+  },
+  {
+    "dialogue_id": 5,
+    "turn_index": 8,
+    "followup_question": "C: After a stroke, I imagine a lot changes in one’s life. How have you experienced this?"
+  },
+  {
+    "dialogue_id": 5,
+    "turn_index": 9,
+    "followup_question": "C: Have you changed your lifestyle at all after the stroke?"
+  },
+  {
+    "dialogue_id": 5,
+    "turn_index": 10,
+    "followup_question": "C: Anything else"
+  },
+  {
+    "dialogue_id": 6,
+    "turn_index": 2,
+    "followup_question": "C: Would you tell me more about it?"
+  },
+  {
+    "dialogue_id": 6,
+    "turn_index": 3,
+    "followup_question": "C: I'm sorry about that. Could you get up with help?"
+  },
+  {
+    "dialogue_id": 6,
+    "turn_index": 4,
+    "followup_question": "C: I do feel for you. I'm sure it'll get better. Do you need any assistance when you walk?"
+  },
+  {
+    "dialogue_id": 6,
+    "turn_index": 5,
+    "followup_question": "C: I see that. Are you able to do anything with the wheelchair by yourself?"
+  },
+  {
+    "dialogue_id": 6,
+    "turn_index": 6,
+    "followup_question": "C: I see. So we will need to work on your strength, so you will be less dependant on your son."
+  },
+  {
+    "dialogue_id": 6,
+    "turn_index": 7,
+    "followup_question": "C: That's good to know. You mentioned you live with your partner, has she been helpful?"
+  },
+  {
+    "dialogue_id": 6,
+    "turn_index": 8,
+    "followup_question": "C: How are you coping with your current situation?"
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 2,
+    "followup_question": "C: Nice to meet you Heinz. How are you doing today?"
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 3,
+    "followup_question": "C: I am sorry to hear that. Do you feel comfortable to leave your bed with a bit of help?"
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 4,
+    "followup_question": "C: Understandable. For this morning I will help you and then we will build up your strength together."
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 5,
+    "followup_question": "C: With which part of getting out of bed do you have the most problems?"
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 6,
+    "followup_question": "C: Why do you think that is the hardest?"
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 7,
+    "followup_question": "C: And do you feel like you will fall over to the front, back or to one side?"
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 8,
+    "followup_question": "C: Do you have the same feeling when you are standing or is it just like that when you are seated?"
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 9,
+    "followup_question": "C: Are you dependant an your significant other for help?"
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 10,
+    "followup_question": "C: How are you coping with this frustration?"
+  },
+  {
+    "dialogue_id": 7,
+    "turn_index": 11,
+    "followup_question": "C: It is good to hear that you have so much support. And I am sure we will get you stronger in the coming weaks so you have it easier leaving your bed."
+  },
+  {
+    "dialogue_id": 8,
+    "turn_index": 2,
+    "followup_question": "C: Can I ask you what went wrong?"
+  },
+  {
+    "dialogue_id": 8,
+    "turn_index": 3,
+    "followup_question": "C: Thank you for sharing your difficulty with that process. We can do it now together and I can show you what the best position is to not tense up your abdominal muscles and then you can try it on your own under my supervision. How does that sound?"
+  },
+  {
+    "dialogue_id": 8,
+    "turn_index": 4,
+    "followup_question": "C: Now you are standing. How would you proceed further to sit down on the toilet?"
+  },
+  {
+    "dialogue_id": 8,
+    "turn_index": 5,
+    "followup_question": "C: I see your problem. Do you not trust the steadiness of your rollator or is the pain that strong that you get scared?"
+  },
+  {
+    "dialogue_id": 8,
+    "turn_index": 6,
+    "followup_question": "C: Okay, I see. I will show you how much you can trust the rollator, because trust me, the brakes are amazing and then you don't need the help of the nurse anymore and you are only dependant on the rollator."
+  },
+  {
+    "dialogue_id": 8,
+    "turn_index": 7,
+    "followup_question": "C: Do you have any help at home?"
+  },
+  {
+    "dialogue_id": 8,
+    "turn_index": 8,
+    "followup_question": "C: Oh no, I am so sorry to hear that. But that means as soon as your out of the hospital you will have help? Or you will still live alone for a bit?"
+  },
+  {
+    "dialogue_id": 8,
+    "turn_index": 9,
+    "followup_question": "C: Please let me know until our next meeting how your situation at home will look like so I can prepare your abilities."
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 2,
+    "followup_question": "C: I am also good. Thanks for asking. Can you tell me which inconveniences are bothering you?"
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 3,
+    "followup_question": "C: I understand what you mean. We can practice it together so you are more comfortable with that. How does that sound?"
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 4,
+    "followup_question": "C: I am sure you are not bothering people if you ask for help. The nurses and I gladly help you."
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 5,
+    "followup_question": "C: Good morning, I am Rihanon and I will help you today."
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 6,
+    "followup_question": "C: That is lovely to hear. Would you mind telling me what makes it difficult for you?"
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 7,
+    "followup_question": "C: Is it more the bending to the front, side ot back that is harsh on your body?"
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 8,
+    "followup_question": "C: Great that you can describe it that detailed. So we will work on that today and we will try to get the trust in your body back. Sounds good?"
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 9,
+    "followup_question": "C: I want to ask you about the situation at home. Do you feel comfortable living alone again?"
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 10,
+    "followup_question": "C: How do you cope? Are you calling somebody?"
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 11,
+    "followup_question": "C: How do you feel about that?"
+  },
+  {
+    "dialogue_id": 9,
+    "turn_index": 12,
+    "followup_question": "C: Understandable. I am sure you will soon be independant!"
+  },
+  {
+    "dialogue_id": 10,
+    "turn_index": 2,
+    "followup_question": "C: I am also good. How is your daily live going? Do you have any problems?"
+  },
+  {
+    "dialogue_id": 10,
+    "turn_index": 3,
+    "followup_question": "C: That sounds amazing. So you don't feel put back by anything?"
+  },
+  {
+    "dialogue_id": 10,
+    "turn_index": 4,
+    "followup_question": "C: You told me last time that you still have some problems getting out of your wheelchair. Is that still true?"
+  },
+  {
+    "dialogue_id": 10,
+    "turn_index": 5,
+    "followup_question": "C: I am very glad to hear that. So you don't have problems anymore with extending your hip?"
+  },
+  {
+    "dialogue_id": 10,
+    "turn_index": 6,
+    "followup_question": "C: And you did not get any different medication?"
+  },
+  {
+    "dialogue_id": 10,
+    "turn_index": 7,
+    "followup_question": "C: Amazing! I wanted to ask you about your situation at home and if that improved since you are able to do everything on your own."
+  },
+  {
+    "dialogue_id": 10,
+    "turn_index": 8,
+    "followup_question": "C: That sounds nice. Anything that is bothering you."
+  },
+  {
+    "dialogue_id": 10,
+    "turn_index": 9,
+    "followup_question": "C: I understand. But now you can play with your grandkids and not miss out on any activity."
+  },
+  {
+    "dialogue_id": 11,
+    "turn_index": 2,
+    "followup_question": "C: Would you tell me more about it?"
+  },
+  {
+    "dialogue_id": 11,
+    "turn_index": 3,
+    "followup_question": "C: I'm sorry about that. Could you get up with help?"
+  },
+  {
+    "dialogue_id": 11,
+    "turn_index": 4,
+    "followup_question": "C: I do feel for you. I'm sure it'll get better. Do you need any assistance when you walk?"
+  },
+  {
+    "dialogue_id": 11,
+    "turn_index": 5,
+    "followup_question": "C: I see that. Are you able to get on the wheelchair by yourself?"
+  },
+  {
+    "dialogue_id": 11,
+    "turn_index": 6,
+    "followup_question": "C: I see. Is it difficult for you to transfer to the toilet?"
+  },
+  {
+    "dialogue_id": 11,
+    "turn_index": 7,
+    "followup_question": "C: That's good to know. You mentioned you live with your partner, has he/ she been helpful?"
+  },
+  {
+    "dialogue_id": 11,
+    "turn_index": 8,
+    "followup_question": "C: How are you coping with your current situation?"
+  },
+  {
+    "dialogue_id": 12,
+    "turn_index": 2,
+    "followup_question": "C: Can I ask you what went wrong?"
+  },
+  {
+    "dialogue_id": 12,
+    "turn_index": 3,
+    "followup_question": "C: Thank you for sharing your difficulty with that process. We can do it now together and I can show you what the best position is to not tense up your abdominal muscles and then you can try it on your own under my supervision. How does that sound?"
+  },
+  {
+    "dialogue_id": 12,
+    "turn_index": 4,
+    "followup_question": "C: Now you are standing. How would you proceed further to sit down on the toilet?"
+  },
+  {
+    "dialogue_id": 12,
+    "turn_index": 5,
+    "followup_question": "C: I see your problem. You don't use your arms at all which means your upper body can only rely on your abdominal muscles. Let me demonstrate how you can protect these."
+  },
+  {
+    "dialogue_id": 12,
+    "turn_index": 6,
+    "followup_question": "C: So if you are standing in front of the toilet you have two handles next to it. So you get into a bit of a squat position but really not a lot. Then you put both of your hands on the handles and put your weight on the arms and not on stomach. After that you can slowly guide yourself down into a sitting position. Wanna try?"
+  },
+  {
+    "dialogue_id": 12,
+    "turn_index": 7,
+    "followup_question": "C: Do you have any help at home?"
+  },
+  {
+    "dialogue_id": 12,
+    "turn_index": 8,
+    "followup_question": "C: Oh no, I am so sorry to hear that. But that means as soon as your out of the hospital you will have help? Or you will still live alone for a bit?"
+  },
+  {
+    "dialogue_id": 12,
+    "turn_index": 9,
+    "followup_question": "C: Please let me know until our next meeting how your situation at home will look like so I can prepare your abilities."
+  },
+  {
+    "dialogue_id": 13,
+    "turn_index": 2,
+    "followup_question": "C: Sorry to hear that. Could you tell me what is bothering you?"
+  },
+  {
+    "dialogue_id": 13,
+    "turn_index": 3,
+    "followup_question": "C: Why is that so difficult?"
+  },
+  {
+    "dialogue_id": 13,
+    "turn_index": 4,
+    "followup_question": "C: Is it your right or left hand? I assume it is your dominant side?"
+  },
+  {
+    "dialogue_id": 13,
+    "turn_index": 5,
+    "followup_question": "C: I understand. Are you able to carry bigger objects, like your phone?"
+  },
+  {
+    "dialogue_id": 13,
+    "turn_index": 6,
+    "followup_question": "C: I understand why you would think that. But actually the more you will use the hand, the more the brain can build up the connection to the muscles again."
+  },
+  {
+    "dialogue_id": 13,
+    "turn_index": 7,
+    "followup_question": "C: Is that situation affecting your mental state?"
+  },
+  {
+    "dialogue_id": 13,
+    "turn_index": 8,
+    "followup_question": "C: Thank you for sharing that with me. Do you live alone or together with your family?"
+  },
+  {
+    "dialogue_id": 13,
+    "turn_index": 9,
+    "followup_question": "C: How does that make you feel?"
+  },
+  {
+    "dialogue_id": 13,
+    "turn_index": 10,
+    "followup_question": "C: Understandable."
+  },
+  {
+    "dialogue_id": 14,
+    "turn_index": 2,
+    "followup_question": "C: Alright. Have you been experiencing any difficulties recently?"
+  },
+  {
+    "dialogue_id": 14,
+    "turn_index": 3,
+    "followup_question": "C: I completly understand and I think it will get a lot better with all the rehabilitation exercises I will show you."
+  },
+  {
+    "dialogue_id": 14,
+    "turn_index": 4,
+    "followup_question": "C: Are you able to use your injured side for eating?"
+  },
+  {
+    "dialogue_id": 14,
+    "turn_index": 5,
+    "followup_question": "C: Is the stiffness affecting your daily life?"
+  },
+  {
+    "dialogue_id": 14,
+    "turn_index": 6,
+    "followup_question": "C: Is there any pain during eating in your elbow?"
+  },
+  {
+    "dialogue_id": 14,
+    "turn_index": 7,
+    "followup_question": "C: That makes sense, so you are painfree?"
+  },
+  {
+    "dialogue_id": 14,
+    "turn_index": 8,
+    "followup_question": "C: How does being dependant on other people make you feel?"
+  },
+  {
+    "dialogue_id": 14,
+    "turn_index": 9,
+    "followup_question": "C: You feelings are absolutely valid. And being dependant never feels the best, but you will see the progres and that you will need less help any day."
+  },
+  {
+    "dialogue_id": 14,
+    "turn_index": 10,
+    "followup_question": "C: As long as you stick to your exercises and you do something for improvement and not be lazy, I can guarantee you, you will see progres, fast."
+  },
+  {
+    "dialogue_id": 15,
+    "turn_index": 2,
+    "followup_question": "C: That sounds amazing. How was it."
+  },
+  {
+    "dialogue_id": 15,
+    "turn_index": 3,
+    "followup_question": "C: Makes sense, but then the dogs also develop massive strength."
+  },
+  {
+    "dialogue_id": 15,
+    "turn_index": 4,
+    "followup_question": "C: How is the rest going? Are you able to use your injured arm in most scenarios?"
+  },
+  {
+    "dialogue_id": 15,
+    "turn_index": 5,
+    "followup_question": "C: What exactly is making it hard for you?"
+  },
+  {
+    "dialogue_id": 15,
+    "turn_index": 6,
+    "followup_question": "C: So we will work on the tiny movements with your fingers."
+  },
+  {
+    "dialogue_id": 15,
+    "turn_index": 7,
+    "followup_question": "C: How do you manage your daily life at home?"
+  },
+  {
+    "dialogue_id": 15,
+    "turn_index": 8,
+    "followup_question": "C: What exactly is bothering you?"
+  },
+  {
+    "dialogue_id": 15,
+    "turn_index": 9,
+    "followup_question": "C: I understand. But I can promise you that we will work on the tiny motions and you will be sooner independant again than you can say \"cheese\"."
+  },
+  {
+    "dialogue_id": 16,
+    "turn_index": 2,
+    "followup_question": "C: I am great, thanks for asking. I am Peter, your nurse for today. What is still problematic for you? I heard your surgery isnow 6 weeks ago."
+  },
+  {
+    "dialogue_id": 16,
+    "turn_index": 3,
+    "followup_question": "C: Such a cool job. How often do you practice?"
+  },
+  {
+    "dialogue_id": 16,
+    "turn_index": 4,
+    "followup_question": "C: So I think the goal for the next 2 weeks is to work on your stiffness. How exactly do you feel it."
+  },
+  {
+    "dialogue_id": 16,
+    "turn_index": 5,
+    "followup_question": "C: Which movements are stiff? More the flexion or extension of the fingers?"
+  },
+  {
+    "dialogue_id": 16,
+    "turn_index": 6,
+    "followup_question": "C: Great that you can describe it that clear. So we will work on extension and flexion in every finger to increase the mobility."
+  },
+  {
+    "dialogue_id": 16,
+    "turn_index": 7,
+    "followup_question": "C: We will take it slow at the beginning so you don't have any pain appearing, but then yes."
+  },
+  {
+    "dialogue_id": 16,
+    "turn_index": 8,
+    "followup_question": "C: How secure are you in your job position?"
+  },
+  {
+    "dialogue_id": 16,
+    "turn_index": 9,
+    "followup_question": "C: What worries you the most?"
+  },
+  {
+    "dialogue_id": 16,
+    "turn_index": 10,
+    "followup_question": "C: We will work extra special on the mobility and with a lot of practice you will get your mobility back."
+  },
+  {
+    "dialogue_id": 17,
+    "turn_index": 2,
+    "followup_question": "C: Also good. Thanks for asking. How is the healing progres going?"
+  },
+  {
+    "dialogue_id": 17,
+    "turn_index": 3,
+    "followup_question": "C: You think? You have full mobility and strength back?"
+  },
+  {
+    "dialogue_id": 17,
+    "turn_index": 4,
+    "followup_question": "C: So your elbow and wrist fracture is not affecting you at all anymore."
+  },
+  {
+    "dialogue_id": 17,
+    "turn_index": 5,
+    "followup_question": "C: That sounds amazing. So not even holding the newspaper page is making you problems anymore? We practiced that last week."
+  },
+  {
+    "dialogue_id": 17,
+    "turn_index": 6,
+    "followup_question": "C: So happy to hear that. So what do you wanna practice today?"
+  },
+  {
+    "dialogue_id": 17,
+    "turn_index": 7,
+    "followup_question": "C: How do you feel about having your last physio session and getting back to your old routine?"
+  },
+  {
+    "dialogue_id": 17,
+    "turn_index": 8,
+    "followup_question": "C: Why scared?"
+  },
+  {
+    "dialogue_id": 17,
+    "turn_index": 9,
+    "followup_question": "C: I can assure you that as long as you keep it moving and do the exercises at home you will alright. It is not going to get broken just like that."
+  },
+  {
+    "dialogue_id": 18,
+    "turn_index": 2,
+    "followup_question": "C: That sounds nice! What's your dog's name?"
+  },
+  {
+    "dialogue_id": 18,
+    "turn_index": 3,
+    "followup_question": "C: Oh, Timo—cute name! What did you two play?"
+  },
+  {
+    "dialogue_id": 18,
+    "turn_index": 4,
+    "followup_question": "C: That’s good! Sounds like your arms are feeling much better now."
+  },
+  {
+    "dialogue_id": 18,
+    "turn_index": 5,
+    "followup_question": "C: That’s good to hear. So, did you feel any discomfort when throwing the frisbee?"
+  },
+  {
+    "dialogue_id": 18,
+    "turn_index": 6,
+    "followup_question": "C: That’s a good sign! How about your grip? Did you feel like you had a solid hold on the frisbee?"
+  },
+  {
+    "dialogue_id": 18,
+    "turn_index": 7,
+    "followup_question": "C: That’s progress! What about other activities, like carrying groceries or opening jars? Are those getting any easier too?"
+  },
+  {
+    "dialogue_id": 18,
+    "turn_index": 8,
+    "followup_question": "C: How does it feel seeing some progress?"
+  },
+  {
+    "dialogue_id": 18,
+    "turn_index": 9,
+    "followup_question": "C: That's good to hear. Do you ever get discouraged, though, when things don’t go as smoothly?"
+  },
+  {
+    "dialogue_id": 19,
+    "turn_index": 2,
+    "followup_question": "C: Sorry about that. Could you tell me more?"
+  },
+  {
+    "dialogue_id": 19,
+    "turn_index": 3,
+    "followup_question": "C: Why was it difficult?"
+  },
+  {
+    "dialogue_id": 19,
+    "turn_index": 4,
+    "followup_question": "C: i assume right is your dominant side?"
+  },
+  {
+    "dialogue_id": 19,
+    "turn_index": 5,
+    "followup_question": "C: I see. Are you able to carry, for example, groceries?"
+  },
+  {
+    "dialogue_id": 19,
+    "turn_index": 6,
+    "followup_question": "C: I understand you concern, you had a surgery for that already. P : Exactly, And after the surgery, my sholder became very stiff. I can't raise my arm over sholder anymore. It's also weaker than the other side."
+  },
+  {
+    "dialogue_id": 19,
+    "turn_index": 7,
+    "followup_question": "C: Does this situation affect you emotionally?"
+  },
+  {
+    "dialogue_id": 19,
+    "turn_index": 8,
+    "followup_question": "C: Good to know. Do you live by yourself or with your family?"
+  },
+  {
+    "dialogue_id": 19,
+    "turn_index": 9,
+    "followup_question": "C: I'm sure she is. Do you have kids?"
+  },
+  {
+    "dialogue_id": 20,
+    "turn_index": 2,
+    "followup_question": "C: Well. Have you been experiencing any difficulties recently?"
+  },
+  {
+    "dialogue_id": 20,
+    "turn_index": 3,
+    "followup_question": "C: I understand. I'm sure things will get easier soon enough."
+  },
+  {
+    "dialogue_id": 20,
+    "turn_index": 4,
+    "followup_question": "C: Are you able to use you injured side now?"
+  },
+  {
+    "dialogue_id": 20,
+    "turn_index": 5,
+    "followup_question": "C: How much would you rate your pain level from 0 to 10, during exercise and rest?"
+  },
+  {
+    "dialogue_id": 20,
+    "turn_index": 6,
+    "followup_question": "C: It's 4 weeks after surgery. I'd say it's pretty normal. Has it gotten any better?"
+  },
+  {
+    "dialogue_id": 20,
+    "turn_index": 7,
+    "followup_question": "C: You feelings are absolutely valid. And you're rigtht, that this process is not too pleasant, but you'll see the good result. Does your wrist cause any emotional changes?"
+  },
+  {
+    "dialogue_id": 20,
+    "turn_index": 8,
+    "followup_question": "C: I understand your worries. As long as you keep rehab programs, and check with you PT regularly. I'm pretty positive you'll be on the right track."
+  },
+  {
+    "dialogue_id": 20,
+    "turn_index": 9,
+    "followup_question": "C: Is there anyone living with you, who can help you a bit?"
+  },
+  {
+    "dialogue_id": 21,
+    "turn_index": 2,
+    "followup_question": "C: thats terrible. when did this accident happened?"
+  },
+  {
+    "dialogue_id": 21,
+    "turn_index": 3,
+    "followup_question": "C:I see, how do you feel now?"
+  },
+  {
+    "dialogue_id": 21,
+    "turn_index": 4,
+    "followup_question": "C: can you explain whats the problem in your ankle?"
+  },
+  {
+    "dialogue_id": 21,
+    "turn_index": 5,
+    "followup_question": "C: do you mean when you try to put your weight on it became more painful?"
+  },
+  {
+    "dialogue_id": 21,
+    "turn_index": 6,
+    "followup_question": "C: do you use any walking aids?"
+  },
+  {
+    "dialogue_id": 21,
+    "turn_index": 7,
+    "followup_question": "C:  does your stranding people helpful nowadays"
+  },
+  {
+    "dialogue_id": 21,
+    "turn_index": 8,
+    "followup_question": "C: where is your wife?"
+  },
+  {
+    "dialogue_id": 22,
+    "turn_index": 2,
+    "followup_question": "C: my doctor is positive about the surgery and all the process I guess"
+  },
+  {
+    "dialogue_id": 22,
+    "turn_index": 3,
+    "followup_question": "C: what is your complaint about your walker?"
+  },
+  {
+    "dialogue_id": 22,
+    "turn_index": 4,
+    "followup_question": "C: oh why do you think like that?"
+  },
+  {
+    "dialogue_id": 22,
+    "turn_index": 5,
+    "followup_question": "C: OK you feel not comfortable because you feel weak or there is something related to you. You’re not familiar how to use that."
+  },
+  {
+    "dialogue_id": 22,
+    "turn_index": 6,
+    "followup_question": "C: Shahr wheelchair is an option and we can switch to wheelchair but being active after surgery. It’s quite important for you."
+  },
+  {
+    "dialogue_id": 22,
+    "turn_index": 7,
+    "followup_question": "C: sure I will ask for a wheelchair for you and also report to the nurse. Hopefully that makes you happier."
+  },
+  {
+    "dialogue_id": 22,
+    "turn_index": 8,
+    "followup_question": "C: you have the right to feel like that and we are here to make sure you can heal fast and better."
+  },
+  {
+    "dialogue_id": 22,
+    "turn_index": 9,
+    "followup_question": "C: do you have anyone who can support you at home when you leaving hospital?"
+  },
+  {
+    "dialogue_id": 22,
+    "turn_index": 10,
+    "followup_question": "C: I understand your concern. I will talk to your GP and as I know, usually nurse will teach you and help you with your basics. At the end, it will be fine no worries."
+  },
+  {
+    "dialogue_id": 23,
+    "turn_index": 2,
+    "followup_question": "C: I can see to reported you have a knee problem."
+  },
+  {
+    "dialogue_id": 23,
+    "turn_index": 3,
+    "followup_question": "C: nice, do you ski for long time?"
+  },
+  {
+    "dialogue_id": 23,
+    "turn_index": 4,
+    "followup_question": "C: what kind of skiing?"
+  },
+  {
+    "dialogue_id": 23,
+    "turn_index": 5,
+    "followup_question": "C: Can you explain what kind of pain you have on your knee? And which side is it?"
+  },
+  {
+    "dialogue_id": 23,
+    "turn_index": 6,
+    "followup_question": "C: Okay, is it the same problem as before or you feel new pain?"
+  },
+  {
+    "dialogue_id": 23,
+    "turn_index": 7,
+    "followup_question": "C: okay, when did the new pain started?"
+  },
+  {
+    "dialogue_id": 23,
+    "turn_index": 8,
+    "followup_question": "C: to what extend it affecting your skiing?"
+  },
+  {
+    "dialogue_id": 23,
+    "turn_index": 9,
+    "followup_question": "C: do you mean this situation make you less social and do you feel any depression or something?"
+  },
+  {
+    "dialogue_id": 23,
+    "turn_index": 10,
+    "followup_question": "C: understand do you have any person around you? Who could you talk to and like have some support?"
+  },
+  {
+    "dialogue_id": 24,
+    "turn_index": 2,
+    "followup_question": "C: I’m very fine thank you. you ever really nice wheelchair."
+  },
+  {
+    "dialogue_id": 24,
+    "turn_index": 3,
+    "followup_question": "C: is everything going well with the wheelchair?"
+  },
+  {
+    "dialogue_id": 24,
+    "turn_index": 4,
+    "followup_question": "C: I’m glad you brought the topic. I also agree with you. Your progress has been really great and I guess it’s time to adjust your walking aid to walker instead of filter."
+  },
+  {
+    "dialogue_id": 24,
+    "turn_index": 5,
+    "followup_question": "C: yeah sure I was following your progress and I believe it’s the time."
+  },
+  {
+    "dialogue_id": 24,
+    "turn_index": 6,
+    "followup_question": "C: how do you feel about your rehab process?"
+  },
+  {
+    "dialogue_id": 24,
+    "turn_index": 7,
+    "followup_question": "C: exactly you have been showing amazing progress and it is really nice also for me as a physiotherapist to see you are getting better day by day."
+  },
+  {
+    "dialogue_id": 24,
+    "turn_index": 8,
+    "followup_question": "C: personally makes me happy as I said it’s really nice to see and hear that."
+  },
+  {
+    "dialogue_id": 25,
+    "turn_index": 2,
+    "followup_question": "C: so nice to hear that."
+  },
+  {
+    "dialogue_id": 25,
+    "turn_index": 3,
+    "followup_question": "C: pretty good I could do scuba diving again."
+  },
+  {
+    "dialogue_id": 25,
+    "turn_index": 4,
+    "followup_question": "C: nice and you had not any dizziness and any problem afterwards, right?"
+  },
+  {
+    "dialogue_id": 25,
+    "turn_index": 5,
+    "followup_question": "C: how about the equipment?"
+  },
+  {
+    "dialogue_id": 25,
+    "turn_index": 6,
+    "followup_question": "C: how about your trauma after that accident? Do you feel comfortable enough to scuba diving alone?"
+  },
+  {
+    "dialogue_id": 25,
+    "turn_index": 7,
+    "followup_question": "C: what does your psychologist says for your situation?"
+  },
+  {
+    "dialogue_id": 25,
+    "turn_index": 8,
+    "followup_question": "C: I’m so happy to hear that."
+  },
+  {
+    "dialogue_id": 26,
+    "turn_index": 2,
+    "followup_question": "C: Glad to know. Have you met any difficulties recently?"
+  },
+  {
+    "dialogue_id": 26,
+    "turn_index": 3,
+    "followup_question": "C: What problem did you meet?"
+  },
+  {
+    "dialogue_id": 26,
+    "turn_index": 4,
+    "followup_question": "C: I'm sorry about that. Could you give me more information about why you were not able to get on the train?"
+  },
+  {
+    "dialogue_id": 26,
+    "turn_index": 5,
+    "followup_question": "C: I see. It must be too heavy for you."
+  },
+  {
+    "dialogue_id": 26,
+    "turn_index": 6,
+    "followup_question": "C: Right. It is quite heavy. What about with someone's help?"
+  },
+  {
+    "dialogue_id": 26,
+    "turn_index": 7,
+    "followup_question": "C: That's very true. How are you dealing with that situation mentally?"
+  },
+  {
+    "dialogue_id": 26,
+    "turn_index": 8,
+    "followup_question": "C: You're right. Are you frustrated because the government could have done a better job?"
+  },
+  {
+    "dialogue_id": 26,
+    "turn_index": 9,
+    "followup_question": "C: I agree. So you're not satisfied with the adaptation of train. Other than that, how do you generally feel about your life?"
+  },
+  {
+    "dialogue_id": 27,
+    "turn_index": 2,
+    "followup_question": "C: Same here. Sunshine always brightens my mood. Do you have any complaints? about your body, about your life?"
+  },
+  {
+    "dialogue_id": 27,
+    "turn_index": 3,
+    "followup_question": "C: Sorry about that. Do you live with you wife?"
+  },
+  {
+    "dialogue_id": 27,
+    "turn_index": 4,
+    "followup_question": "C: What made it difficult for her?"
+  },
+  {
+    "dialogue_id": 27,
+    "turn_index": 5,
+    "followup_question": "C: Sorry to hear about that. I assume you have a manual wheelchair, right?"
+  },
+  {
+    "dialogue_id": 27,
+    "turn_index": 6,
+    "followup_question": "C: Is she able to help you when she's herself?"
+  },
+  {
+    "dialogue_id": 27,
+    "turn_index": 7,
+    "followup_question": "C: How do you feel about that?"
+  },
+  {
+    "dialogue_id": 27,
+    "turn_index": 8,
+    "followup_question": "C: It must be difficult for you. How are you coping with that feeling?"
+  },
+  {
+    "dialogue_id": 27,
+    "turn_index": 9,
+    "followup_question": "C: You're right that this is only a natural process."
+  },
+  {
+    "dialogue_id": 28,
+    "turn_index": 2,
+    "followup_question": "C: Great. How have you been lately?"
+  },
+  {
+    "dialogue_id": 28,
+    "turn_index": 3,
+    "followup_question": "C: Good to know! Life's been great for you! Let know if there anything bothering you currently."
+  },
+  {
+    "dialogue_id": 28,
+    "turn_index": 4,
+    "followup_question": "C: Why do you feel unsafe?"
+  },
+  {
+    "dialogue_id": 28,
+    "turn_index": 5,
+    "followup_question": "C: How long has it been?"
+  },
+  {
+    "dialogue_id": 28,
+    "turn_index": 6,
+    "followup_question": "C: What about after you get on the boat? Any discomfort?"
+  },
+  {
+    "dialogue_id": 28,
+    "turn_index": 7,
+    "followup_question": "C: I see. How do you feel about this change?"
+  },
+  {
+    "dialogue_id": 28,
+    "turn_index": 8,
+    "followup_question": "C: It doesn't have to be."
+  },
+  {
+    "dialogue_id": 28,
+    "turn_index": 9,
+    "followup_question": "C: Absolutely. We can schedule a visit and see what we can do to get you back on the boat safely."
+  },
+  {
+    "dialogue_id": 29,
+    "turn_index": 2,
+    "followup_question": "C: You mentioned last time you had difficulty getting on and off the boat. Are you feeling any better?"
+  },
+  {
+    "dialogue_id": 29,
+    "turn_index": 3,
+    "followup_question": "C: That's good to know. How long have you been training?"
+  },
+  {
+    "dialogue_id": 29,
+    "turn_index": 4,
+    "followup_question": "C: Congratulaitions, you've achieved a lot. Would you describe to me how you are getting on and off now?"
+  },
+  {
+    "dialogue_id": 29,
+    "turn_index": 5,
+    "followup_question": "C: I see. Is that why you lost your balance?"
+  },
+  {
+    "dialogue_id": 29,
+    "turn_index": 6,
+    "followup_question": "C: Would you say you're totally able to get on your boat on your own now."
+  },
+  {
+    "dialogue_id": 29,
+    "turn_index": 7,
+    "followup_question": "C: How do you see you current progress?"
+  },
+  {
+    "dialogue_id": 29,
+    "turn_index": 8,
+    "followup_question": "C: You're right. And happy to see that you're making progress."
+  },
+  {
+    "dialogue_id": 29,
+    "turn_index": 9,
+    "followup_question": "C: If you're motivated, I'm sure you can still improve."
+  },
+  {
+    "dialogue_id": 30,
+    "turn_index": 2,
+    "followup_question": "C: Good to know that everything's great. Did you get better with your boat riding?"
+  },
+  {
+    "dialogue_id": 30,
+    "turn_index": 3,
+    "followup_question": "C: Oh, why's that?"
+  },
+  {
+    "dialogue_id": 30,
+    "turn_index": 4,
+    "followup_question": "C: What kind of adaptations?"
+  },
+  {
+    "dialogue_id": 30,
+    "turn_index": 5,
+    "followup_question": "C: It sounds helpful for you."
+  },
+  {
+    "dialogue_id": 30,
+    "turn_index": 6,
+    "followup_question": "C: I agree. You're right. Do you still have difficulty with the hand rail?"
+  },
+  {
+    "dialogue_id": 30,
+    "turn_index": 7,
+    "followup_question": "C: That's great news! How do you feel about that?"
+  },
+  {
+    "dialogue_id": 30,
+    "turn_index": 8,
+    "followup_question": "C: I understand. It's a natural process, but the good side is, you're don't have any troubles with using the boat."
+  },
+  {
+    "dialogue_id": 30,
+    "turn_index": 9,
+    "followup_question": "C: I see your concern, but..."
+  },
+  {
+    "dialogue_id": 31,
+    "turn_index": 2,
+    "followup_question": "C: Oh, what's happening?"
+  },
+  {
+    "dialogue_id": 31,
+    "turn_index": 3,
+    "followup_question": "C: I'm sure it can be fixed. What's wrong with it?"
+  },
+  {
+    "dialogue_id": 31,
+    "turn_index": 4,
+    "followup_question": "C: I'm very sorry about that. Were you injured?"
+  },
+  {
+    "dialogue_id": 31,
+    "turn_index": 5,
+    "followup_question": "C: So sorry. Let's solve the problem before that. How long have you been using the wheelchair?"
+  },
+  {
+    "dialogue_id": 31,
+    "turn_index": 6,
+    "followup_question": "C: No worries, sir. We can find a solution in any case. I need to collect necessary information, so that we can help you more efficiently."
+  },
+  {
+    "dialogue_id": 31,
+    "turn_index": 7,
+    "followup_question": "C: Understood. It's marked down. I'll see what I can do. In the meantime, how would you cope with the situation lately?"
+  },
+  {
+    "dialogue_id": 31,
+    "turn_index": 8,
+    "followup_question": "C: How would this make you feel? Staying home for a few days?"
+  },
+  {
+    "dialogue_id": 31,
+    "turn_index": 9,
+    "followup_question": "C: I see. Max 3 days at home."
+  },
+  {
+    "dialogue_id": 32,
+    "turn_index": 2,
+    "followup_question": "C: I shall try. You came to visit a neurologist 6 months ago, and diagnosed with Parkinson's. I'm sorry about that."
+  },
+  {
+    "dialogue_id": 32,
+    "turn_index": 3,
+    "followup_question": "C: You are the expert. How has it been for you after the visit?"
+  },
+  {
+    "dialogue_id": 32,
+    "turn_index": 4,
+    "followup_question": "C: I can imagine how tough it must be for you."
+  },
+  {
+    "dialogue_id": 32,
+    "turn_index": 5,
+    "followup_question": "C: It's safer to have someone by your side. How long has it been?"
+  },
+  {
+    "dialogue_id": 32,
+    "turn_index": 6,
+    "followup_question": "C: I feel for you. Could you describe your symptoms?"
+  },
+  {
+    "dialogue_id": 32,
+    "turn_index": 7,
+    "followup_question": "C: Does these new changes haev any emotional impact on you?"
+  },
+  {
+    "dialogue_id": 32,
+    "turn_index": 8,
+    "followup_question": "C: It's good that you're prepared. And you know a lot about it already."
+  },
+  {
+    "dialogue_id": 32,
+    "turn_index": 9,
+    "followup_question": "C: Do you think you can get support from others when necessary?"
+  },
+  {
+    "dialogue_id": 33,
+    "turn_index": 2,
+    "followup_question": "C:What's troubling you?"
+  },
+  {
+    "dialogue_id": 33,
+    "turn_index": 3,
+    "followup_question": "C: How do you go around now? With walker, wheelchair? Or do you mean by bus, or bike?"
+  },
+  {
+    "dialogue_id": 33,
+    "turn_index": 4,
+    "followup_question": "C: Sorry that you had trouble with you rollator. Could tell me your concern?"
+  },
+  {
+    "dialogue_id": 33,
+    "turn_index": 5,
+    "followup_question": "C: Were you able to walk at home with your rollator?"
+  },
+  {
+    "dialogue_id": 33,
+    "turn_index": 6,
+    "followup_question": "C: I understand, it's hard to make the decision. Is it difficult for you to keep balance with rollator."
+  },
+  {
+    "dialogue_id": 33,
+    "turn_index": 7,
+    "followup_question": "C: I completely understand your situation. How are you feeling with that issue?"
+  },
+  {
+    "dialogue_id": 33,
+    "turn_index": 8,
+    "followup_question": "C: I agree. Your preference should be considered. Do you get enough support from others when you need it?"
+  },
+  {
+    "dialogue_id": 33,
+    "turn_index": 9,
+    "followup_question": "C: It could be challanging to offer you proper care, and it's important to keep your independence and privacy. Do you think a PT session to assess your living situation and visits of social worker would be of help?"
+  },
+  {
+    "dialogue_id": 34,
+    "turn_index": 2,
+    "followup_question": "C: Sorry to hear that. Do you have any complaintes?"
+  },
+  {
+    "dialogue_id": 34,
+    "turn_index": 3,
+    "followup_question": "C: Oh no, how did you fall?"
+  },
+  {
+    "dialogue_id": 34,
+    "turn_index": 4,
+    "followup_question": "C: How many often does it happen?"
+  },
+  {
+    "dialogue_id": 34,
+    "turn_index": 5,
+    "followup_question": "C: How long has it been?"
+  },
+  {
+    "dialogue_id": 34,
+    "turn_index": 6,
+    "followup_question": "C: I understand your concern. Have you noticed anything that might trigger those moments?"
+  },
+  {
+    "dialogue_id": 34,
+    "turn_index": 7,
+    "followup_question": "C: I see you. How are you feeling with needing more assistentance?"
+  },
+  {
+    "dialogue_id": 34,
+    "turn_index": 8,
+    "followup_question": "C: Do you think it's acceptable for you?"
+  },
+  {
+    "dialogue_id": 34,
+    "turn_index": 9,
+    "followup_question": "C: I'm sorry about that. Maybe you can schedule a PT session and see what's best for you."
+  },
+  {
+    "dialogue_id": 35,
+    "turn_index": 2,
+    "followup_question": "C: You started to use a rollator last month, how's it going?"
+  },
+  {
+    "dialogue_id": 35,
+    "turn_index": 3,
+    "followup_question": "C: Oh, glad to hear that."
+  },
+  {
+    "dialogue_id": 35,
+    "turn_index": 4,
+    "followup_question": "C: Where do you use your rollator now?"
+  },
+  {
+    "dialogue_id": 35,
+    "turn_index": 5,
+    "followup_question": "C: Great to hear! Have you met any difficulty when using rollator?"
+  },
+  {
+    "dialogue_id": 35,
+    "turn_index": 6,
+    "followup_question": "C: Not bad. Are you used to walking with this rollator?"
+  },
+  {
+    "dialogue_id": 35,
+    "turn_index": 7,
+    "followup_question": "C: That's a really nice change! How do you feel about that?"
+  },
+  {
+    "dialogue_id": 35,
+    "turn_index": 8,
+    "followup_question": "C: The rollator supports you."
+  },
+  {
+    "dialogue_id": 35,
+    "turn_index": 9,
+    "followup_question": "C: It's also a positive change that you have a higher activity level."
+  },
+  {
+    "dialogue_id": 36,
+    "turn_index": 2,
+    "followup_question": "C: The weather is perfect indeed. Why is that you can not enjoy the weather?"
+  },
+  {
+    "dialogue_id": 36,
+    "turn_index": 3,
+    "followup_question": "C: Oh, that's sad to hear. Can you tell me more about this?"
+  },
+  {
+    "dialogue_id": 36,
+    "turn_index": 4,
+    "followup_question": "C: Is there anyone that helps you move around?"
+  },
+  {
+    "dialogue_id": 36,
+    "turn_index": 5,
+    "followup_question": "C: Are you able to go out of your house at all?"
+  },
+  {
+    "dialogue_id": 36,
+    "turn_index": 6,
+    "followup_question": "C: Do you think you need assistance?"
+  },
+  {
+    "dialogue_id": 36,
+    "turn_index": 7,
+    "followup_question": "C: Thats good to hear. What have you been struggling with?"
+  },
+  {
+    "dialogue_id": 36,
+    "turn_index": 8,
+    "followup_question": "C: Anything else that is hard?"
+  },
+  {
+    "dialogue_id": 36,
+    "turn_index": 9,
+    "followup_question": "C: That’s really unfortunate. How do you feel about not being able to move?"
+  },
+  {
+    "dialogue_id": 36,
+    "turn_index": 10,
+    "followup_question": "C: Is there anyine who could drive you there?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 2,
+    "followup_question": "C: Can you tell me how old you are?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 3,
+    "followup_question": "C: That all right. And what has been bothering you?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 4,
+    "followup_question": "C: Why are you using crutches?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 5,
+    "followup_question": "C: Do you remember then?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 6,
+    "followup_question": "C: Five days ago, right?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 7,
+    "followup_question": "C: Can you tell me more about your ability to move?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 8,
+    "followup_question": "C: Are you able to get out of bed by yourself?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 9,
+    "followup_question": "C: Is it painful to move?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 10,
+    "followup_question": "C: That is sad to hear. Is using the bathroom causing any issues?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 11,
+    "followup_question": "C: It seems like you can move by yourself. Do you need any assistance to help out at home?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 12,
+    "followup_question": "C: How nice. I was wondering if you have any obstacles at your home that make it harder to move around?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 13,
+    "followup_question": "C: Does that make you sad?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 14,
+    "followup_question": "C: Do you have a person to whom you can talk about this?"
+  },
+  {
+    "dialogue_id": 37,
+    "turn_index": 15,
+    "followup_question": "C: You can always reach out for a conversation. I can help with that."
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 2,
+    "followup_question": "C: How have you been?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 3,
+    "followup_question": "C: Have you been traveling lately?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 4,
+    "followup_question": "C: How did you travel?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 5,
+    "followup_question": "C: Was it easy?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 6,
+    "followup_question": "C: Can you tell me more about your knee when transporting yourself?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 7,
+    "followup_question": "C: Can you pinpoint a specific part of the knee that hurts?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 8,
+    "followup_question": "C: How much does it hurt then you bike? Can you give a number from one to ten, ten being the worst pain and one being no pain?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 9,
+    "followup_question": "C: And then you walk?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 10,
+    "followup_question": "C: And if you walk for a longer time, does that make the pain worse?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 11,
+    "followup_question": "C: Do you have difficulty climbing the stairs?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 12,
+    "followup_question": "C: Okay. How do you feel about your health?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 13,
+    "followup_question": "C: Do you think your injury limits you in your social life?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 14,
+    "followup_question": "C: Do you have family that could help you with your recovery?"
+  },
+  {
+    "dialogue_id": 38,
+    "turn_index": 15,
+    "followup_question": "C: That is lovely to hear."
+  },
+  {
+    "dialogue_id": 39,
+    "turn_index": 2,
+    "followup_question": "C: So lovely to hear that from you. How was the journey?"
+  },
+  {
+    "dialogue_id": 39,
+    "turn_index": 3,
+    "followup_question": "C: What stopped you from driving for an extended period?"
+  },
+  {
+    "dialogue_id": 39,
+    "turn_index": 4,
+    "followup_question": "C: I understand. And how does the hip feel today?"
+  },
+  {
+    "dialogue_id": 39,
+    "turn_index": 5,
+    "followup_question": "C: Was traveling to your grandson’s football game easy today?"
+  },
+  {
+    "dialogue_id": 39,
+    "turn_index": 6,
+    "followup_question": "C: Lovely to hear. Do you have any complaints about your health at this moment?"
+  },
+  {
+    "dialogue_id": 39,
+    "turn_index": 7,
+    "followup_question": "C: How do you feel about your rehabilitation"
+  },
+  {
+    "dialogue_id": 39,
+    "turn_index": 8,
+    "followup_question": "C: Great news. How does your family feel about your condition?"
+  },
+  {
+    "dialogue_id": 39,
+    "turn_index": 9,
+    "followup_question": "C: Seems like you are happy with your health. Am I right?"
+  },
+  {
+    "dialogue_id": 39,
+    "turn_index": 10,
+    "followup_question": "C: Glad to hear."
+  },
+  {
+    "dialogue_id": 40,
+    "turn_index": 2,
+    "followup_question": "C:I’m sorry to hear that. Can you please tell me what is the problem?"
+  },
+  {
+    "dialogue_id": 40,
+    "turn_index": 3,
+    "followup_question": "C: oh it’s not nice would you please explain what kind of pain do you have?"
+  },
+  {
+    "dialogue_id": 40,
+    "turn_index": 4,
+    "followup_question": "C: To what extent is this pain in your back affecting your daily routine or daily life?"
+  },
+  {
+    "dialogue_id": 40,
+    "turn_index": 5,
+    "followup_question": "C: I’m sorry to hear that. Can you elaborate on what kind of pain you feel in your lower back?"
+  },
+  {
+    "dialogue_id": 40,
+    "turn_index": 6,
+    "followup_question": "C: Does the pain radiate to your leg?"
+  },
+  {
+    "dialogue_id": 40,
+    "turn_index": 7,
+    "followup_question": "C: I wonder, how do you feel about this situation and your life in general?"
+  },
+  {
+    "dialogue_id": 40,
+    "turn_index": 8,
+    "followup_question": "C: I can’t imagine how hard that is. How is your family supporting you these days?"
+  },
+  {
+    "dialogue_id": 41,
+    "turn_index": 2,
+    "followup_question": "C: nice how is life going after surgery?"
+  },
+  {
+    "dialogue_id": 41,
+    "turn_index": 3,
+    "followup_question": "C: hope you are able to enjoy this nice spring winter"
+  },
+  {
+    "dialogue_id": 41,
+    "turn_index": 4,
+    "followup_question": "C: why you don’t go to the park or in nature?"
+  },
+  {
+    "dialogue_id": 41,
+    "turn_index": 5,
+    "followup_question": "C: oh I’m sorry to hear that. What do you mean by small car?"
+  },
+  {
+    "dialogue_id": 41,
+    "turn_index": 6,
+    "followup_question": "C: I understand you don’t have enough space and your position in your poster in the car. It’s"
+  },
+  {
+    "dialogue_id": 41,
+    "turn_index": 7,
+    "followup_question": "C: it might be sad for you and your family, right how do you feel about it?"
+  },
+  {
+    "dialogue_id": 41,
+    "turn_index": 8,
+    "followup_question": "C: nice how does your family supporting you in this journey?"
+  },
+  {
+    "dialogue_id": 41,
+    "turn_index": 9,
+    "followup_question": "C: I understand do you feel any strong emotions and Eany like I mean, like depression, anxiety, or stressed"
+  },
+  {
+    "dialogue_id": 42,
+    "turn_index": 2,
+    "followup_question": "C: I’m doing fine. It has been a while since our last visit, how have you been?"
+  },
+  {
+    "dialogue_id": 42,
+    "turn_index": 3,
+    "followup_question": "C: I’m so glad to hear that. OK, what brought you here today?"
+  },
+  {
+    "dialogue_id": 42,
+    "turn_index": 4,
+    "followup_question": "C: I’m sorry to hear that. Would you please explain what kind of pain do you feel?"
+  },
+  {
+    "dialogue_id": 42,
+    "turn_index": 5,
+    "followup_question": "C: I see to what extend this pain has been affecting your life?"
+  },
+  {
+    "dialogue_id": 42,
+    "turn_index": 6,
+    "followup_question": "C: I understand can you explain what kind of pain do you have Anne from 0 to 10 how painful it is by meaning zero no pain and 10 is a really really high pain?"
+  },
+  {
+    "dialogue_id": 42,
+    "turn_index": 7,
+    "followup_question": "C: I am sorry to hear that. I wonder how do you feel about this pain emotionally?"
+  },
+  {
+    "dialogue_id": 42,
+    "turn_index": 8,
+    "followup_question": "C: i’m sorry to hear that. Missing your loved ones make life less colorful."
+  },
+  {
+    "dialogue_id": 43,
+    "turn_index": 2,
+    "followup_question": "C:how have you been your ankle after surgery and rehab?"
+  },
+  {
+    "dialogue_id": 43,
+    "turn_index": 3,
+    "followup_question": "C: nice, any issue or problem you have felt or had during this nice journey?"
+  },
+  {
+    "dialogue_id": 43,
+    "turn_index": 4,
+    "followup_question": "C: I understand why do you think you feel like that?"
+  },
+  {
+    "dialogue_id": 43,
+    "turn_index": 5,
+    "followup_question": "C: yes makes sense."
+  },
+  {
+    "dialogue_id": 43,
+    "turn_index": 6,
+    "followup_question": "C: yeah I would say so."
+  },
+  {
+    "dialogue_id": 43,
+    "turn_index": 7,
+    "followup_question": "C: nice how do you feel about your life these days?"
+  },
+  {
+    "dialogue_id": 43,
+    "turn_index": 8,
+    "followup_question": "C: nice so glad to hear how does your family feel about this?"
+  },
+  {
+    "dialogue_id": 43,
+    "turn_index": 9,
+    "followup_question": "C: that sounds really nice. I’m so happy to hear that."
+  },
+  {
+    "dialogue_id": 44,
+    "turn_index": 2,
+    "followup_question": "C: how have you been? It has been a quite while we haven’t met. Hopefully, you could enjoy your life and I’ll be pain-free. how have you been? It has been a quite while we haven’t met. Hopefully, you could enjoy your life free of pain?"
+  },
+  {
+    "dialogue_id": 44,
+    "turn_index": 3,
+    "followup_question": "C: glad to hear that , How was your exercise going? Have you doing them regularly?"
+  },
+  {
+    "dialogue_id": 44,
+    "turn_index": 4,
+    "followup_question": "C:"
+  },
+  {
+    "dialogue_id": 44,
+    "turn_index": 5,
+    "followup_question": "C: OK how is your hip pain from 0 to 10?"
+  },
+  {
+    "dialogue_id": 44,
+    "turn_index": 6,
+    "followup_question": "C: I so glad to hear that. Are you capable of seating in a car pain-free for long period?"
+  },
+  {
+    "dialogue_id": 44,
+    "turn_index": 7,
+    "followup_question": "C: how do you feel about this injury of you and the treatment process?"
+  },
+  {
+    "dialogue_id": 44,
+    "turn_index": 8,
+    "followup_question": "C: I’m so happy to hear that."
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 2,
+    "followup_question": "C: How are we doing today."
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 3,
+    "followup_question": "C: Please, tell me, what’s going on?"
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 4,
+    "followup_question": "C: Can you tell me more about that?"
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 5,
+    "followup_question": "C: Is there also pain or any tingling sensations in the hand or wrist?"
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 6,
+    "followup_question": "C: Have you had this for a long time?"
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 7,
+    "followup_question": "C: 3 months? That’s a long time. How have you been entering and leaving your house?"
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 8,
+    "followup_question": "C: That’s awful, I’m sorry to hear that."
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 9,
+    "followup_question": "C: Why is it that you chose to handle your wrist pain in this manner? Were you too busy to come see a physio?"
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 10,
+    "followup_question": "C: Not being able to turn your doorknob to enter your house is a definite red flag."
+  },
+  {
+    "dialogue_id": 45,
+    "turn_index": 11,
+    "followup_question": "C: Yes definitely. Now, let me take a look at your hand and wrist."
+  },
+  {
+    "dialogue_id": 46,
+    "turn_index": 2,
+    "followup_question": "C: How old are you Sam?"
+  },
+  {
+    "dialogue_id": 46,
+    "turn_index": 3,
+    "followup_question": "C: I saw you drive into the clinic’s parking lot, you’ve got quite a sizable vehicle."
+  },
+  {
+    "dialogue_id": 46,
+    "turn_index": 4,
+    "followup_question": "C: That’s annoying. Has this always been an issue or could you first do so with ease."
+  },
+  {
+    "dialogue_id": 46,
+    "turn_index": 5,
+    "followup_question": "C: What changed? Do you feel as if you have lost the strength?"
+  },
+  {
+    "dialogue_id": 46,
+    "turn_index": 6,
+    "followup_question": "C: Are you capable to reposition your body to be able to produce the strength from another position?"
+  },
+  {
+    "dialogue_id": 46,
+    "turn_index": 7,
+    "followup_question": "C: So, how did you open and close your door today, I didn’t see when I glanced outside."
+  },
+  {
+    "dialogue_id": 46,
+    "turn_index": 8,
+    "followup_question": "C: I see. That sounds frustrating. How does it feel emotionally when something as simple as opening a car door becomes difficult?"
+  },
+  {
+    "dialogue_id": 46,
+    "turn_index": 9,
+    "followup_question": "C: I’m sorry that you have to go through that. Do you find yourself avoiding situations because of it?"
+  },
+  {
+    "dialogue_id": 46,
+    "turn_index": 10,
+    "followup_question": "C: Thank you for sharing that. We’ll make it our goal to find ways to make these tasks feel manageable again."
+  },
+  {
+    "dialogue_id": 47,
+    "turn_index": 2,
+    "followup_question": "C: No worries, one of my clients ended up canceling, freeing up a slot. What can I do for you?"
+  },
+  {
+    "dialogue_id": 47,
+    "turn_index": 3,
+    "followup_question": "C: I’m sorry to hear that, what happened to your shoulder?"
+  },
+  {
+    "dialogue_id": 47,
+    "turn_index": 4,
+    "followup_question": "C: Ouch, that must’ve been quite painful. What issues are you running into?"
+  },
+  {
+    "dialogue_id": 47,
+    "turn_index": 5,
+    "followup_question": "C: What makes it that brushing your teeth is difficult."
+  },
+  {
+    "dialogue_id": 47,
+    "turn_index": 6,
+    "followup_question": "C: Do you require breaks due to pain?"
+  },
+  {
+    "dialogue_id": 47,
+    "turn_index": 7,
+    "followup_question": "C: During the break, what do you do with the arm? Do you just let it hang by your side?"
+  },
+  {
+    "dialogue_id": 47,
+    "turn_index": 8,
+    "followup_question": "C: How has this impacted your life?"
+  },
+  {
+    "dialogue_id": 47,
+    "turn_index": 9,
+    "followup_question": "C: I feel for you. It is good that you’re still determined. If it’s alright with you can you take your shirt off so that I can look at the shoulder. I’ll be doing some tests"
+  },
+  {
+    "dialogue_id": 48,
+    "turn_index": 2,
+    "followup_question": "C: That’s wonderful news. Congratulations to both of you! I had no clue you two were expecting a child. How’s fatherhood treating you so far?"
+  },
+  {
+    "dialogue_id": 48,
+    "turn_index": 3,
+    "followup_question": "C: That is nice. What have you been doing with your 8-year-old."
+  },
+  {
+    "dialogue_id": 48,
+    "turn_index": 4,
+    "followup_question": "C: How did you manage?"
+  },
+  {
+    "dialogue_id": 48,
+    "turn_index": 5,
+    "followup_question": "C: That’s great to hear. Could you elaborate on the hiccups? Were you not able to keep up with him?"
+  },
+  {
+    "dialogue_id": 48,
+    "turn_index": 6,
+    "followup_question": "C: Did the soreness stop you from continuing?"
+  },
+  {
+    "dialogue_id": 48,
+    "turn_index": 7,
+    "followup_question": "C: Sounds like you're managing well, just with some mild discomfort."
+  },
+  {
+    "dialogue_id": 48,
+    "turn_index": 8,
+    "followup_question": "C: That’s perfectly in line with what I’d expect."
+  },
+  {
+    "dialogue_id": 48,
+    "turn_index": 9,
+    "followup_question": "C: How are you doing emotionally? I imagine this time has brought a wide range of highs and lows."
+  },
+  {
+    "dialogue_id": 48,
+    "turn_index": 10,
+    "followup_question": "C: That makes me so happy. Let’s keep strengthening the shoulder so you can keep enjoying those moments with your children."
+  },
+  {
+    "dialogue_id": 49,
+    "turn_index": 2,
+    "followup_question": "C: I’ve been doing well. Just busy in the clinic."
+  },
+  {
+    "dialogue_id": 49,
+    "turn_index": 3,
+    "followup_question": "C: How have you been since our last session? How has the gardening been?"
+  },
+  {
+    "dialogue_id": 49,
+    "turn_index": 4,
+    "followup_question": "C: Please tell me more."
+  },
+  {
+    "dialogue_id": 49,
+    "turn_index": 5,
+    "followup_question": "C: That’s excellent. What about those stubborn pickle jars you’ve been having trouble with. Are they easier to open now?"
+  },
+  {
+    "dialogue_id": 49,
+    "turn_index": 6,
+    "followup_question": "C: That’s great! I’m happy you’re back doing what you love."
+  },
+  {
+    "dialogue_id": 49,
+    "turn_index": 7,
+    "followup_question": "C: I’m so pleased for you. Let’s keep working on that grip strength to keep you at peak performance."
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 2,
+    "followup_question": "C: That sounds great! Where did you go?"
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 3,
+    "followup_question": "C: Nice! How was the trip?"
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 4,
+    "followup_question": "C: That’s wonderful! Did you drive there yourselves?"
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 5,
+    "followup_question": "C: What is the most difficult part for you?"
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 6,
+    "followup_question": "C: Anything else that is bothering you?"
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 7,
+    "followup_question": "C: I am sure they would understand. Why do you feel unstable?"
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 8,
+    "followup_question": "C: I see."
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 9,
+    "followup_question": "C:How do you go from one place to another then?"
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 10,
+    "followup_question": "C: Are you two normally using the car that often?"
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 11,
+    "followup_question": "C: I understand. What are you worrying the most about?"
+  },
+  {
+    "dialogue_id": 50,
+    "turn_index": 12,
+    "followup_question": "C: We will work on your muscle strength and then this problem will not bother you anymore."
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 2,
+    "followup_question": "C: Why not totally alright?"
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 3,
+    "followup_question": "C: I am so sorry to hear that. Why can't you use the train?"
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 4,
+    "followup_question": "C: You can ask for mobility support and then the staff will provide a ramp for you."
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 5,
+    "followup_question": "C: What is the biggest problem for you when you use the train?"
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 6,
+    "followup_question": "C: So you need your walker for everything and the train is too much of a hustle?"
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 7,
+    "followup_question": "C: If you would be in the train, would you be able to move around freely?"
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 8,
+    "followup_question": "C: I see your point."
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 9,
+    "followup_question": "C: Is it hard for you to depend on other people?"
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 10,
+    "followup_question": "C: I think most people are kind and willing to help. Robbing is an extreme example."
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 11,
+    "followup_question": "C: Do you have people around you that take care of you?"
+  },
+  {
+    "dialogue_id": 51,
+    "turn_index": 12,
+    "followup_question": "C: I am so sorry. I will ask around the hospital, to make sure you have somebody around who looks after you."
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 2,
+    "followup_question": "C: You are smiling and looking so relaxed. Did you go on vacation?"
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 3,
+    "followup_question": "C: Did you go by train?"
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 4,
+    "followup_question": "C: And you had no problems with using the plane?"
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 5,
+    "followup_question": "C: What kind of difficulties did you deal with?"
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 6,
+    "followup_question": "C: That sounds good."
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 7,
+    "followup_question": "C: And why is that?"
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 8,
+    "followup_question": "C: I see. So what did you do to improve your numbness in the legs?"
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 9,
+    "followup_question": "C: Is it annoying for you that you still have these problems now?"
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 10,
+    "followup_question": "C: That is very good. So you have energy to continue your treatment?"
+  },
+  {
+    "dialogue_id": 52,
+    "turn_index": 11,
+    "followup_question": "C: Sounds amazing. And then the next vacation can come. P. Already booked. With the help of my family I can conquer everything!"
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 2,
+    "followup_question": "C: Also good. What have you been up to?"
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 3,
+    "followup_question": "C: Sounds amazing! Where did you go?"
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 4,
+    "followup_question": "C: Lovely."
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 5,
+    "followup_question": "C: How did the train rides go?"
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 6,
+    "followup_question": "C: Except for?"
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 7,
+    "followup_question": "C: Why is that?"
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 8,
+    "followup_question": "C: That makes a lot of sense actually."
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 9,
+    "followup_question": "C: How is your new independancy affecting your life?"
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 10,
+    "followup_question": "C: That sounds like a great solution. How is your relationship affected by that?"
+  },
+  {
+    "dialogue_id": 53,
+    "turn_index": 11,
+    "followup_question": "C: Love to hear that."
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 2,
+    "followup_question": "C: I am also doing good. What is going on that you are so great?"
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 3,
+    "followup_question": "C: That sounds amazing. Where did you go?"
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 4,
+    "followup_question": "C: The feeling of being weak and unstable going on the bus is not there anymore?"
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 5,
+    "followup_question": "C: I get what you mean. How did you deal with your luggage?"
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 6,
+    "followup_question": "C: That sounds like a great idea. I wish more of my patients would be so motivated."
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 7,
+    "followup_question": "C: Which is sad for me, but great for you."
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 8,
+    "followup_question": "C: How did your family react to your news?"
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 9,
+    "followup_question": "C: Are you excited to go back to work?"
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 10,
+    "followup_question": "C: Are you worried about something?"
+  },
+  {
+    "dialogue_id": 54,
+    "turn_index": 11,
+    "followup_question": "C: Just listen to your body and it will be fine."
+  },
+  {
+    "dialogue_id": 55,
+    "turn_index": 2,
+    "followup_question": "C: Oh, what's happening?"
+  },
+  {
+    "dialogue_id": 55,
+    "turn_index": 3,
+    "followup_question": "C: I'm sure it can be fixed. What's wrong with it?"
+  },
+  {
+    "dialogue_id": 55,
+    "turn_index": 4,
+    "followup_question": "C: I'm very sorry about that. Were you injured?"
+  },
+  {
+    "dialogue_id": 55,
+    "turn_index": 5,
+    "followup_question": "C: So sorry. Let's solve the problem before that. How long have you been using the wheelchair?"
+  },
+  {
+    "dialogue_id": 55,
+    "turn_index": 6,
+    "followup_question": "C: No worries, sir. We can find a solution in any case. I need to collect necessary information to the supplier, so that we can help you more efficiently."
+  },
+  {
+    "dialogue_id": 55,
+    "turn_index": 7,
+    "followup_question": "C: It's marked down. I'll arrange a mechanic to you in three days. In the mean time, do you need extra help?"
+  },
+  {
+    "dialogue_id": 55,
+    "turn_index": 8,
+    "followup_question": "C: How would this make you feel? Staying home for a few days?"
+  },
+  {
+    "dialogue_id": 55,
+    "turn_index": 9,
+    "followup_question": "C: Do you have acompany at home?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 2,
+    "followup_question": "C: Lovely to hear. Is it the sunny weather that had made this week better?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 3,
+    "followup_question": "C: What do you mean by that?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 4,
+    "followup_question": "C: Has transportation become easier this week?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 5,
+    "followup_question": "C: Why is that?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 6,
+    "followup_question": "C: I get it. What limits you from driving?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 7,
+    "followup_question": "C: Do you feel dizziness or pain when you are walking?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 8,
+    "followup_question": "C: I hope you will get better soon. Can you tell me more about the pain you experience?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 9,
+    "followup_question": "C: Does it get better if you stand up and walk for a few minutes?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 10,
+    "followup_question": "C: Do you walk a lot?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 11,
+    "followup_question": "C:  Why are you scared?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 12,
+    "followup_question": "C: What do you think about walking outside?"
+  },
+  {
+    "dialogue_id": 56,
+    "turn_index": 13,
+    "followup_question": "C: Do you have family who could drive you?"
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 2,
+    "followup_question": "C: That sounds concerning. What happened?"
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 3,
+    "followup_question": "C: Did you call the people that can fix it? What exactly is broken?"
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 4,
+    "followup_question": "C: I am sorry to hear that. Did anything happen to you?"
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 5,
+    "followup_question": "C: Glad that nothing worse happened. How long have you been using the wheelchair?"
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 6,
+    "followup_question": "C: Very good, so as soon as they fix it you will have your normal routine back. Should I help you with anything until they are here?"
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 7,
+    "followup_question": "C: Of course. I will be your breaks for the next minutes, haha."
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 8,
+    "followup_question": "C: How are you feeling about the broken brakes?"
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 9,
+    "followup_question": "C: I can understand that. Do you need extra help?"
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 10,
+    "followup_question": "C: I will inform the building and they will send someone to check on you every hour to see if you need help."
+  },
+  {
+    "dialogue_id": 57,
+    "turn_index": 11,
+    "followup_question": "C: Of course. I will also call your son to inform him and maybe he can help you as well."
+  },
+  {
+    "dialogue_id": 58,
+    "turn_index": 2,
+    "followup_question": "C: How was your day?"
+  },
+  {
+    "dialogue_id": 58,
+    "turn_index": 3,
+    "followup_question": "C: How come?"
+  },
+  {
+    "dialogue_id": 58,
+    "turn_index": 4,
+    "followup_question": "C: What exactly is feeling weak?"
+  },
+  {
+    "dialogue_id": 58,
+    "turn_index": 5,
+    "followup_question": "C: Did something happen yesterday? Did you trip on your right leg?"
+  },
+  {
+    "dialogue_id": 58,
+    "turn_index": 6,
+    "followup_question": "C: Ah, I understand. So you need the walker for moving everywhere?"
+  },
+  {
+    "dialogue_id": 58,
+    "turn_index": 7,
+    "followup_question": "C: I understand."
+  },
+  {
+    "dialogue_id": 58,
+    "turn_index": 8,
+    "followup_question": "C: How are you feeling about your situation right now? Do you depend on help?"
+  },
+  {
+    "dialogue_id": 58,
+    "turn_index": 9,
+    "followup_question": "C: Lovely, so you are feeling secure and in good hands here?"
+  },
+  {
+    "dialogue_id": 58,
+    "turn_index": 10,
+    "followup_question": "C: That is very nice to hear."
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 2,
+    "followup_question": "C: How old are you?"
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 3,
+    "followup_question": "C: You look way younger."
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 4,
+    "followup_question": "C: How is your walking going? Do you still use your rollator?"
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 5,
+    "followup_question": "C: Can you describe in more detail wh you need the rollator outside."
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 6,
+    "followup_question": "C: That is very smart. Do you use it mostly for the security of it or also for the support of your body weight."
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 7,
+    "followup_question": "C: Would you say it is also for your head?"
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 8,
+    "followup_question": "C: I understand."
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 9,
+    "followup_question": "C: You live in an elderly home. How does that make you feel."
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 10,
+    "followup_question": "C: How does using a rollator makes you feel?"
+  },
+  {
+    "dialogue_id": 59,
+    "turn_index": 11,
+    "followup_question": "C: So you just needed some time to adapt to the change?"
+  },
+  {
+    "dialogue_id": 60,
+    "turn_index": 2,
+    "followup_question": "C: I am alright. How was your day?"
+  },
+  {
+    "dialogue_id": 60,
+    "turn_index": 3,
+    "followup_question": "C: That sounds amazing. What did you change in your routine?"
+  },
+  {
+    "dialogue_id": 60,
+    "turn_index": 4,
+    "followup_question": "C: Can you tell me at which part you are still struggeling?"
+  },
+  {
+    "dialogue_id": 60,
+    "turn_index": 5,
+    "followup_question": "C: You said your head is a bit the problem maker. Why is that?"
+  },
+  {
+    "dialogue_id": 60,
+    "turn_index": 6,
+    "followup_question": "C: So we will work a bit more on your leg strength to fully gain the trust back."
+  },
+  {
+    "dialogue_id": 60,
+    "turn_index": 7,
+    "followup_question": "C: And then you will be also able to take the tram without your walker. P. Absolutly. That is the goal."
+  },
+  {
+    "dialogue_id": 60,
+    "turn_index": 8,
+    "followup_question": "C: How did the adaption of your daily life go? Do you have support at home?"
+  },
+  {
+    "dialogue_id": 60,
+    "turn_index": 9,
+    "followup_question": "C: How do you feel, now that you gained almost all your independancy back?"
+  },
+  {
+    "dialogue_id": 60,
+    "turn_index": 10,
+    "followup_question": "C: I can see what you mean. So you are happy with the situation."
+  },
+  {
+    "dialogue_id": 61,
+    "turn_index": 2,
+    "followup_question": "C: I am fine. Thanks for asking. How is the healing going? I heard all your feeling in your legs is back."
+  },
+  {
+    "dialogue_id": 61,
+    "turn_index": 3,
+    "followup_question": "C: That is amazing and sad at the same time. So you don't need the walker at all anymore. You feel your right leg completly?"
+  },
+  {
+    "dialogue_id": 61,
+    "turn_index": 4,
+    "followup_question": "C: I love to see that your nerves recovered after you had that stroke a year ago."
+  },
+  {
+    "dialogue_id": 61,
+    "turn_index": 5,
+    "followup_question": "C: I remember. You really put the work in. Last time you said you still need it for the elevator and to walk on grass. How is that going?"
+  },
+  {
+    "dialogue_id": 61,
+    "turn_index": 6,
+    "followup_question": "C: That is such a great progres. Keep up with the good work and continue your exercises. Then you really will be your old self."
+  },
+  {
+    "dialogue_id": 61,
+    "turn_index": 7,
+    "followup_question": "C: How are you feeling about going back to work, now that your body has recovered?"
+  },
+  {
+    "dialogue_id": 61,
+    "turn_index": 8,
+    "followup_question": "C: Is there anything you worry about?"
+  },
+  {
+    "dialogue_id": 61,
+    "turn_index": 9,
+    "followup_question": "C: Have you met him before?"
+  },
+  {
+    "dialogue_id": 61,
+    "turn_index": 10,
+    "followup_question": "C: I am sure he will understand your situation. And if not, remember communication is key! I can't misunderstand if you explain what happend to you."
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 2,
+    "followup_question": "C: I’m very well H. I see you had a broken wrist and surgery."
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 3,
+    "followup_question": "C: yeah I’m sorry to hear that. Would you please tell me what happened?"
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 4,
+    "followup_question": "C: OK, how does your wrist feels now after surgery?"
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 5,
+    "followup_question": "C: I see, what was your surgeon recommend recommendation for recovery after surgery?"
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 6,
+    "followup_question": "C: OK and as you said, you start slightly move it, but you feel pretty stiff and you cannot really hold anything right."
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 7,
+    "followup_question": "C: and how do you emotionally feel about the situation?"
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 8,
+    "followup_question": "C: I understand it is and this is your dumb hand side, right?"
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 9,
+    "followup_question": "C: I’ll make sure to support you in this journey to be able to get your range of motion and strength back on your wrist"
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 10,
+    "followup_question": "C: do you have some people at home who could help you?"
+  },
+  {
+    "dialogue_id": 62,
+    "turn_index": 11,
+    "followup_question": "C: your family is a blessing. I’m happy to hear that."
+  },
+  {
+    "dialogue_id": 63,
+    "turn_index": 2,
+    "followup_question": "C: I'm sorry to hear that. Could you please let me know why you're here?"
+  },
+  {
+    "dialogue_id": 63,
+    "turn_index": 3,
+    "followup_question": "C: I'm sorry to hear you think like that. What is what is the problem you're dealing with?"
+  },
+  {
+    "dialogue_id": 63,
+    "turn_index": 4,
+    "followup_question": "C: oh that sounds painful. What happened to you? Where did where did this bike accident happen and where do you feel pain?"
+  },
+  {
+    "dialogue_id": 63,
+    "turn_index": 5,
+    "followup_question": "C: yeah it sounds like a hard hit. What kind of limitation do you have in your elbow?"
+  },
+  {
+    "dialogue_id": 63,
+    "turn_index": 6,
+    "followup_question": "C: I understand. Is it the pain just in your elbow or your shoulder or wrist is also painful?"
+  },
+  {
+    "dialogue_id": 63,
+    "turn_index": 7,
+    "followup_question": "C: okay."
+  },
+  {
+    "dialogue_id": 63,
+    "turn_index": 8,
+    "followup_question": "C: I'm wondering to what extend this incident affecting you emotionally?"
+  },
+  {
+    "dialogue_id": 63,
+    "turn_index": 9,
+    "followup_question": "C: I can't imagine how hard it could be. Do you have any person with you who you can talk or support you?"
+  },
+  {
+    "dialogue_id": 63,
+    "turn_index": 10,
+    "followup_question": "C: do you feel strong emotions, such as depression, anxiety, and so on?"
+  },
+  {
+    "dialogue_id": 64,
+    "turn_index": 2,
+    "followup_question": "C: how is the pretty weather going on? I hope you could enjoy it."
+  },
+  {
+    "dialogue_id": 64,
+    "turn_index": 3,
+    "followup_question": "C: how can I help you?"
+  },
+  {
+    "dialogue_id": 64,
+    "turn_index": 4,
+    "followup_question": "C: OK would you please elaborate on not feeling confident?"
+  },
+  {
+    "dialogue_id": 64,
+    "turn_index": 5,
+    "followup_question": "C: understand it do you wear it often or every day?"
+  },
+  {
+    "dialogue_id": 64,
+    "turn_index": 6,
+    "followup_question": "C: in another word, you feel weak and unstable wrist, right that’s the reason you wear this band all the time."
+  },
+  {
+    "dialogue_id": 64,
+    "turn_index": 7,
+    "followup_question": "C: and to what extend this this relying on wristband makes you feel emotional emotionally or generally"
+  },
+  {
+    "dialogue_id": 64,
+    "turn_index": 8,
+    "followup_question": "C: do you leave at home alone or with someone?"
+  },
+  {
+    "dialogue_id": 64,
+    "turn_index": 9,
+    "followup_question": "C: do you have any feeling or fear of this situation getting worse and affecting you more?"
+  },
+  {
+    "dialogue_id": 65,
+    "turn_index": 2,
+    "followup_question": "C: I've been good thank you how is your rehab process going?"
+  },
+  {
+    "dialogue_id": 65,
+    "turn_index": 3,
+    "followup_question": "C: so glad to hear that. Is there any specific issue you want to talk about today?"
+  },
+  {
+    "dialogue_id": 65,
+    "turn_index": 4,
+    "followup_question": "C: OK just for my understanding you get all the range of motion in your wrist back and you can grab push and pull with your wrist but when you are twisting your wrist, it's become painful."
+  },
+  {
+    "dialogue_id": 65,
+    "turn_index": 5,
+    "followup_question": "C: OK in which range you start to feel pain."
+  },
+  {
+    "dialogue_id": 65,
+    "turn_index": 6,
+    "followup_question": "C: OK that's that's good to know and also I'm wondering how do you feel emotionally generally about the whole process of your"
+  },
+  {
+    "dialogue_id": 65,
+    "turn_index": 7,
+    "followup_question": "C: nice to hear that how does your family think about this?"
+  },
+  {
+    "dialogue_id": 66,
+    "turn_index": 2,
+    "followup_question": "C: yes I do. How is your garden doing? I believe everything is blooming nowadays."
+  },
+  {
+    "dialogue_id": 66,
+    "turn_index": 3,
+    "followup_question": "C: so glad to hear that. How does your rehab going?"
+  },
+  {
+    "dialogue_id": 66,
+    "turn_index": 4,
+    "followup_question": "C: I’m so glad to hear that. Do you have any discomfort while you are using your hand grip or so?"
+  },
+  {
+    "dialogue_id": 66,
+    "turn_index": 5,
+    "followup_question": "C: how is your endurance and strength doing?"
+  },
+  {
+    "dialogue_id": 66,
+    "turn_index": 6,
+    "followup_question": "C: what about other kind activities?"
+  },
+  {
+    "dialogue_id": 66,
+    "turn_index": 7,
+    "followup_question": "C: that’s really nice."
+  },
+  {
+    "dialogue_id": 66,
+    "turn_index": 8,
+    "followup_question": "C: I believe you’re happy about the outcome of your rehab."
+  },
+  {
+    "dialogue_id": 66,
+    "turn_index": 9,
+    "followup_question": "C: how does Mr. T feels."
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 2,
+    "followup_question": "C: Nice to meet you, thanks for letting me in."
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 3,
+    "followup_question": "C: Hey Mr. Garcia, how are you doing today?"
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 4,
+    "followup_question": "C: And how are you usually feeling?"
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 5,
+    "followup_question": "C: Tell me why that is"
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 6,
+    "followup_question": "C: How come?"
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 7,
+    "followup_question": "C: That’s distressing news. What struggles have you been having with your wheelchair."
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 8,
+    "followup_question": "C: What’s keeping you from moving forward?"
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 9,
+    "followup_question": "C: That sounds discouraging. Is there any pain when you try and move forwards or is it purely a strength issue?"
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 10,
+    "followup_question": "C: Understood. So, how have you been moving around your house."
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 11,
+    "followup_question": "C: That sounds like a great neighbor."
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 12,
+    "followup_question": "C: How does your condition make you feel?"
+  },
+  {
+    "dialogue_id": 67,
+    "turn_index": 13,
+    "followup_question": "C: I’m so sorry you’re feeling that way. You haven’t lost your autonomy you’re just in a tough spot. I’m here to help you regain as much independence as possible. Let’s work together on building your arm strength so you can start propelling that chair on your own."
+  },
+  {
+    "dialogue_id": 68,
+    "turn_index": 2,
+    "followup_question": "C: Nice to meet you too, Alexandra. How old are you, if you don’t mind me asking?"
+  },
+  {
+    "dialogue_id": 68,
+    "turn_index": 3,
+    "followup_question": "C: Great, thanks for sharing. Have you been having a good day so far?"
+  },
+  {
+    "dialogue_id": 68,
+    "turn_index": 4,
+    "followup_question": "C: I hear you. Let’s take it at your pace today."
+  },
+  {
+    "dialogue_id": 68,
+    "turn_index": 5,
+    "followup_question": "C: I saw that you had some issues coming into the clinic room. Have been having issues moving around with your walking stick."
+  },
+  {
+    "dialogue_id": 68,
+    "turn_index": 6,
+    "followup_question": "C: What’s holding you back from using it independently?"
+  },
+  {
+    "dialogue_id": 68,
+    "turn_index": 7,
+    "followup_question": "C: So, if I’m understanding it correctly, your balance is the limiting factor."
+  },
+  {
+    "dialogue_id": 68,
+    "turn_index": 8,
+    "followup_question": "C: Are you always afraid of falling?"
+  },
+  {
+    "dialogue_id": 68,
+    "turn_index": 9,
+    "followup_question": "C: I get how you’re feeling. How do you feel about your inability to independently walk down the street with your walking stick?"
+  },
+  {
+    "dialogue_id": 68,
+    "turn_index": 10,
+    "followup_question": "C: I appreciate your honesty. It makes perfect sense to find comfort in having that support even while wanting more independence."
+  },
+  {
+    "dialogue_id": 69,
+    "turn_index": 2,
+    "followup_question": "C: Nice to meet you too, Maria. Do you mind telling me your age?"
+  },
+  {
+    "dialogue_id": 69,
+    "turn_index": 3,
+    "followup_question": "C: Thank you. How has your day been so far?"
+  },
+  {
+    "dialogue_id": 69,
+    "turn_index": 4,
+    "followup_question": "C: I noticed you struggled a bit when you walked in with your walker, does it have anything to do with that?"
+  },
+  {
+    "dialogue_id": 69,
+    "turn_index": 5,
+    "followup_question": "C: Please, tell me what you are struggling with."
+  },
+  {
+    "dialogue_id": 69,
+    "turn_index": 6,
+    "followup_question": "C: So, your walker provides sufficient support, but turning and balancing remain challenging?"
+  },
+  {
+    "dialogue_id": 69,
+    "turn_index": 7,
+    "followup_question": "C: Understood. Would you say that stopping to regain balance is your main difficulty?"
+  },
+  {
+    "dialogue_id": 69,
+    "turn_index": 8,
+    "followup_question": "C: How do you feel about your condition?"
+  },
+  {
+    "dialogue_id": 69,
+    "turn_index": 9,
+    "followup_question": "C: I’m sure it was just a nightmare. With the right approach we can improve your ability to more around with your walker."
+  },
+  {
+    "dialogue_id": 69,
+    "turn_index": 10,
+    "followup_question": "C: That is understandable. Let’s get started."
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 2,
+    "followup_question": "C: Likewise, Diego. How is life."
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 3,
+    "followup_question": "C: Neither can I. Before we dive in, how old are you if you don’t mind sharing?"
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 4,
+    "followup_question": "C: Alright so based on your file, I can see that you had hip replacement surgery, Is that correct?"
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 5,
+    "followup_question": "C: I also noticed you came in on your crutches. Did they teach you how to use them in the hospital?"
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 6,
+    "followup_question": "C: How has using them been since your hip surgery. I see in your file the surgery was 1 month ago."
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 7,
+    "followup_question": "C: That’s excellent progress. Does the hip stiffness ever slow you down?"
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 8,
+    "followup_question": "C: How quickly does that pain start to arise and what do you do to make it go away."
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 9,
+    "followup_question": "C: So, you’re essentially fully independent with crutches, with just minor pain in the palms after 20 minutes"
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 10,
+    "followup_question": "C: With regard to the hip, I asked about stiffness but do you have any pain."
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 11,
+    "followup_question": "C: Despite how well you’re managing to move around with your crutches, I can imagine that you’re looking forward to the day you can go without."
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 12,
+    "followup_question": "C: Refresh my memory, when did the surgeon say you could go without?"
+  },
+  {
+    "dialogue_id": 70,
+    "turn_index": 13,
+    "followup_question": "C: That I am sure of."
+  },
+  {
+    "dialogue_id": 71,
+    "turn_index": 2,
+    "followup_question": "C: If I’m not mistaken you just got back from a ski trip, right?"
+  },
+  {
+    "dialogue_id": 71,
+    "turn_index": 3,
+    "followup_question": "C: Did you have a good time?"
+  },
+  {
+    "dialogue_id": 71,
+    "turn_index": 4,
+    "followup_question": "C: That’s great to hear. Your children also enjoyed the trip?"
+  },
+  {
+    "dialogue_id": 71,
+    "turn_index": 5,
+    "followup_question": "C: You didn’t have any issues whilst skiing?"
+  },
+  {
+    "dialogue_id": 71,
+    "turn_index": 6,
+    "followup_question": "C: No pain either?"
+  },
+  {
+    "dialogue_id": 71,
+    "turn_index": 7,
+    "followup_question": "C: Sounds like you handled everything with ease. Did you feel confident on the steeper runs?"
+  },
+  {
+    "dialogue_id": 71,
+    "turn_index": 8,
+    "followup_question": "C: That’s excellent. Looking back to when you felt hopeless about your recovery, how would you describe how you feel now?"
+  },
+  {
+    "dialogue_id": 71,
+    "turn_index": 9,
+    "followup_question": "C: I’m happy for you. Shall we begin our session and build on that confidence?"
+  },
+  {
+    "dialogue_id": 72,
+    "turn_index": 2,
+    "followup_question": "C: Nice to meet you, Liam. How has your day been?"
+  },
+  {
+    "dialogue_id": 72,
+    "turn_index": 3,
+    "followup_question": "C: Why is that? What brings you in today?"
+  },
+  {
+    "dialogue_id": 72,
+    "turn_index": 4,
+    "followup_question": "C: I am sorry to hear that. Could you please elaborate."
+  },
+  {
+    "dialogue_id": 72,
+    "turn_index": 5,
+    "followup_question": "C: That sounds worrisome. Could you tell me a bit more about your pain? Where is it and what exacerbates it."
+  },
+  {
+    "dialogue_id": 72,
+    "turn_index": 6,
+    "followup_question": "C: What would you rate that pain on a scale from 0-10, 10 being the worst pain imaginable."
+  },
+  {
+    "dialogue_id": 72,
+    "turn_index": 7,
+    "followup_question": "C: I can imagine you’re feeling quite frustrated by this pain and the inability to travel independently."
+  },
+  {
+    "dialogue_id": 72,
+    "turn_index": 8,
+    "followup_question": "C: I completely understand. We’ll get to the bottom of your knee pain."
+  },
+  {
+    "dialogue_id": 73,
+    "turn_index": 2,
+    "followup_question": "C: Marguerite, got it. Before we get started, I notice that your GP isn’t registered in our system, do you happen to know his name?"
+  },
+  {
+    "dialogue_id": 73,
+    "turn_index": 3,
+    "followup_question": "C: Alright, perfect, I added it to your file. What brings you in today?"
+  },
+  {
+    "dialogue_id": 73,
+    "turn_index": 4,
+    "followup_question": "C: Before October, how did you travel into the city?"
+  },
+  {
+    "dialogue_id": 73,
+    "turn_index": 5,
+    "followup_question": "C: What makes it that you can no longer do that?"
+  },
+  {
+    "dialogue_id": 73,
+    "turn_index": 6,
+    "followup_question": "C: I see, what part of the journey do you struggle with most?"
+  },
+  {
+    "dialogue_id": 73,
+    "turn_index": 7,
+    "followup_question": "C: That sounds frustrating. How does relying on someone else every day make you feel?"
+  },
+  {
+    "dialogue_id": 73,
+    "turn_index": 8,
+    "followup_question": "C: I can understand that but do note that it is nothing to be embarrassed about. Tell me, are you at all afraid you are going to fall?"
+  },
+  {
+    "dialogue_id": 73,
+    "turn_index": 9,
+    "followup_question": "C: Thank you for sharing"
+  },
+  {
+    "dialogue_id": 74,
+    "turn_index": 2,
+    "followup_question": "C: Nice to meet you, Alex. How has your day been so far?"
+  },
+  {
+    "dialogue_id": 74,
+    "turn_index": 3,
+    "followup_question": "C: What brings you in today?"
+  },
+  {
+    "dialogue_id": 74,
+    "turn_index": 4,
+    "followup_question": "C: Why is that?"
+  },
+  {
+    "dialogue_id": 74,
+    "turn_index": 5,
+    "followup_question": "C: Is it focal or does the pain also radiate to any other locations in the body?"
+  },
+  {
+    "dialogue_id": 74,
+    "turn_index": 6,
+    "followup_question": "C: Could you rate this pain from 0, no pain at all, to 10, the worst pain ever?"
+  },
+  {
+    "dialogue_id": 74,
+    "turn_index": 7,
+    "followup_question": "C: What kind of painkillers do you take and do you take them every morning in anticipation of the bumpy bus ride?"
+  },
+  {
+    "dialogue_id": 74,
+    "turn_index": 8,
+    "followup_question": "C: Do you ever feel frustrated or discouraged traveling to work."
+  },
+  {
+    "dialogue_id": 74,
+    "turn_index": 9,
+    "followup_question": "C: Has your back pain affected your confidence in getting around independently?"
+  },
+  {
+    "dialogue_id": 74,
+    "turn_index": 10,
+    "followup_question": "C: I know what you mean. I’ll take a look at your back and afterwards we’ll come up with a treatment plan to solve this issue."
+  },
+  {
+    "dialogue_id": 75,
+    "turn_index": 2,
+    "followup_question": "C: How has your week been since our last session?"
+  },
+  {
+    "dialogue_id": 75,
+    "turn_index": 3,
+    "followup_question": "C: Have you been facing any troubles taking the bus to work?"
+  },
+  {
+    "dialogue_id": 75,
+    "turn_index": 4,
+    "followup_question": "C: What troubles did you run into?"
+  },
+  {
+    "dialogue_id": 75,
+    "turn_index": 5,
+    "followup_question": "C: How did your body respond to that?"
+  },
+  {
+    "dialogue_id": 75,
+    "turn_index": 6,
+    "followup_question": "C: Where in your body did you feel it?"
+  },
+  {
+    "dialogue_id": 75,
+    "turn_index": 7,
+    "followup_question": "C: How do you feel about this experience."
+  },
+  {
+    "dialogue_id": 75,
+    "turn_index": 8,
+    "followup_question": "C: I’m glad you see this as a positive experience. I believe with some muscular endurance training we can smoothen your bus journeys within no time."
+  },
+  {
+    "dialogue_id": 76,
+    "turn_index": 2,
+    "followup_question": "C: I am also good, thanks for asking! Did you have a good holiday?"
+  },
+  {
+    "dialogue_id": 76,
+    "turn_index": 3,
+    "followup_question": "C: That sounds wonderful. Did you have much trouble with the plane or ferry?"
+  },
+  {
+    "dialogue_id": 76,
+    "turn_index": 4,
+    "followup_question": "C: How did your new ACL hold up during the trip."
+  },
+  {
+    "dialogue_id": 76,
+    "turn_index": 5,
+    "followup_question": "C: That’s great to hear! You didn’t get any swelling in the leg when you were in the plane?"
+  },
+  {
+    "dialogue_id": 76,
+    "turn_index": 6,
+    "followup_question": "C: Some extra leg room is always nice. Sounds like you had a very nice trip."
+  },
+  {
+    "dialogue_id": 76,
+    "turn_index": 7,
+    "followup_question": "C: I can imagine this trip boosted your spirits."
+  },
+  {
+    "dialogue_id": 76,
+    "turn_index": 8,
+    "followup_question": "C: That you are. Shall we get started with our session? There’re still a few extra degrees of flexion we can get out of that knee."
+  },
+  {
+    "dialogue_id": 77,
+    "turn_index": 2,
+    "followup_question": "C: Would you tell me more about it?"
+  },
+  {
+    "dialogue_id": 77,
+    "turn_index": 3,
+    "followup_question": "C: I'm sorry about that. Could you get up with help?"
+  },
+  {
+    "dialogue_id": 77,
+    "turn_index": 4,
+    "followup_question": "C: I do feel for you. I'm sure it'll get better. Could you describe what you have to do to get up from bed?"
+  },
+  {
+    "dialogue_id": 77,
+    "turn_index": 5,
+    "followup_question": "C: I see that. At which step do you find difficult?"
+  },
+  {
+    "dialogue_id": 77,
+    "turn_index": 6,
+    "followup_question": "C: I see. Do you have a helper at home?"
+  },
+  {
+    "dialogue_id": 77,
+    "turn_index": 7,
+    "followup_question": "C: There are things we can still improve, I'm sure. How do you feel about your current status?"
+  },
+  {
+    "dialogue_id": 77,
+    "turn_index": 8,
+    "followup_question": "C: I'm sorry to hear that. Do you have family around you?"
+  },
+  {
+    "dialogue_id": 77,
+    "turn_index": 9,
+    "followup_question": "C: I'm truly sorry for your loss. It must be tough for you. May I arrange some visits for you even if it's not a family visit?"
+  },
+  {
+    "dialogue_id": 78,
+    "turn_index": 2,
+    "followup_question": "C: This is Sandy, calling from the hospital. Nice to meet you."
+  },
+  {
+    "dialogue_id": 78,
+    "turn_index": 3,
+    "followup_question": "C: Yes, Mr. J, you were in the hospital 3 months ago. Now you're home. I'm calling to check how you're doing."
+  },
+  {
+    "dialogue_id": 78,
+    "turn_index": 4,
+    "followup_question": "C: Have you met any difficulties recently, with transfering, with eating, with showering?"
+  },
+  {
+    "dialogue_id": 78,
+    "turn_index": 5,
+    "followup_question": "C: Good to know that eaing and showering are not an issue. Transfering means, for example, from wheelchair to sofa, from wheelchair to toilet, are you able to do that?"
+  },
+  {
+    "dialogue_id": 78,
+    "turn_index": 6,
+    "followup_question": "C: I'm glad to hear you're feeling strong. Have you noticed there are some moments that you can't do it by yourself?"
+  },
+  {
+    "dialogue_id": 78,
+    "turn_index": 7,
+    "followup_question": "C: I see. How do you like your living status now?"
+  },
+  {
+    "dialogue_id": 78,
+    "turn_index": 8,
+    "followup_question": "C: How do you feel about that?"
+  },
+  {
+    "dialogue_id": 78,
+    "turn_index": 9,
+    "followup_question": "C: You're right."
+  },
+  {
+    "dialogue_id": 79,
+    "turn_index": 2,
+    "followup_question": "C: I'm well. Thanks for asking. How's life?"
+  },
+  {
+    "dialogue_id": 79,
+    "turn_index": 3,
+    "followup_question": "C: That's good to know. Let me know if you meet any difficulties."
+  },
+  {
+    "dialogue_id": 79,
+    "turn_index": 4,
+    "followup_question": "C: Can you tell me more about it?"
+  },
+  {
+    "dialogue_id": 79,
+    "turn_index": 5,
+    "followup_question": "C: Did you need help when moving?"
+  },
+  {
+    "dialogue_id": 79,
+    "turn_index": 6,
+    "followup_question": "C: Why not?"
+  },
+  {
+    "dialogue_id": 79,
+    "turn_index": 7,
+    "followup_question": "C: Thank you. Now I get the full picture. How do these difficulties in life make you feel?"
+  },
+  {
+    "dialogue_id": 79,
+    "turn_index": 8,
+    "followup_question": "C: It's nice to know that you take it optimistically."
+  },
+  {
+    "dialogue_id": 79,
+    "turn_index": 9,
+    "followup_question": "C: It's inspiring to see how far you've come. How do do you feel about that?"
+  },
+  {
+    "dialogue_id": 80,
+    "turn_index": 2,
+    "followup_question": "C: Nice to meet you. How are you doing today."
+  },
+  {
+    "dialogue_id": 80,
+    "turn_index": 3,
+    "followup_question": "C: That is lovely to hear Margret. Would you mind telling me what makes it difficult for you?"
+  },
+  {
+    "dialogue_id": 80,
+    "turn_index": 4,
+    "followup_question": "C: Is it more the bending to the front, side ot back that is harsh on your body?"
+  },
+  {
+    "dialogue_id": 80,
+    "turn_index": 5,
+    "followup_question": "C: Great that you can describe it that detailed. So we will work on that today and we will try to get the trust in your body back. Sounds good?"
+  },
+  {
+    "dialogue_id": 81,
+    "turn_index": 2,
+    "followup_question": "C: how was your surgery?"
+  },
+  {
+    "dialogue_id": 81,
+    "turn_index": 3,
+    "followup_question": "C: I’m glad to hear surgery went well."
+  },
+  {
+    "dialogue_id": 81,
+    "turn_index": 4,
+    "followup_question": "C: how does your body feel after surgery?"
+  },
+  {
+    "dialogue_id": 81,
+    "turn_index": 5,
+    "followup_question": "C: why do you think you cannot roll? Is it painful?"
+  },
+  {
+    "dialogue_id": 81,
+    "turn_index": 6,
+    "followup_question": "C: I see do you need help to roll or move around in the bed?"
+  },
+  {
+    "dialogue_id": 81,
+    "turn_index": 7,
+    "followup_question": "C: how do you feel emotionally after surgery?"
+  },
+  {
+    "dialogue_id": 81,
+    "turn_index": 8,
+    "followup_question": "C: yes exactly I’m generally an active person and this situation is kind of difficult."
+  },
+  {
+    "dialogue_id": 81,
+    "turn_index": 9,
+    "followup_question": "C: yes hundred percent I know as soon as I will go home, I will be more active and hopefully with some Physio sessions I can get my strength back."
+  },
+  {
+    "dialogue_id": 82,
+    "turn_index": 2,
+    "followup_question": "C: understand how is your day going? Is it under control nowadays?"
+  },
+  {
+    "dialogue_id": 82,
+    "turn_index": 3,
+    "followup_question": "C: I’m glad to hear that and of course it’s sad to see your foot should be amputated, but I’m sure it will be adjusted an adopted a new life."
+  },
+  {
+    "dialogue_id": 82,
+    "turn_index": 4,
+    "followup_question": "C: yes I cannot imagine how how is life going? Do you have any difficulties these days in related to moving from surface to surface and so on"
+  },
+  {
+    "dialogue_id": 82,
+    "turn_index": 5,
+    "followup_question": "C: I understand it’s difficult to do this, but would you please explain what kind of difficulty do you have?"
+  },
+  {
+    "dialogue_id": 82,
+    "turn_index": 6,
+    "followup_question": "C: OK you mainly think you’re not get used to and not found the way to do your stuff and of course you need a new set of skills and maybe strength on your upper body more than before."
+  },
+  {
+    "dialogue_id": 82,
+    "turn_index": 7,
+    "followup_question": "C: I am wondering to what extend the situation affect your emotions?"
+  },
+  {
+    "dialogue_id": 82,
+    "turn_index": 8,
+    "followup_question": "C: last time you told me you booked time with psychologist how does it going?"
+  },
+  {
+    "dialogue_id": 82,
+    "turn_index": 9,
+    "followup_question": "C: and you feel it helps or it works?"
+  },
+  {
+    "dialogue_id": 82,
+    "turn_index": 10,
+    "followup_question": "C: so glad to hear that."
+  },
+  {
+    "dialogue_id": 83,
+    "turn_index": 2,
+    "followup_question": "C: I’m doing fine. How can you? How can I help you today?"
+  },
+  {
+    "dialogue_id": 83,
+    "turn_index": 3,
+    "followup_question": "C: I understand that would you please let me know what do you mean by challenging life?"
+  },
+  {
+    "dialogue_id": 83,
+    "turn_index": 4,
+    "followup_question": "C: OK is it happened in your daily life or it’s just some certain situations?"
+  },
+  {
+    "dialogue_id": 83,
+    "turn_index": 5,
+    "followup_question": "C: and would you explain what do you mean by difficult?"
+  },
+  {
+    "dialogue_id": 83,
+    "turn_index": 6,
+    "followup_question": "C: how does depending on your age and someone makes you feel about your situation?"
+  },
+  {
+    "dialogue_id": 83,
+    "turn_index": 7,
+    "followup_question": "C: do you have someone who is emotionally and mentally supporting you in this?"
+  },
+  {
+    "dialogue_id": 83,
+    "turn_index": 8,
+    "followup_question": "C: and you think about the whole situation in a positive way or you don’t like it and you feel under pressure or anxious or any other strong emotion you are experiencing?"
+  },
+  {
+    "dialogue_id": 83,
+    "turn_index": 9,
+    "followup_question": "C: do you feel talking to some expert would help you?"
+  },
+  {
+    "dialogue_id": 84,
+    "turn_index": 2,
+    "followup_question": "C: as I said, you look so different and unhappy yeah tell me more. How is life these days?"
+  },
+  {
+    "dialogue_id": 84,
+    "turn_index": 3,
+    "followup_question": "C: oh so good I’m so happy to hear."
+  },
+  {
+    "dialogue_id": 84,
+    "turn_index": 4,
+    "followup_question": "C: OK tell me more about like that to extend this new life is challenging you or everything is fine."
+  },
+  {
+    "dialogue_id": 84,
+    "turn_index": 5,
+    "followup_question": "C: interesting what do you mean by rolling in your bed is challenging?"
+  },
+  {
+    "dialogue_id": 84,
+    "turn_index": 6,
+    "followup_question": "C: ok, then it’s not something serious, right."
+  },
+  {
+    "dialogue_id": 84,
+    "turn_index": 7,
+    "followup_question": "C: and how do you feel emotionally after all you have been go through"
+  },
+  {
+    "dialogue_id": 84,
+    "turn_index": 8,
+    "followup_question": "C: it’s so nice to hear that and I’m pretty sure your family is also really appreciating."
+  },
+  {
+    "dialogue_id": 84,
+    "turn_index": 9,
+    "followup_question": "C: you’re welcome we were we are here to help you, but you did the job we were just with you."
+  },
+  {
+    "dialogue_id": 85,
+    "turn_index": 2,
+    "followup_question": "C: glad to hear that how was your treatment process going?"
+  },
+  {
+    "dialogue_id": 85,
+    "turn_index": 3,
+    "followup_question": "C: oh so glad to hear that that’s a long progress"
+  },
+  {
+    "dialogue_id": 85,
+    "turn_index": 4,
+    "followup_question": "C: OK and what I understand is you feel strong again on your on your body to be able to move from surfaces to the other?"
+  },
+  {
+    "dialogue_id": 85,
+    "turn_index": 5,
+    "followup_question": "C: great and you’re not using your lift anymore or asking any help from someone?"
+  },
+  {
+    "dialogue_id": 85,
+    "turn_index": 6,
+    "followup_question": "C: so glad to hear that, how does your emotions about this?"
+  },
+  {
+    "dialogue_id": 85,
+    "turn_index": 7,
+    "followup_question": "C: I agree how does Mrs. Bea think about this situation?"
+  },
+  {
+    "dialogue_id": 85,
+    "turn_index": 8,
+    "followup_question": "C: I’m so glad to hear that"
+  }
+]
